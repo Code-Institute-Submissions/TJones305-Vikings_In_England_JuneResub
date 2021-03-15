@@ -19,3 +19,8 @@ Functionality will cause accordion text to expand for selected region and close 
 //onClickTextSlideMercia()
 //onClickTextSlideNorth()
 //onClickTextSlideWessex()
+
+/*Google Maps:
+*Requires zoom on UK/England, Cluster funtionality needed to highlight required counties when onClickGoogleMaps funtion
+is activated.
+*/
