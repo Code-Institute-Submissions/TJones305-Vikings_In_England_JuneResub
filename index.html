@@ -7,7 +7,9 @@
     <meta name="Description" content="Enter your description here"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <link href="https://unpkg.com/@popperjs/core@2">
+    <style> @import url('https://fonts.googleapis.com/css2?family=Raleway&family=Rye&display=swap');</style>
     <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/script.js"></script>
     <title>Vikings In England</title>
 </head>
 <body>
@@ -20,10 +22,7 @@
         </div>    
         <nav class="navbar navbar-expand-md navbar-light bg-info">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#"><img scr="#"></a>
-                <!--<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-                </button>-->
+                <a class="navbar-brand"><img scr="#"></a>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
@@ -46,7 +45,7 @@
     </header>
 
 
-    <!-- Main content to include goolge maps, accordion, slider and infomation sections-->
+    <!-- Main content to include goolge maps, accordion, slider and information sections-->
     <!--Overview of Vikings Who, What and When-->
     <div id="intro" class="container"> 
         <h2>Vikings? Who? What? When?</h2>
@@ -59,13 +58,13 @@
             by plundering unsuspecting monastatries, for example Lindisfarne in Northern England, which often had many items of fine quality. In Old Norse Viking meant "freeboating voyage, piracy"
             and thus the first pirates were termed Vikingr (king of the bays). 
         </p>
-        <h3>There are many fasinating stories about the Vikings, but let's take a deeper look at their story in 9th Century England</h3>
+        <h3>There are many fascinating stories about the Vikings, but let's take a deeper look at their story beginning in 9th Century England</h3>
     </div>
 
     <hr>
     <!--Goolge Maps to show modern day English Counties when an Old England Territory card is clicked-->
-    <div id="maps" class="container"> 
-
+    <div id="map" class="container"> 
+        
     </div>
 
     <!--Accordion containing information about Old England Territories-->
@@ -89,7 +88,6 @@
                 <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
                 <div class="card-body">
                     The kingdom of the East Angles bordered the North Sea to the north and the east, with the River Stour historically dividing it from the East Saxons to the south. The North Sea provided a "thriving maritime link to Scandinavia and the northern reaches of Germany", according to the historian Richard Hoggett. The kingdom's western boundary varied from the rivers Ouse, Lark and Kennett to further westwards, as far as the Cam in what is now Cambridgeshire. At its greatest extent, the kingdom comprised the modern-day counties of Norfolk, Suffolk and parts of eastern Cambridgeshire. 
-
                     In 865, East Anglia was invaded by the Danish Great Heathen Army, which occupied winter quarters and secured horses before departing for Northumbria. The Danes returned in 869 to winter at Thetford, before being attacked by the forces of Edmund of East Anglia, who was defeated and killed at Hægelisdun (identified as Bradfield St Clare in 983, near to his final resting place at Bury St Edmunds, Hellesdon in Norfolk). From then on East Anglia effectively ceased to be an independent kingdom. Having defeated the East Angles, the Danes installed puppet-kings to govern on their behalf, while they resumed their campaigns against Mercia and Wessex. In 878 the last active portion of the Great Heathen Army was defeated by Alfred the Great and withdrew from Wessex after making peace.
                 </div>
                 </div>
@@ -155,7 +153,6 @@
         </div>
 
     </div>
-    <hr>
     <!--Timeline slider to go between significant historical dates-->
     <div id="timeline" class="container">
 
@@ -169,14 +166,16 @@
 
     <footer>
         <!-- "To Top" link--> 
-        <img class="rounded-circle footer-img" src="assets/images/back_to_top.png" href="#intro">
+        <a href="index.html#intro"><img class="rounded-circle footer-img" src="assets/images/back_to_top.png"></a>
     </footer>
 
     <!--Scripts-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-alpha2/js/bootstrap.min.js"></script>
+    <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+    <script async
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC-ZewIYLC_PoJ8m_1H9dlXCxyPPIR02B0&callback=initMap">
+   </script>
 
 </body>
 </html>

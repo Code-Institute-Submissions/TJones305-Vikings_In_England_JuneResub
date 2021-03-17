@@ -1,23 +1,36 @@
 body {
     margin:auto;
-    background-color: rgb(238, 190, 190);
+    background-color: rgb(47, 230, 220);
     color:#333;
 }
+
+p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    margin: 15px 2px;
+}
+
+/* CSS Google Fonts:
+font-family: 'Raleway', sans-serif;
+font-family: 'Rye', cursive;
+*/
 /*--- Header ---*/
 .title {
-    color: #986748;
-    font-family: fantasy;
-    font-size: 3rem;
+    color: #040a42d7;
+    font-family:'Rye', cursive;
+    font-size: 6rem;
     text-align: center;
     display: inline;
+    margin: 10px 35px;
+    margin-bottom:10px;
 }
 
 header img {
     height:125px;
     width: 100px;
-    display: inline;
+    position: relative;
     vertical-align: bottom;
-    align-items: center;
+    margin:20px;
 }
 
 .navbar {
@@ -25,19 +38,37 @@ header img {
 }
 
 /*--- Summary ---*/
+h2 {
+    font-family: 'Raleway', sans-serif;
+    margin: 2px;
+    margin-top: 10px;
+    font-weight: 600;
+    text-decoration: underline;
+}
 
+h3 {
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+    font-weight: 200;
+    margin: 2px;
+}
 /*--- Maps and Accordion ---*/
 #old-england {
     max-width: 50%;
     float: right;
     position: relative;
-
 }
 
 #old-england img {
     height: 40px;
     width: 50px;
     display: inline;
+}
+
+#map {
+    height: 515px;
+    width: 50%;
+    float: left;
 }
 
 /*--- Timeline ---*/
@@ -47,5 +78,7 @@ header img {
 .footer-img {
     height: 50px;
     width: 50x;
-    text-align: right;
+    float: right;
+    position:fixed;
+    margin-top: 100px;
 }
