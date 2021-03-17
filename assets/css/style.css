@@ -1,11 +1,51 @@
 body {
     margin:auto;
-    background-color: #333;
+    background-color: rgb(238, 190, 190);
+    color:#333;
 }
-
+/*--- Header ---*/
 .title {
     color: #986748;
     font-family: fantasy;
     font-size: 3rem;
     text-align: center;
+    display: inline;
+}
+
+header img {
+    height:125px;
+    width: 100px;
+    display: inline;
+    vertical-align: bottom;
+    align-items: center;
+}
+
+.navbar {
+    height:50px;
+}
+
+/*--- Summary ---*/
+
+/*--- Maps and Accordion ---*/
+#old-england {
+    max-width: 50%;
+    float: right;
+    position: relative;
+
+}
+
+#old-england img {
+    height: 40px;
+    width: 50px;
+    display: inline;
+}
+
+/*--- Timeline ---*/
+
+
+/*--- Footer ---*/
+.footer-img {
+    height: 50px;
+    width: 50x;
+    text-align: right;
 }

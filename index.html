@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="Description" content="Enter your description here"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.5.2/sandstone/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link href="https://unpkg.com/@popperjs/core@2">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Vikings In England</title>
 </head>
@@ -14,19 +14,55 @@
     <header>
         <!--Title, Nav with submenu-->
         <div>
-            <img src="#">
+            <img class="title" src="assets/images/viking-ship-left.jpg">
             <h1 class="title">Vikings in England</h1>
-            <img src="#">
-        </div>
+            <img class="title" src="assets/images/viking-ship-right.jpg">      
+        </div>    
+        <nav class="navbar navbar-expand-md navbar-light bg-info">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img scr="#"></a>
+                <!--<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>-->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#intro">Home |</a>
+                    </li> 
+                    <li class="nav-item">
+                        <a class="nav-link nav-link" aria-current="page" href="#accordion">Where do you live in Old England?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="#timeline">Timeline of Vikings in England</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+                </div>
+            </div>
+        </nav>
     </header>
 
-    <!-- Main content to include goolge maps, accordion, slider and infomation sections-->
-    <div class="container intro"> 
-        <p>
 
+    <!-- Main content to include goolge maps, accordion, slider and infomation sections-->
+    <!--Overview of Vikings Who, What and When-->
+    <div id="intro" class="container"> 
+        <h2>Vikings? Who? What? When?</h2>
+        <p>
+            The Viking age was prominent between 789AD - 1066AD and in that time much was covered by the Viking population.
+            Initially from the Scandinavian countries of Denmark, Norway and Sweden, they found themselves influencing the lands of the British Isles, France, Germany 
+            and even further afield with evidence of their exsistence along the Silk Road, Vinland (Greenland) and North America.
+            Considering that many Viking men were but humble farmers in their homeland, it's suggested that due to overpopulation the demand for land is a potential reason
+            for their expansion into foreign territories. Ultimately the intention of their raids was profit and improve their wealth and status, doing so
+            by plundering unsuspecting monastatries, for example Lindisfarne in Northern England, which often had many items of fine quality. In Old Norse Viking meant "freeboating voyage, piracy"
+            and thus the first pirates were termed Vikingr (king of the bays). 
         </p>
+        <h3>There are many fasinating stories about the Vikings, but let's take a deeper look at their story in 9th Century England</h3>
     </div>
 
+    <hr>
     <!--Goolge Maps to show modern day English Counties when an Old England Territory card is clicked-->
     <div id="maps" class="container"> 
 
@@ -36,71 +72,90 @@
     <div id="old-england" class="container">
         <div id="accordion">
             <div class="card">
-                <div class="card-header" id="headingTitle">
+                <div class="card-header show" id="headingTitle">
                 <h5 class="mb-0"> Old England Territories</h5>
                 </div>
             </div>
             <div class="card">
                 <div class="card-header" id="headingOne">
-                <h5 class="mb-0">
-                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                    East Anglia 
-                    </button>
-                </h5>
+                    <img class="card-img" src="assets/images/eastanglia-flag.jpg" alt="Flag of East Anglia" style="width:60%; height:100px">
+                    <div class="card-img-overlay">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            East Anglia</button>
+                        </h5>
+                    </div>
                 </div>
-
-                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
                 <div class="card-body">
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                    The kingdom of the East Angles bordered the North Sea to the north and the east, with the River Stour historically dividing it from the East Saxons to the south. The North Sea provided a "thriving maritime link to Scandinavia and the northern reaches of Germany", according to the historian Richard Hoggett. The kingdom's western boundary varied from the rivers Ouse, Lark and Kennett to further westwards, as far as the Cam in what is now Cambridgeshire. At its greatest extent, the kingdom comprised the modern-day counties of Norfolk, Suffolk and parts of eastern Cambridgeshire. 
+
+                    In 865, East Anglia was invaded by the Danish Great Heathen Army, which occupied winter quarters and secured horses before departing for Northumbria. The Danes returned in 869 to winter at Thetford, before being attacked by the forces of Edmund of East Anglia, who was defeated and killed at Hægelisdun (identified as Bradfield St Clare in 983, near to his final resting place at Bury St Edmunds, Hellesdon in Norfolk). From then on East Anglia effectively ceased to be an independent kingdom. Having defeated the East Angles, the Danes installed puppet-kings to govern on their behalf, while they resumed their campaigns against Mercia and Wessex. In 878 the last active portion of the Great Heathen Army was defeated by Alfred the Great and withdrew from Wessex after making peace.
                 </div>
                 </div>
             </div>
             <div class="card">
                 <div class="card-header" id="headingTwo">
-                <h5 class="mb-0">
-                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                    Mercia
-                    </button>
-                </h5>
+                    <img class="card-img" src="assets/images/mercia-flag.jpg" alt="Flag of Mercia" style="width:60%; height:100px">
+                    <div class="card-img-overlay">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Mercia
+                            </button>
+                        </h5>
+                    </div>
                 </div>
                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
                 <div class="card-body">
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                    In 852 Burgred came to the throne, and with Ethelwulf of Wessex subjugated North Wales. In 868 Danish invaders occupied Nottingham. The Danes drove Burgred from his kingdom in 874 and Ceolwulf II took his place. In 877 the Danes seized the eastern part of Mercia, which became part of the Danelaw. Ceolwulf, the last king of Mercia, left with the western half, reigned until 879.From about 883 until his death in 911 Æthelred, Lord of the Mercians, ruled Mercia under the overlordship of Wessex. All coins struck in Mercia after the disappearance of Ceolwulf in c.  879 were in the name of the West Saxon king. Æthelred had married Æthelflæd (c.870 – 12 June 918), daughter of Alfred the Great of Wessex (r. 871–899), and she assumed power when her husband became ill at some time in the last ten years of his life.
+                    After Æthelred's death in 911 Æthelflæd ruled as "Lady of the Mercians", but Alfred's successor as King of the Anglo-Saxons, Edward the Elder (r. 899–924), took control of London and Oxford, which Alfred had placed under Æthelred's control. Æthelflæd and her brother continued Alfred's policy of building fortified burhs, and in 917–918 they succeeded in conquering the southern Danelaw in East Anglia and Danish Mercia.
                 </div>
                 </div>
             </div>
             <div class="card">
                 <div class="card-header" id="headingThree">
-                <h5 class="mb-0">
-                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                    Northumbria
-                    </button>
-                </h5>
+                    <img class="card-img" src="assets/images/northumbria-flag.png" alt="Flag of Northumbria" style="width:60%; height:100px">
+                    <div class="card-img-overlay">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Northumbria
+                            </button>
+                        </h5>
+                    </div>
                 </div>
                 <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
                 <div class="card-body">
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                    The Viking invasions of the ninth century and the establishment of the Danelaw once again divided Northumbria. Although primarily recorded in the southern provinces of England, the Anglo-Saxon Chronicles (particularly the D and E recensions) provide some information on Northumbria's conflicts with Vikings in the late eighth and early ninth centuries. According to these chronicles, Viking raids began to affect Northumbria when a band attacked Lindisfarne in 793. After this initial catastrophic blow, Viking raids in Northumbria were either sporadic for much of the early ninth century or evidence of them was lost. However, in 865 the so-called Great Heathen Army landed in East Anglia and began a sustained campaign of conquest. The Great Army fought in Northumbria in 866–867, striking York twice in less than one year. After the initial attack the Norse left to go north, leaving Kings Ælle and Osberht to recapture the city. The E recension of the Anglo-Saxon Chronicle suggests that Northumbria was particularly vulnerable at this time because the Northumbrians were once again fighting among themselves, deposing Osberht in favor of Ælle. In the second raid the Vikings killed the Northumbrian kings Ælle and Osberht while recapturing the city.
                 </div>
                 </div>
             </div>
              <div class="card">
                 <div class="card-header" id="headingFour">
-                <h5 class="mb-0">
-                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                    Wessex
-                    </button>
-                </h5>
+                    <img class="card-img" src="assets/images/wessex-flag.jpg" alt="Flag of Wessex" style="width:60%; height:100px">
+                    <div class="card-img-overlay">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            Wessex
+                            </button>
+                        </h5>
+                    </div>
                 </div>
                 <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
                 <div class="card-body">
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                    In 802 the fortunes of Wessex were transformed by the accession of Egbert who came from a cadet branch of the ruling dynasty that claimed descent from Ine's brother Ingild. With his accession the throne became firmly established in the hands of a single lineage. Early in his reign he conducted two campaigns against the "West Welsh", first in 813 and then again at Gafulford in 825. 
+                    During the course of these campaigns he conquered the western Britons still in Devon and reduced those beyond the River Tamar, now Cornwall, to the status of a vassal. In 825 or 826 he overturned the political order of England by decisively defeating King Beornwulf of Mercia at Ellendun and seizing control of Surrey, Sussex, Kent and Essex from the Mercians, while with his help East Anglia broke away from Mercian control. 
+                    Forty Years later, in 865, several of the Danish commanders combined their respective forces into one large army and landed in England. Over the following years, what became known as the Great Heathen Army overwhelmed the kingdoms of Northumbria and East Anglia. Then in 871, the Great Summer Army arrived from Scandinavia, to reinforce the Great Heathen Army. 
+                    The reinforced army invaded Wessex and, although Æthelred and Alfred won some victories and succeeded in preventing the conquest of their kingdom, a number of defeats and heavy losses of men compelled Alfred to pay the Danes to leave Wessex. 
+                    The Danes spent the next few years subduing Mercia and some of them settled in Northumbria, but the rest returned to Wessex in 876. Alfred responded effectively and was able with little fighting to bring about their withdrawal in 877. 
+                    A portion of the Danish army settled in Mercia, but at the beginning of 878 the remaining Danes mounted a winter invasion of Wessex, taking Alfred by surprise and overrunning much of the kingdom. 
+                    Alfred was reduced to taking refuge with a small band of followers in the marshes of the Somerset Levels, but after a few months he was able to gather an army and defeated the Danes at the Battle of Edington, bringing about their final withdrawal from Wessex to settle in East Anglia.
                 </div>
                 </div>
             </div>
         </div>
 
     </div>
-
+    <hr>
     <!--Timeline slider to go between significant historical dates-->
     <div id="timeline" class="container">
 
@@ -113,14 +168,15 @@
     </div>
 
     <footer>
-        <!-- "To Top" button--> 
-        <button><img src="#"></button> 
+        <!-- "To Top" link--> 
+        <img class="rounded-circle footer-img" src="assets/images/back_to_top.png" href="#intro">
     </footer>
 
     <!--Scripts-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 
 </body>
 </html>
