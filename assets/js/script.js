@@ -15,8 +15,8 @@ function initMap() {
     center: myLatLng,
   });
   
-  let labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
- 
+  let labels = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890';
+ //"ABCDEFGHIJKLMNOPQRSTUVWXYZ123456789"
   let markers = locations.map(function(location, i) {
         return new google.maps.Marker({
             position: location,
@@ -106,6 +106,42 @@ function initMap() {
     {lat:51.5268959, lng:-0.3394719}
 ];
      
+
+function eastA(event) {
+    if (event.type === 'mouseenter'){
+    let eastAnglia = document.getElementById("eastAnglia");
+    eastAnglia.style.color ="rgb(148, 205, 238)";
+    } else {
+        eastAnglia.style.color ="#eee";
+    }
+} 
+
+function merc(event) {
+    if (event.type === 'mouseenter'){
+    let mercia = document.getElementById("mercia");
+    mercia.style.color="rgb(4, 6, 116)";
+    } else {
+        mercia.style.color ="#eee";
+    }
+} 
+
+function north(event) {
+    if (event.type === 'mouseenter'){
+    let northumbria = document.getElementById("northumbria");
+    northumbria.style.color ="rgb(119, 14, 45)";
+    } else {
+        northumbria.style.color ="#eee";
+    }
+} 
+
+function wess(event) {
+    if (event.type === 'mouseenter'){
+    let wessex = document.getElementById("wessex");
+    wessex.style.color ="rgb(170, 3, 3)";
+    } else {
+        wessex.style.color ="#eee";
+    }
+} 
     
 /* ---- Timeline --- */
 //timelineSlide()

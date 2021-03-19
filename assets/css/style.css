@@ -41,6 +41,12 @@ header img {
     height: 50px;
 }
 
+.nav-item {
+   font-family: 'Raleway', sans-serif;
+   font-weight: 900;
+   font-size: 17px;
+}
+
 /*--- Summary ---*/
 h2 {
     font-family: 'Raleway', sans-serif;
@@ -64,9 +70,51 @@ h3 {
 }
 
 #old-england img {
-    height: 40px;
-    width: 50px;
     display: inline;
+}
+
+#old-england h5 {
+    font-family: 'Rye', cursive;
+    color: #000;
+    font-size: 50px;
+}
+
+#old-england .card-body {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    background-color: seashell;
+}
+
+#old-england button {
+    color: #eee;
+    background-color: rgb(70, 70, 70, .7);
+    font-weight: 600;
+    font-size: 30px;
+    text-decoration: solid;
+    text-decoration-color: #000;
+    margin-left: 375px;
+}
+
+#headingTitle {
+    text-align: center;
+    background-color: #ffdcc3;
+}
+
+#headingOne {
+background-color: rgb(148, 205, 238);
+}
+
+#headingTwo {
+background-color: rgb(4, 6, 116);
+}
+
+#headingThree {
+background-color: rgb(119, 14, 45);
+}
+
+#headingFour {
+background-color: rgb(170, 3, 3);
 }
 
 #map {

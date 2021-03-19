@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="Description" content="Enter your description here"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link href="https://unpkg.com/@popperjs/core@2">
     <style> @import url('https://fonts.googleapis.com/css2?family=Raleway&family=Rye&display=swap');</style>
     <link rel="stylesheet" href="assets/css/style.css">
@@ -26,13 +27,13 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#intro">Home |</a>
+                        <a class="nav-link active" aria-current="page" href="#intro">Home<i class="fas fa-home"></i> |</a>
                     </li> 
                     <li class="nav-item">
-                        <a class="nav-link nav-link" aria-current="page" href="#accordion">Where do you live in Old England?</a>
+                        <a class="nav-link nav-link" aria-current="page" href="#accordion">9th Century England <i class="fab fa-fort-awesome"></i></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " aria-current="page" href="#timeline">Timeline of Vikings in England</a>
+                        <a class="nav-link " aria-current="page" href="#timeline">Viking England Timeline<i class="fas fa-hourglass-half"></i></a>
                     </li>
                 </ul>
                 <form class="d-flex">
@@ -80,7 +81,7 @@
                     <img class="card-img" src="assets/images/eastanglia-flag.jpg" alt="Flag of East Anglia" style="width:60%; height:100px">
                     <div class="card-img-overlay">
                         <h5 class="mb-0">
-                            <button id="eastAnglia" class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            <button id="eastAnglia" onmouseenter="eastA(event);" onmouseleave="eastA(event);" class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                             East Anglia</button>
                         </h5>
                     </div>
@@ -97,7 +98,7 @@
                     <img class="card-img" src="assets/images/mercia-flag.jpg" alt="Flag of Mercia" style="width:60%; height:100px">
                     <div class="card-img-overlay">
                         <h5 class="mb-0">
-                            <button id="mercia" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <button id="mercia" onmouseenter="merc(event);" onmouseleave="merc(event);" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                             Mercia
                             </button>
                         </h5>
@@ -115,7 +116,7 @@
                     <img class="card-img" src="assets/images/northumbria-flag.png" alt="Flag of Northumbria" style="width:60%; height:100px">
                     <div class="card-img-overlay">
                         <h5 class="mb-0">
-                            <button id="northumbria" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            <button id="northumbria" onmouseenter="north(event);" onmouseleave="north(event);" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                             Northumbria
                             </button>
                         </h5>
@@ -132,7 +133,7 @@
                     <img class="card-img" src="assets/images/wessex-flag.jpg" alt="Flag of Wessex" style="width:60%; height:100px">
                     <div class="card-img-overlay">
                         <h5 class="mb-0">
-                            <button id="wessex" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            <button id="wessex" onmouseenter="wess(event);" onmouseleave="wess(event);" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                             Wessex
                             </button>
                         </h5>
