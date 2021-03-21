@@ -47,6 +47,10 @@ header img {
    font-size: 17px;
 }
 
+a i {
+    margin-left: 6px;
+}
+
 /*--- Summary ---*/
 h2 {
     font-family: 'Raleway', sans-serif;
