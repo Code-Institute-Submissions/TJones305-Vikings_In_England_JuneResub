@@ -23,7 +23,7 @@
  //Google Maps:
 function initMap() {
   const map = new google.maps.Map(document.getElementById("map"), {
-    zoom: 7,
+    zoom: 7.25,
     center: { lat: 52.554647, lng: -1.262773},
   });
   setMarkersEast(map);
@@ -245,6 +245,7 @@ function wess(event) {
 } 
     
 /* ---- Timeline --- */
+
 //timelineSlide()
 
 /* Potentially not required Functions:
