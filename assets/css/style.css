@@ -1,6 +1,6 @@
 body {
     margin:auto;
-    background-color: rgb(47, 230, 220);
+    background-color: rgb(60, 255, 245);
     color:#333;
 }
 
@@ -42,6 +42,7 @@ header img {
 
 .navbar {
     height:50px;
+    margin-top: 10px;
 }
 
 .brand-img {
@@ -155,75 +156,27 @@ background-color: rgb(170, 3, 3);
     font-family: 'Rye', cursive;
     height: 20px;
     width: 100%;
-    margin-top: 50px;
+    padding-bottom: 20px;
 }
 
 /*--- Timeline ---*/
 /*Credit to W3Schools for base code for the timeline found here https://www.w3schools.com/howto/howto_css_timeline.asp*/
-.timeLine {
-  position: relative;
-  display: flexbox;
-  text-align: center;
-  width: 100%;
-  height: 500px;
-  top: 50px;
+#timeline a {
+   margin-left: 20px;
+   font-weight: 900;
 }
 
-.timeLine:after {
-  content: '';
-  height: 3px;
-  width: calc(80%);
-  position: absolute;
-  display: flexbox;
-  left: 10%;
-  border-radius: 50px;
-  background-color: #405461;
+#timeline-item1{
+padding-left: 50px;
 }
 
-.timeLine:before {
-  position: absolute;
-  display: flexbox;
-  right: 7%;
-  content: "\f103";
-  font-family: 'Raleway', sans-serif;
-  color: #405461;
-  font-size: 36px;
-  line-height: 3px;
+.timeline-bar {
+margin-top: 30px;
 }
 
-.timeLine .item {
-  margin-bottom: 2%;
-  padding: 0px;
-  width: 80%;
+.timeline-bar .container-fluid{
+ background-color: rgb(132, 248, 252);  
 }
-
-.timeLine .item:before {
-  content: '';
-  width: 15px;
-  height: 15px;
-  border: 3px solid darkred;
-  background-color: white;
-  border-radius: 50%;
-  position: absolute;
-  left: -7.5px;
-  top: -7.5px;
-  z-index: 1;
-}
-
-.timeLine .item {
-  margin: 0px 0px 20px 100px;
-  width: 60px;
-  background: #F0F0F0;
-  min-height: 100px;
-  position: relative;
-  color: #333;
-  border: 2px solid darkred;
-  border-top: none;
-  box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.5);
-  position: absolute;
-} /*End Credit*/
-
-
 /*--- Footer ---*/
 .footer-img {
     height: 50px;
