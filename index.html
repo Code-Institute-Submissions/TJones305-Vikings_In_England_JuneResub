@@ -164,47 +164,131 @@
             <div class="container-fluid">
                 <div class="collapse navbar-collapse" id="timeline">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item" id="timeline-item1">
+                    <li class="nav-item" id="timeline-item1" onclick="fillTimeline(this.id)">
                         <a class="nav-link" aria-current="page">789a.d.</a>
                     </li> 
-                    <li class="nav-item" id="timeline-item2">
+                    <li class="nav-item" id="timeline-item2" onclick="fillTimeline(this.id)">
                         <a class="nav-link" aria-current="page">793a.d.</a>
                     </li>
-                    <li class="nav-item" id="timeline-item3">
+                    <li class="nav-item" id="timeline-item3" onclick="fillTimeline(this.id)">
                         <a class="nav-link " aria-current="page">C.852-856a.d.</a>
                     </li>
-                    <li class="nav-item" id="timeline-item4">
+                    <li class="nav-item" id="timeline-item4" onclick="fillTimeline(this.id)">
                         <a class="nav-link " aria-current="page">865-874a.d.</a>
                     </li> 
-                    <li class="nav-item" id="timeline-item5">
+                    <li class="nav-item" id="timeline-item5" onclick="fillTimeline(this.id)">
                         <a class="nav-link" aria-current="page">866a.d.i</a>
                     </li>
-                    <li class="nav-item" id="timeline-item6">
+                    <li class="nav-item" id="timeline-item6" onclick="fillTimeline(this.id)">
                         <a class="nav-link " aria-current="page">866a.d.ii</a>
                     </li>
-                    <li class="nav-item" id="timeline-item7">
+                    <li class="nav-item" id="timeline-item7" onclick="fillTimeline(this.id)">
                         <a class="nav-link " aria-current="page">911a.d.</a>
                     </li> 
-                    <li class="nav-item" id="timeline-item8">
+                    <li class="nav-item" id="timeline-item8" onclick="fillTimeline
+                    (this.id)">
                         <a class="nav-link" aria-current="page">954a.d.</a>
                     </li>
-                    <li class="nav-item" id="timeline-item9">
+                    <li class="nav-item" id="timeline-item9" onclick="fillTimeline(this.id)">
                         <a class="nav-link " aria-current="page"> 959-1013a.d</a>
                     </li>
-                    <li class="nav-item" id="timeline-item10">
+                    <li class="nav-item" id="timeline-item10" onclick="fillTimeline(this.id)">
                         <a class="nav-link " aria-current="page">1016a.d.</a>
                     </li> 
-                    <li class="nav-item" id="timeline-item11">
+                    <li class="nav-item" id="timeline-item11" onclick="fillTimeline(this.id)">
                         <a class="nav-link" aria-current="page">1042a.d.</a>
                     </li>
-                    <li class="nav-item" id="timeline-item12">
+                    <li class="nav-item" id="timeline-item12" onclick="fillTimeline(this.id)">
                         <a class="nav-link " aria-current="page"> 1066a.d</a>
                     </li>
                 </ul>
                 </div>
             </div>
     </nav>
-       
+
+    <div id="timeline-content">
+        <h2 id="timeline-heading"></h2>
+        <br>
+        <p id="timeline-para">Please select a year above</p>
+    </div>
+    <div id="timeline-image"></div>
+
+    <div id="timeline-content1">
+        <h2 id="timeline-heading1">789 AD</h2>
+        <p id="timeline-para1">Raids begin on the British Isles, early targets were Christian monasteries on small islands, often unprotected. </p>
+    </div>
+    <div id="timeline-content2">
+        <h2 id="timeline-heading2">793 AD</h2>
+        <p id="timeline-para2">Vikings carry out a brutal raid on the monastery of Lindisfarne off the north-east coast of  Northumbria. 
+            Evidence of this event is documented in the Anglo-Saxon Chronicle as follows:
+            <br>
+             “In this year fierce, foreboding omens came over the land of the Northumbrians, and the wretched people shook; there were excessive whirlwinds, lighting, and fiery dragons were seen flying in the sky. 
+             These signs were followed by great famine, and a little after those, that on the same year on 6th ides of January, the ravaging of wretched heathen men destroyed God’s church at Lindisfarne.” 
+        </p>
+    </div>
+    <div id="timeline-content3">
+        <h2 id="timeline-heading3">Circa. 852-856AD</h2>
+        <p id="timeline-para3">According to the 13th Century Icelandic Lothbrok Saga, King Ælle sentenced Ragnar Lothbrok to die by throwing him in a snake pit. 
+            It is suggested that Ragnar was held in high esteem by his fellow Vikings, an almost demi-god like status. 
+            It is claimed by the Anglo-Saxon Chronicles he said prior to dying ‘how the little pigs shall grunt when they find out how the old boar died’, foreboding that his sons would seek revenge. 
+            Unlike his sons, there is little historical evidence of Ragnar and his time in England, however there are accounts that link him to settling in Ireland and sacking Paris.
+        </p>
+    </div>
+    <div id="timeline-content4">
+        <h2 id="timeline-heading4">865 AD – 874 AD</h2>
+        <p id="timeline-para4">The Great Heathen Army led by the sons of Ragnar Lothbrok, Ivar the Boneless, Ubba Ragnarsson, Guthrum Ragnarsson, Halfdan Ragnarsson and Bjorn Ironside, invades England. 
+            First landing in East Anglia conquering it, then Northumbria and after much of Mercia. 
+            Some believe that the army was raised as revenge for King Ælle of Northumbria’s killing of Ragnar Lothbrok, while others suggest that having raided England a number of times the Vikings realised that England was weak and simply seized the opportunity to claim all the land they could.
+        </p>
+        <img src="assets/images/great_heathen_army.jpg" alt="Great Heathen Army" id="timeline-image4" >
+    </div>
+    <div id="timeline-content5">
+        <h2 id="timeline-heading5">866AD.i.</h2>
+        <p id="timeline-para5">King Ælle of York is defeated and consequently the city conquered by Viking forces led by Halfdan Ragnarsson and Ivar the Boneless. 
+            Having won their battle Halfdan and Ivar gained revenge for their father making an example of King Ælle disposing him by way of the blood eagle sacrifice. 
+            Furthermore, the city was renamed from its Saxon name of Eoforwic to Viking Jorvik. 
+            It became the capital of Viking territory in England and at its peak had a population only bested by London within Great Britain.
+        </p>
+    </div>
+    <div id="timeline-content6">
+        <h2 id="timeline-heading6">886AD.ii.</h2>
+        <p id="timeline-para6">King Alfred agrees a boundary between his Kingdom to the West and South of England and land in the North and East of England controlled by the Vikings known as ‘Danelaw’, where Norse customs and laws would be implemented.</p>
+    </div>
+    <div id="timeline-content7">
+        <h2 id="timeline-heading7">911AD</h2>
+        <p id="timeline-para7">The French give Normandy to the Viking leader Rollo, which signifies the beginning of the Norman Age.</p>
+    </div>
+    <div id="timeline-content8">
+        <h2 id="timeline-heading8">954AD</h2>
+        <p id="timeline-para8">Eric Bloodaxe, the last Viking King of York, is killed in the Battle of Stainmore, thus ending independent Viking rule in Northumbria. </p>
+    </div>
+    <div id="timeline-content9">
+        <h2 id="timeline-heading9">959 AD – 1013AD</h2>
+        <p id="timeline-para9">There was a generation of peace between 959 – 975AD as King Edgar focusses on reforming England through the church, a process sealed by the ‘Regularis Concordia’ in 973AD, prior to his passing 2 years later. 
+           Edgar was succeeded by Edward I, who had a brief reign being murdered in 978AD in Corfe, Dorset. 
+           His death saw his half -brother Æthelred II reign between 978 – 1016AD. At this time the ‘second Viking age’ was forming in Denmark under Harald Bluetooth (yes his name and runic symbol is now used for the technology found in our mobiles!). 
+           During this second age raids happened on a sizeable scale with the objective of blackmail. 
+           In 991AD they were given 4,500 kg of silver in exchange to return to their homelands. This kind of payment became known as ‘Danegeld’ (Dane Money). 
+           Having taken 22,000kg of Danegeld by 1012, Swein Forkbeard decided to conquer England and in doing so forced Æthelred II into exile.
+        </p>
+    </div>
+    <div id="timeline-content10">
+        <h2 id="timeline-heading10">1016 AD – 1030 AD</h2>
+        <p id="timeline-para10">Danish chieftain Cnut (or Canute) becomes King of England, and to win favour of the English weds Æthelred’s widow Emma, daughter of the Duke of Normandy.
+            Later, circa 1027AD, Cnut also holds the titles of King of Denmark, Norway and parts of Sweden. 
+        </p>
+    </div>
+    <div id="timeline-content11">
+        <h2 id="timeline-heading11">1042 AD</h2>
+        <p id="timeline-para11">Danish rule in England ends as Cnut (Canute) passes away and Edward II (the Confessor), first born son of Æthelred II and Emma, is bestowed with the Kingship of England and reigns until 1066AD heir-less. 
+            The crown is taken by Harold II, son of Edward’s most powerful noble Godwin.</p>
+    </div>
+    <div id="timeline-content12">
+        <h2 id="timeline-heading12">1066 AD</h2>
+        <p id="timeline-para12">Harald Hardrada, the “last great Viking”, invades England, but dies in the Battle of Stamford and his invasion ended by Harold II. 
+            The Normans conquer England three weeks later at the Battle of Hastings led by William, Duke of Normandy (later known as William the Conqueror), who was a descendant of the Viking leader Rollo. </p>
+    </div>
+
 
     <footer>
         <!-- "To Top" link--> 
