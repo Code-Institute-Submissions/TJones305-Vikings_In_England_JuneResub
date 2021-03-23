@@ -245,45 +245,48 @@ function wess(event) {
 } 
     
 /* ---- Timeline --- */
-
 function fillTimeline(clicked_id) {
-    if (clicked_id === "timeline-item1") {
+
+        if (clicked_id === "timeline-item1") {
         document.getElementById("timeline-heading").innerText = document.getElementById("timeline-heading1").textContent;
         document.getElementById("timeline-para").innerText = document.getElementById("timeline-para1").textContent;
-    } else if (clicked_id === "timeline-item2") {
-        document.getElementById("timeline-heading").innerText = document.getElementById("timeline-heading2").textContent;
-        document.getElementById("timeline-para").innerText = document.getElementById("timeline-para2").textContent;
-    } else if (clicked_id === "timeline-item3") {
-        document.getElementById("timeline-heading").innerText = document.getElementById("timeline-heading3").textContent;
-        document.getElementById("timeline-para").innerText = document.getElementById("timeline-para3").textContent;
-    } else if (clicked_id === "timeline-item4") {
-        document.getElementById("timeline-heading").innerText = document.getElementById("timeline-heading4").textContent;
-        document.getElementById("timeline-para").innerText = document.getElementById("timeline-para4").textContent;
-    } else if (clicked_id === "timeline-item5") {
-        document.getElementById("timeline-heading").innerText = document.getElementById("timeline-heading5").textContent;
-        document.getElementById("timeline-para").innerText = document.getElementById("timeline-para5").textContent;
-    } else if (clicked_id === "timeline-item6") {
-        document.getElementById("timeline-heading").innerText = document.getElementById("timeline-heading6").textContent;
-        document.getElementById("timeline-para").innerText = document.getElementById("timeline-para6").textContent;
-    } else if (clicked_id === "timeline-item7") {
-        document.getElementById("timeline-heading").innerText = document.getElementById("timeline-heading7").textContent;
-        document.getElementById("timeline-para").innerText = document.getElementById("timeline-para7").textContent;
-    } else if (clicked_id === "timeline-item8") {
-        document.getElementById("timeline-heading").innerText = document.getElementById("timeline-heading8").textContent;
-        document.getElementById("timeline-para").innerText = document.getElementById("timeline-para8").textContent;
-    } else if (clicked_id === "timeline-item9") {
-        document.getElementById("timeline-heading").innerText = document.getElementById("timeline-heading9").textContent;
-        document.getElementById("timeline-para").innerText = document.getElementById("timeline-para9").textContent;
-    } else if (clicked_id === "timeline-item10") {
-        document.getElementById("timeline-heading").innerText = document.getElementById("timeline-heading10").textContent;
-        document.getElementById("timeline-para").innerText = document.getElementById("timeline-para10").textContent;
-    } else if (clicked_id === "timeline-item11") {
-        document.getElementById("timeline-heading").innerText = document.getElementById("timeline-heading11").textContent;
-        document.getElementById("timeline-para").innerText = document.getElementById("timeline-para11").textContent;
-    } else if (clicked_id === "timeline-item12") {
-        document.getElementById("timeline-heading").innerText = document.getElementById("timeline-heading12").textContent;
-        document.getElementById("timeline-para").innerText = document.getElementById("timeline-para12").textContent;
-    } else {
-        document.getElementById("timeline-content").innerText = "Please select a year from above";
+        } else if (clicked_id === "timeline-item2") {
+            document.getElementById("timeline-heading").innerText = document.getElementById("timeline-heading2").textContent;
+            document.getElementById("timeline-para").innerText = document.getElementById("timeline-para2").textContent;
+        } else if (clicked_id === "timeline-item3") {
+            document.getElementById("timeline-heading").innerText = document.getElementById("timeline-heading3").textContent;
+            document.getElementById("timeline-para").innerText = document.getElementById("timeline-para3").textContent;
+        } else if (clicked_id === "timeline-item4") {
+            document.getElementById("timeline-heading").innerText = document.getElementById("timeline-heading4").textContent;
+            document.getElementById("timeline-para").innerText = document.getElementById("timeline-para4").textContent;
+        } else if (clicked_id === "timeline-item5") {
+            document.getElementById("timeline-heading").innerText = document.getElementById("timeline-heading5").textContent;
+            document.getElementById("timeline-para").innerText = document.getElementById("timeline-para5").textContent;
+        } else if (clicked_id === "timeline-item6") {
+            document.getElementById("timeline-heading").innerText = document.getElementById("timeline-heading6").textContent;
+            document.getElementById("timeline-para").innerText = document.getElementById("timeline-para6").textContent;
+        } else if (clicked_id === "timeline-item7") {
+            document.getElementById("timeline-heading").innerText = document.getElementById("timeline-heading7").textContent;
+            document.getElementById("timeline-para").innerText = document.getElementById("timeline-para7").textContent;
+        } else if (clicked_id === "timeline-item8") {
+            document.getElementById("timeline-heading").innerText = document.getElementById("timeline-heading8").textContent;
+            document.getElementById("timeline-para").innerText = document.getElementById("timeline-para8").textContent;
+        } else if (clicked_id === "timeline-item9") {
+            document.getElementById("timeline-heading").innerText = document.getElementById("timeline-heading9").textContent;
+            document.getElementById("timeline-para").innerText = document.getElementById("timeline-para9").textContent;
+        } else if (clicked_id === "timeline-item10") {
+            document.getElementById("timeline-heading").innerText = document.getElementById("timeline-heading10").textContent;
+            document.getElementById("timeline-para").innerText = document.getElementById("timeline-para10").textContent;
+        } else if (clicked_id === "timeline-item11") {
+            document.getElementById("timeline-heading").innerText = document.getElementById("timeline-heading11").textContent;
+            document.getElementById("timeline-para").innerText = document.getElementById("timeline-para11").textContent;
+        } else if (clicked_id === "timeline-item12") {
+            document.getElementById("timeline-heading").innerText = document.getElementById("timeline-heading12").textContent;
+            document.getElementById("timeline-para").innerText = document.getElementById("timeline-para12").textContent;
+        } else {
+            if (clicked_id === "reset"){
+            document.getElementById("timeline-heading").innerText = "";
+            document.getElementById("timeline-para").innerText = "Please pick a year from above"
+            }
+        } 
     }
-}

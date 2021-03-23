@@ -156,14 +156,38 @@ background-color: rgb(170, 3, 3);
     font-family: 'Rye', cursive;
     height: 20px;
     width: 100%;
-    padding-bottom: 20px;
+    padding-bottom: 0px;
+}
+
+.timeline-title h4 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: left;
+    margin: 20px 0px 5px 122px;
+    font-weight: 600;
+    display: inline;
+}
+
+#reset {
+    margin:0px;
+    margin-left: 1000px;
+    padding:0px;
+    font-family: "Raleway", sans-serif ;
+    color: #333;
+    background-color: rgb(132, 248, 252);
+    border-radius: 10px;
+    display:inline;
+
 }
 
 /*--- Timeline ---*/
 /*Credit to W3Schools for base code for the timeline found here https://www.w3schools.com/howto/howto_css_timeline.asp*/
 #timeline a {
-   margin-left: 20px;
+   margin-left: 10px;
    font-weight: 900;
+   font-size: 13px;
+   color: #111;
 }
 
 #timeline-item1{
@@ -176,6 +200,8 @@ margin-top: 30px;
 
 .timeline-bar .container-fluid{
  background-color: rgb(132, 248, 252);  
+ margin-top: 0px;
+ padding-top: 0px;
 }
 
 #timeline-content {
@@ -204,62 +230,62 @@ margin-top: 30px;
 }
 
 #timeline-content1 {
-    visibility: hidden;
+    display:none;
     height:0px;
 }
 
 #timeline-content2 {
-    visibility: hidden;
+    display:none;
     height:0px;
 }
 
 #timeline-content3 {
-    visibility: hidden;
+    display:none;
    height:0px;
 }
 
 #timeline-content4 {
-    visibility: hidden;
+    display:none;
    height:0px;
 }
 
 #timeline-content5 {
-    visibility: hidden;
+    display:none;
    height:0px;
 }
 
 #timeline-content6 {
-    visibility: hidden;
+    display:none;
     height:0px;
 }
 
 #timeline-content7 {
-    visibility: hidden;
+    display:none;
     height:0px;
 }
 
 #timeline-content8 {
-    visibility: hidden;
+    display:none;
    height:0px;
 }
 
 #timeline-content9 {
-    visibility: hidden;
+    display:none;
    height:0px;
 }
 
 #timeline-content10 {
-    visibility: hidden;
+    display:none;
     height:0px;
 }
 
 #timeline-content11 {
-    visibility: hidden;
+    display:none;
     height:0px;
 }
 
 #timeline-content12 {
-    visibility: hidden;
+    display:none;
     height:0px;
 }
 
