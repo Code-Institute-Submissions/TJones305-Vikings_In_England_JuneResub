@@ -290,3 +290,12 @@ function fillTimeline(clicked_id) {
             }
         } 
     }
+
+    /*function fillImage () {
+            document.getElementsByClassName("timeImage");
+            if (clicked_id === "timeline-item4") {
+                document.getElementById("timeline-image4").style.visibility = "show";
+          } else {
+            document.getElementById("timeline-image4").style.visibility = "collapse";
+        }
+    }*/
