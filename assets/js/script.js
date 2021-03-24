@@ -173,7 +173,10 @@ const wessexCouns = [
   ["Essex", 51.8208543, 0.5536933, 10],
   ["London", 51.5268959, -0.3394719, 11],
 ];
-
+//combine locations in one array and call it "markers", add "region="add_region"
+//Function change to setMarkers, create a variable called images
+//inside images build if statement using region name, e.g(if region === "region_name"),
+//src="url", else if and repeat
 function setMarkersWessex(map) {
   const imageWessex = {
     url:
@@ -204,6 +207,7 @@ function setMarkersWessex(map) {
   }
 }
 
+//combine to one function, use if statement to differentiate colours
 function eastA(event) {
     if (event.type === 'mouseenter'){
     let eastAnglia = document.getElementById("eastAnglia");
@@ -245,56 +249,86 @@ function wess(event) {
 } 
     
 /* ---- Timeline --- */
+
+//Change below to switch/ case
 function fillTimeline(clicked_id) {
 
         if (clicked_id === "timeline-item1") {
         document.getElementById("timeline-heading").innerText = document.getElementById("timeline-heading1").textContent;
         document.getElementById("timeline-para").innerText = document.getElementById("timeline-para1").textContent;
+        document.getElementById("timeline-image1").style.display = "block";
         } else if (clicked_id === "timeline-item2") {
             document.getElementById("timeline-heading").innerText = document.getElementById("timeline-heading2").textContent;
             document.getElementById("timeline-para").innerText = document.getElementById("timeline-para2").textContent;
+            document.getElementById("timeline-image2").style.display = "block";
         } else if (clicked_id === "timeline-item3") {
             document.getElementById("timeline-heading").innerText = document.getElementById("timeline-heading3").textContent;
             document.getElementById("timeline-para").innerText = document.getElementById("timeline-para3").textContent;
+            document.getElementById("timeline-image3").style.display = "block";
         } else if (clicked_id === "timeline-item4") {
             document.getElementById("timeline-heading").innerText = document.getElementById("timeline-heading4").textContent;
             document.getElementById("timeline-para").innerText = document.getElementById("timeline-para4").textContent;
+            document.getElementById("timeline-image4").style.display = "block";
         } else if (clicked_id === "timeline-item5") {
+            document.getElementsByClassName("timeImage").style.display ="none";
             document.getElementById("timeline-heading").innerText = document.getElementById("timeline-heading5").textContent;
             document.getElementById("timeline-para").innerText = document.getElementById("timeline-para5").textContent;
+            document.getElementById("timeline-image5").style.display = "block";
         } else if (clicked_id === "timeline-item6") {
             document.getElementById("timeline-heading").innerText = document.getElementById("timeline-heading6").textContent;
             document.getElementById("timeline-para").innerText = document.getElementById("timeline-para6").textContent;
+            document.getElementById("timeline-image6").style.display = "block";
         } else if (clicked_id === "timeline-item7") {
             document.getElementById("timeline-heading").innerText = document.getElementById("timeline-heading7").textContent;
             document.getElementById("timeline-para").innerText = document.getElementById("timeline-para7").textContent;
+            document.getElementById("timeline-image7").style.display = "block";
         } else if (clicked_id === "timeline-item8") {
             document.getElementById("timeline-heading").innerText = document.getElementById("timeline-heading8").textContent;
             document.getElementById("timeline-para").innerText = document.getElementById("timeline-para8").textContent;
+            document.getElementById("timeline-image8").style.display = "block";
         } else if (clicked_id === "timeline-item9") {
             document.getElementById("timeline-heading").innerText = document.getElementById("timeline-heading9").textContent;
             document.getElementById("timeline-para").innerText = document.getElementById("timeline-para9").textContent;
+            document.getElementById("timeline-image9").style.display = "block";
         } else if (clicked_id === "timeline-item10") {
             document.getElementById("timeline-heading").innerText = document.getElementById("timeline-heading10").textContent;
             document.getElementById("timeline-para").innerText = document.getElementById("timeline-para10").textContent;
+            document.getElementById("timeline-image10").style.display = "block";
         } else if (clicked_id === "timeline-item11") {
             document.getElementById("timeline-heading").innerText = document.getElementById("timeline-heading11").textContent;
             document.getElementById("timeline-para").innerText = document.getElementById("timeline-para11").textContent;
+            document.getElementById("timeline-image11").style.display = "block";
         } else if (clicked_id === "timeline-item12") {
             document.getElementById("timeline-heading").innerText = document.getElementById("timeline-heading12").textContent;
             document.getElementById("timeline-para").innerText = document.getElementById("timeline-para12").textContent;
+            document.getElementById("timeline-image12").style.display = "block";
         } else {
-            if (clicked_id === "reset"){
-            document.getElementById("timeline-heading").innerText = "";
-            document.getElementById("timeline-para").innerText = "Please pick a year from above"
+            clicked_id === "reset" 
+            document.getElementById("timeline-heading").innerText ="";
+            document.getElementById("timeline-para").innerText = "Please pick a year from above";
+            document.getElementById("imageHolder").style.display = "block"; 
+            getElementById("timeline-image4").style.display = "none";
             }
-        } 
-    }
+          }
+        
+      
 
+       /* function show(id) { 
+        if(document.getElementById(id).style.display=='none') { 
+            document.getElementById(id).style.display='block'; 
+        } 
+        false;
+
+        function hide(clicked_id) { 
+        if(document.getElementById(clicked_id).style.display=='block') { 
+            document.getElementById(clicked_id).style.display='none'; 
+        } 
+        false;
+    } */
     /*function fillImage () {
             document.getElementsByClassName("timeImage");
             if (clicked_id === "timeline-item4") {
-                document.getElementById("timeline-image4").style.visibility = "show";
+                document.getElementById("timeline-image4").style.visibility = "visible";
           } else {
             document.getElementById("timeline-image4").style.visibility = "collapse";
         }

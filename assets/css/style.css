@@ -298,6 +298,10 @@ margin-top: 30px;
     height:0px;
 }
 
+.timeImage{
+    display:none;
+}
+
 #timeline-image{
      display:table-cell;
      vertical-align: middle;
@@ -306,10 +310,17 @@ margin-top: 30px;
      width:100%;
 }
 
-#timeline-image4{
+#imageHolder {
+    height:350px;
+    width:350px;
+    border-radius: 50%;
+    display:block;
+}
+
+#timeline-image4 {
     height:550px;
     width:450px;
-    visibility: collapse;
+    display:none;
 }
 
 
