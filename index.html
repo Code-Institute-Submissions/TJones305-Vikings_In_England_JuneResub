@@ -79,7 +79,7 @@
                         <img class="card-img" src="assets/images/eastanglia-flag.jpg" alt="Flag of East Anglia" style="width:60%; height:100px">
                         <div class="card-img-overlay">
                             <h5 class="mb-0">
-                                <button id="eastAnglia" onmouseenter="eastA(event);" onmouseleave="eastA(event);" class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                <button id="eastAnglia" onmouseenter="eastA(event,id);" onmouseleave="eastA(event, id);" class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                 East Anglia</button>
                             </h5>
                         </div>
@@ -214,8 +214,8 @@
             <p id="timeline-para">Please select a year above</p>
         </div>
         <div id="timeline-image">
-            <img id="imageHolder" class="timeImage" onclick="hideImage()" src="assets/images/viking-compass.jpg" alt="Viking Compass"/>
-            <img id="timeline-image4" class="timeImage" onclick="hideImage()" src="assets/images/great_heathen_army.jpg" alt="Great Heathen Army Conquests"/>
+            <img id="imageHolder" class="timeImage " src="assets/images/viking-compass.jpg" alt="Viking Compass"/>
+            <img id="timeline-image4" class="timeImage" src="assets/images/great_heathen_army.jpg" alt="Great Heathen Army Conquests"/>
         </div>
     </div>
 
