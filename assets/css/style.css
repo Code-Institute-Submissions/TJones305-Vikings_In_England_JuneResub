@@ -298,11 +298,7 @@ margin-top: 30px;
     height:0px;
 }
 
-.timeImage{
-    display:none;
-}
-
-#timeline-image{
+#tl-img{
      display:table-cell;
      vertical-align: middle;
      padding-right: 5%;
@@ -310,19 +306,84 @@ margin-top: 30px;
      width:100%;
 }
 
-#imageHolder {
+#imgHold {
     height:350px;
     width:350px;
     border-radius: 50%;
     display:block;
 }
 
-#timeline-image4 {
+#tl-img1 {
     height:550px;
     width:450px;
     display:none;
 }
 
+#tl-img2 {
+    height:550px;
+    width:450px;
+    display:none;
+}
+
+#tl-img3 {
+    height:550px;
+    width:450px;
+    display:none;
+}
+
+#tl-img4 {
+    height:550px;
+    width:450px;
+    display:none;
+}
+
+#tl-img5 {
+    height:550px;
+    width:450px;
+    display:none;
+}
+
+#tl-img6 {
+    height:550px;
+    width:450px;
+    display:none;
+}
+
+#tl-img7 {
+    height:550px;
+    width:450px;
+    display:none;
+}
+
+#tl-img8 {
+    height:550px;
+    width:450px;
+    display:none;
+}
+
+#tl-img9 {
+    height:550px;
+    width:450px;
+    display:none;
+}
+
+#tl-img10 {
+    height:550px;
+    width:450px;
+    display:none;
+}
+
+#tl-img11 {
+    height:550px;
+    width:450px;
+    display:none;
+}
+
+#tl-img12 {
+    height:550px;
+    width:450px;
+    display:none;
+}
 
 /*--- Footer ---*/
 .footer-img {

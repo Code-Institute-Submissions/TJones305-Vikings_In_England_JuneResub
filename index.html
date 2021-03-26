@@ -79,7 +79,7 @@
                         <img class="card-img" src="assets/images/eastanglia-flag.jpg" alt="Flag of East Anglia" style="width:60%; height:100px">
                         <div class="card-img-overlay">
                             <h5 class="mb-0">
-                                <button id="eastAnglia" onmouseenter="eastA(event,id);" onmouseleave="eastA(event, id);" class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                <button id="eastAnglia" onmouseenter="eastA(id);" onmouseleave="eastA(id);" class="btn btn-link l" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                 East Anglia</button>
                             </h5>
                         </div>
@@ -96,7 +96,7 @@
                         <img class="card-img" src="assets/images/mercia-flag.jpg" alt="Flag of Mercia" style="width:60%; height:100px">
                         <div class="card-img-overlay">
                             <h5 class="mb-0">
-                                <button id="mercia" onmouseenter="merc(event);" onmouseleave="merc(event);" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                <button id="mercia" onmouseenter="merc(event);" onmouseleave="merc(event);" class="btn btn-link collapsed l" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                 Mercia
                                 </button>
                             </h5>
@@ -114,7 +114,7 @@
                         <img class="card-img" src="assets/images/northumbria-flag.png" alt="Flag of Northumbria" style="width:60%; height:100px">
                         <div class="card-img-overlay">
                             <h5 class="mb-0">
-                                <button id="northumbria" onmouseenter="north(event);" onmouseleave="north(event);" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                <button id="northumbria" onmouseenter="north(event);" onmouseleave="north(event);" class="btn btn-link collapsed l" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                 Northumbria
                                 </button>
                             </h5>
@@ -131,7 +131,7 @@
                         <img class="card-img" src="assets/images/wessex-flag.jpg" alt="Flag of Wessex" style="width:60%; height:100px">
                         <div class="card-img-overlay">
                             <h5 class="mb-0">
-                                <button id="wessex" onmouseenter="wess(event);" onmouseleave="wess(event);" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                <button id="wessex" onmouseenter="wess(event);" onmouseleave="wess(event);" class="btn btn-link collapsed l" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                                 Wessex
                                 </button>
                             </h5>
@@ -188,8 +188,7 @@
                     <li class="nav-item" id="timeline-item7" onclick="fillTimeline(this.id)">
                         <a class="nav-link " aria-current="page"><i class="fas fa-crow"></i> 911a.d.</a>
                     </li> 
-                    <li class="nav-item" id="timeline-item8" onclick="fillTimeline
-                    (this.id)">
+                    <li class="nav-item" id="timeline-item8" onclick="fillTimeline(this.id)">
                         <a class="nav-link" aria-current="page"><i class="fas fa-dragon"></i> 954a.d.</a>
                     </li>
                     <li class="nav-item" id="timeline-item9" onclick="fillTimeline(this.id)">
@@ -213,9 +212,20 @@
             <h2 id="timeline-heading"></h2>
             <p id="timeline-para">Please select a year above</p>
         </div>
-        <div id="timeline-image">
-            <img id="imageHolder" class="timeImage " src="assets/images/viking-compass.jpg" alt="Viking Compass"/>
-            <img id="timeline-image4" class="timeImage" src="assets/images/great_heathen_army.jpg" alt="Great Heathen Army Conquests"/>
+        <div id="tl-img">
+            <img id="imgHold" class="timeImage " src="assets/images/viking-compass.jpg" alt="Viking Compass"/>
+            <img id="tl-img1" class="timeImage" src="assets/images/viking-ship-left.jpg" alt="Great Heathen Army Conquests"/>
+            <img id="tl-img2" class="timeImage" src="assets/images/viking-ship-right.jpg" alt="Great Heathen Army Conquests"/>
+            <img id="tl-img3" class="timeImage" src="assets/images/viking-ship.png" alt="Great Heathen Army Conquests"/>
+            <img id="tl-img4" class="timeImage" src="assets/images/great_heathen_army.jpg" alt="Great Heathen Army Conquests"/>
+            <img id="tl-img5" class="timeImage" src="assets/images/mercia-flag.jpg" alt="Great Heathen Army Conquests"/>
+            <img id="tl-img6" class="timeImage" src="assets/images/wessex-flag.jpg" alt="Great Heathen Army Conquests"/>
+            <img id="tl-img7" class="timeImage" src="assets/images/eastanglia-icon.png" alt="Great Heathen Army Conquests"/>
+            <img id="tl-img8" class="timeImage" src="assets/images/northumbria-icon.png" alt="Great Heathen Army Conquests"/>
+            <img id="tl-img9" class="timeImage" src="assets/images/great_heathen_army.jpg" alt="Great Heathen Army Conquests"/>
+            <img id="tl-img10" class="timeImage" src="assets/images/great_heathen_army.jpg" alt="Great Heathen Army Conquests"/>
+            <img id="tl-img11" class="timeImage" src="assets/images/great_heathen_army.jpg" alt="Great Heathen Army Conquests"/>
+            <img id="tl-img12" class="timeImage" src="assets/images/great_heathen_army.jpg" alt="Great Heathen Army Conquests"/>
         </div>
     </div>
 
@@ -307,6 +317,7 @@
     <script async
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC-ZewIYLC_PoJ8m_1H9dlXCxyPPIR02B0&callback=initMap">
    </script>
+   <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 
 </body>
 </html>
