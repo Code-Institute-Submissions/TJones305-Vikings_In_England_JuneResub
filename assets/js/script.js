@@ -204,40 +204,23 @@ function setMarkersWessex(map) {
       zIndex: wessexCoun[3],
     });
   }
-}
+};
 
 //combine to one function, use if statement to differentiate colours
-
-    $(".l").mouseenter(function() {
+/*$(".hoverButton").mouseenter(function() {
     $("#eastAnglia").css("color", "rgb(148, 205, 238)");
     $("#mercia").css("color", "rgb(4, 6, 116)");
     $("#northumbria").css("color", "rgb(119, 14, 45)");
     $("#wessex").css("color", "rgb(170, 3, 3)");
-
 });
-$("#eastAnglia, #mercia, #northumbria, #wessex").mouseleave(function() {
-    $("#eastAnglia, #mercia, #northumbria, #wessex").css("color","#eee")
-});
+$(".hoverButton").mouseleave(function() {
+    $("#eastAnglia").css("color", "#eee");
+    $("#mercia").css("color", "#eee");
+    $("#northumbria").css("color", "#eee");
+    $("#wessex").css("color", "#eee");
+});*/
 
-/*function eastA(id) {
-    mouseTarget.addEventListener('mouseenter' {
-            if (id === "eastAnglia"){
-            onmouseover.style.color ="rgb(148, 205, 238)";
-            }else if (id === "mercia"){
-            mercia.style.color="rgb(4, 6, 116)";
-            }else if (id === "northumbria") {
-           northumbria.style.color ="rgb(119, 14, 45)";
-            } else if (id === "wessex"){
-            wessex.style.color ="rgb(170, 3, 3)";
-            } else {
-                style.color = "#000";
-            }
-    } else {
-        onmouseleave.style.color ="#eee";
-    };
-
-
-/*function eastA(event) {
+function eastA(event) {
     if (event.type === 'mouseenter'){
     let eastAnglia = document.getElementById("eastAnglia");
     eastAnglia.style.color="rgb(148, 205, 238)";
@@ -274,267 +257,95 @@ function wess(event) {
     
 /* ---- Timeline --- */
 
-/*$(function hide (_clicked_id){
-    $("#img-hold,#tl-img1,#tl-img2,#tl-img3,#tl-img4,#tl-img5,#tl-img6,#tl-img7,#tl-img8,#tl-img9,#tl-img10,#tl-img11,#tl-img12").hide();
-});*/
+function hideAll() {
+    const images = ["#imgHold","#tl-img1","#tl-img2","#tl-img3","#tl-img4","#tl-img5","#tl-img6","#tl-img7","#tl-img8","#tl-img9","#tl-img10","#tl-img11","#tl-img12"];
+    $(images.join(', ')).css("display","none");
+};
+
 
 function fillTimeline(clicked_id) {
-        console.log(clicked_id);
         switch (clicked_id) {
             case "timeline-item1":
                 document.getElementById("timeline-heading").innerText = document.getElementById("timeline-heading1").textContent;
                 document.getElementById("timeline-para").innerText = document.getElementById("timeline-para1").textContent;
-                document.getElementById("imgHold").style.display ="none";
+                hideAll();
                 document.getElementById('tl-img1').style.display ="block";
-                document.getElementById("tl-img2").style.display ="none";
-                document.getElementById("tl-img3").style.display ="none";
-                document.getElementById("tl-img4").style.display ="none";
-                document.getElementById("tl-img5").style.display ="none";
-                document.getElementById("tl-img6").style.display ="none";
-                document.getElementById("tl-img7").style.display ="none";
-                document.getElementById("tl-img8").style.display ="none";
-                document.getElementById("tl-img9").style.display ="none";
-                document.getElementById("tl-img10").style.display ="none";
-                document.getElementById("tl-img11").style.display ="none";
-                document.getElementById("tl-img12").style.display ="none"; 
-                break;
                 break;
             case "timeline-item2":
                 document.getElementById("timeline-heading").innerText = document.getElementById("timeline-heading2").textContent;
                 document.getElementById("timeline-para").innerText = document.getElementById("timeline-para2").textContent;
-                document.getElementById("imgHold").style.display ="none";
-                document.getElementById('tl-img1').style.display ="none";
-                document.getElementById("tl-img2").style.display ="block";
-                document.getElementById("tl-img3").style.display ="none";
-                document.getElementById("tl-img4").style.display ="none";
-                document.getElementById("tl-img5").style.display ="none";
-                document.getElementById("tl-img6").style.display ="none";
-                document.getElementById("tl-img7").style.display ="none";
-                document.getElementById("tl-img8").style.display ="none";
-                document.getElementById("tl-img9").style.display ="none";
-                document.getElementById("tl-img10").style.display ="none";
-                document.getElementById("tl-img11").style.display ="none";
-                document.getElementById("tl-img12").style.display ="none"; 
+                hideAll();
+                document.getElementById("tl-img2").style.display ="block"; 
                 break;
             case "timeline-item3":
                 document.getElementById("timeline-heading").innerText = document.getElementById("timeline-heading3").textContent;
                 document.getElementById("timeline-para").innerText = document.getElementById("timeline-para3").textContent;
-                document.getElementById("imgHold").style.display ="none";
-                document.getElementById('tl-img1').style.display ="none";
-                document.getElementById("tl-img2").style.display ="none";
+                hideAll();
                 document.getElementById("tl-img3").style.display ="block";
-                document.getElementById("tl-img4").style.display ="none";
-                document.getElementById("tl-img5").style.display ="none";
-                document.getElementById("tl-img6").style.display ="none";
-                document.getElementById("tl-img7").style.display ="none";
-                document.getElementById("tl-img8").style.display ="none";
-                document.getElementById("tl-img9").style.display ="none";
-                document.getElementById("tl-img10").style.display ="none";
-                document.getElementById("tl-img11").style.display ="none";
-                document.getElementById("tl-img12").style.display ="none"; 
                 break;
             case "timeline-item4":
                 document.getElementById("timeline-heading").innerText = document.getElementById("timeline-heading4").textContent;
                 document.getElementById("timeline-para").innerText = document.getElementById("timeline-para4").textContent;
-                document.getElementById("imgHold").style.display ="none";
-                document.getElementById('tl-img1').style.display ="none";
-                document.getElementById("tl-img2").style.display ="none";
-                document.getElementById("tl-img3").style.display ="none";
+                hideAll();
                 document.getElementById("tl-img4").style.display ="block";
-                document.getElementById("tl-img5").style.display ="none";
-                document.getElementById("tl-img6").style.display ="none";
-                document.getElementById("tl-img7").style.display ="none";
-                document.getElementById("tl-img8").style.display ="none";
-                document.getElementById("tl-img9").style.display ="none";
-                document.getElementById("tl-img10").style.display ="none";
-                document.getElementById("tl-img11").style.display ="none";
-                document.getElementById("tl-img12").style.display ="none"; 
                 break;
             case "timeline-item5":
                 document.getElementById("timeline-heading").innerText = document.getElementById("timeline-heading5").textContent;
                 document.getElementById("timeline-para").innerText = document.getElementById("timeline-para5").textContent;
-                document.getElementById("imgHold").style.display ="none";
-                document.getElementById('tl-img1').style.display ="none";
-                document.getElementById("tl-img2").style.display ="none";
-                document.getElementById("tl-img3").style.display ="none";
-                document.getElementById("tl-img4").style.display ="none";
+                hideAll();
                 document.getElementById("tl-img5").style.display ="block";
-                document.getElementById("tl-img6").style.display ="none";
-                document.getElementById("tl-img7").style.display ="none";
-                document.getElementById("tl-img8").style.display ="none";
-                document.getElementById("tl-img9").style.display ="none";
-                document.getElementById("tl-img10").style.display ="none";
-                document.getElementById("tl-img11").style.display ="none";
-                document.getElementById("tl-img12").style.display ="none"; 
                 break;
             case "timeline-item6":
                 document.getElementById("timeline-heading").innerText = document.getElementById("timeline-heading6").textContent;
                 document.getElementById("timeline-para").innerText = document.getElementById("timeline-para6").textContent;
-                document.getElementById("imgHold").style.display ="none";
-                document.getElementById('tl-img1').style.display ="none";
-                document.getElementById("tl-img2").style.display ="none";
-                document.getElementById("tl-img3").style.display ="none";
-                document.getElementById("tl-img4").style.display ="none";
-                document.getElementById("tl-img5").style.display ="none";
+                hideAll();
                 document.getElementById("tl-img6").style.display ="block";
-                document.getElementById("tl-img7").style.display ="none";
-                document.getElementById("tl-img8").style.display ="none";
-                document.getElementById("tl-img9").style.display ="none";
-                document.getElementById("tl-img10").style.display ="none";
-                document.getElementById("tl-img11").style.display ="none";
-                document.getElementById("tl-img12").style.display ="none"; 
                 break;
             case "timeline-item7":
                 document.getElementById("timeline-heading").innerText = document.getElementById("timeline-heading7").textContent;
                 document.getElementById("timeline-para").innerText = document.getElementById("timeline-para7").textContent;
-                document.getElementById("imgHold").style.display ="none";
-                document.getElementById('tl-img1').style.display ="none";
-                document.getElementById("tl-img2").style.display ="none";
-                document.getElementById("tl-img3").style.display ="none";
-                document.getElementById("tl-img4").style.display ="none";
-                document.getElementById("tl-img5").style.display ="none";
-                document.getElementById("tl-img6").style.display ="none";
+                hideAll();
                 document.getElementById("tl-img7").style.display ="block";
-                document.getElementById("tl-img8").style.display ="none";
-                document.getElementById("tl-img9").style.display ="none";
-                document.getElementById("tl-img10").style.display ="none";
-                document.getElementById("tl-img11").style.display ="none";
-                document.getElementById("tl-img12").style.display ="none"; 
+
                 break;
             case "timeline-item8":
                 document.getElementById("timeline-heading").innerText = document.getElementById("timeline-heading8").textContent;
                 document.getElementById("timeline-para").innerText = document.getElementById("timeline-para8").textContent;
-                document.getElementById("imgHold").style.display ="none";
-                document.getElementById('tl-img1').style.display ="none";
-                document.getElementById("tl-img2").style.display ="none";
-                document.getElementById("tl-img3").style.display ="none";
-                document.getElementById("tl-img4").style.display ="none";
-                document.getElementById("tl-img5").style.display ="none";
-                document.getElementById("tl-img6").style.display ="none";
-                document.getElementById("tl-img7").style.display ="none";
-                document.getElementById("tl-img8").style.display ="block";
-                document.getElementById("tl-img9").style.display ="none";
-                document.getElementById("tl-img10").style.display ="none";
-                document.getElementById("tl-img11").style.display ="none";
-                document.getElementById("tl-img12").style.display ="none"; 
+                hideAll();
+                document.getElementById("tl-img8").style.display ="block"; 
                 break;
             case "timeline-item9":
                 document.getElementById("timeline-heading").innerText = document.getElementById("timeline-heading9").textContent;
                 document.getElementById("timeline-para").innerText = document.getElementById("timeline-para9").textContent;
-                document.getElementById("imgHold").style.display ="none";
-                document.getElementById('tl-img1').style.display ="none";
-                document.getElementById("tl-img2").style.display ="none";
-                document.getElementById("tl-img3").style.display ="none";
-                document.getElementById("tl-img4").style.display ="none";
-                document.getElementById("tl-img5").style.display ="none";
-                document.getElementById("tl-img6").style.display ="none";
-                document.getElementById("tl-img7").style.display ="none";
-                document.getElementById("tl-img8").style.display ="none";
+                hideAll();
                 document.getElementById("tl-img9").style.display ="block";
-                document.getElementById("tl-img10").style.display ="none";
-                document.getElementById("tl-img11").style.display ="none";
-                document.getElementById("tl-img12").style.display ="none"; 
                 break;
             case "timeline-item10":
                 document.getElementById("timeline-heading").innerText = document.getElementById("timeline-heading10").textContent;
                 document.getElementById("timeline-para").innerText = document.getElementById("timeline-para10").textContent;
-                document.getElementById("imgHold").style.display ="none";
-                document.getElementById('tl-img1').style.display ="none";
-                document.getElementById("tl-img2").style.display ="none";
-                document.getElementById("tl-img3").style.display ="none";
-                document.getElementById("tl-img4").style.display ="none";
-                document.getElementById("tl-img5").style.display ="none";
-                document.getElementById("tl-img6").style.display ="none";
-                document.getElementById("tl-img7").style.display ="none";
-                document.getElementById("tl-img8").style.display ="none";
-                document.getElementById("tl-img9").style.display ="none";
+                hideAll();
                 document.getElementById("tl-img10").style.display ="block";
-                document.getElementById("tl-img11").style.display ="none";
-                document.getElementById("tl-img12").style.display ="none"; 
                 break;
             case "timeline-item11":
                 document.getElementById("timeline-heading").innerText = document.getElementById("timeline-heading11").textContent;
                 document.getElementById("timeline-para").innerText = document.getElementById("timeline-para11").textContent;
-                document.getElementById("imgHold").style.display ="none";
-                document.getElementById('tl-img1').style.display ="none";
-                document.getElementById("tl-img2").style.display ="none";
-                document.getElementById("tl-img3").style.display ="none";
-                document.getElementById("tl-img4").style.display ="none";
-                document.getElementById("tl-img5").style.display ="none";
-                document.getElementById("tl-img6").style.display ="none";
-                document.getElementById("tl-img7").style.display ="none";
-                document.getElementById("tl-img8").style.display ="none";
-                document.getElementById("tl-img9").style.display ="none";
-                document.getElementById("tl-img10").style.display ="none";
+                hideAll();
                 document.getElementById("tl-img11").style.display ="block";
-                document.getElementById("tl-img12").style.display ="none"; 
                 break;
             case "timeline-item12":
                 document.getElementById("timeline-heading").innerText = document.getElementById("timeline-heading12").textContent;
                 document.getElementById("timeline-para").innerText = document.getElementById("timeline-para12").textContent;
-                document.getElementById("imgHold").style.display ="none";
-                document.getElementById('tl-img1').style.display ="none";
-                document.getElementById("tl-img2").style.display ="none";
-                document.getElementById("tl-img3").style.display ="none";
-                document.getElementById("tl-img4").style.display ="none";
-                document.getElementById("tl-img5").style.display ="none";
-                document.getElementById("tl-img6").style.display ="none";
-                document.getElementById("tl-img7").style.display ="none";
-                document.getElementById("tl-img8").style.display ="none";
-                document.getElementById("tl-img9").style.display ="none";
-                document.getElementById("tl-img10").style.display ="none";
-                document.getElementById("tl-img11").style.display ="none";
+                hideAll();
                 document.getElementById("tl-img12").style.display ="block"; 
                 break;
             default:
                 clicked_id === "reset";
                 document.getElementById("timeline-heading").innerText ="";
                 document.getElementById("timeline-para").innerText = "Please pick a year from above";
+                hideAll();
                 document.getElementById("imgHold").style.display ="block";
-                document.getElementById('tl-img1').style.display ="none";
-                document.getElementById("tl-img2").style.display ="none";
-                document.getElementById("tl-img3").style.display ="none";
-                document.getElementById("tl-img4").style.display ="none";
-                document.getElementById("tl-img5").style.display ="none";
-                document.getElementById("tl-img6").style.display ="none";
-                document.getElementById("tl-img7").style.display ="none";
-                document.getElementById("tl-img8").style.display ="none";
-                document.getElementById("tl-img9").style.display ="none";
-                document.getElementById("tl-img10").style.display ="none";
-                document.getElementById("tl-img11").style.display ="none";
-                document.getElementById("tl-img12").style.display ="none"; 
         }
     }
-
-//Change below to switch/ case
-
-          // when lciked id = x, then show picture with id y, otherwise keep hidden 
-        /*function show(clicked_id) { 
-        if(this.id === "timeline-item4") { 
-            document.getElementsByClassName("timeImage").style.display="none";
-            document.getElementById( clicked id).style.display='block'; 
-        } 
-        false;
-
-        function hide(clicked_id) { 
-        if(document.getElementById(clicked_id).style.display=='block') { 
-            document.getElementById(clicked_id).style.display='none'; 
-        } 
-        false;
-    } 
-    */
-    
-    /*function imageClick (clicked_id) {
-        document.getElementsByClassName("timeImage");
-        
-        if (document.getElementById(clicked_id) === "timeline-item4") {
-            document.getElementById("timeline-image4").style.display = "block";
-        }else {
-            document.getElementById("timeline-image4").style.display = "none";
-        }
-
-    }*/
-
 
     /*const markers = [
   ["Suffolk", 52.1555477, 0.8305162, 1, "assets/images/eastanglia-icon.png"],

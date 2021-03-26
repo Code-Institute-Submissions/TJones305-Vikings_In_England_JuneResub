@@ -79,10 +79,11 @@
                         <img class="card-img" src="assets/images/eastanglia-flag.jpg" alt="Flag of East Anglia" style="width:60%; height:100px">
                         <div class="card-img-overlay">
                             <h5 class="mb-0">
-                                <button id="eastAnglia" onmouseenter="eastA(id);" onmouseleave="eastA(id);" class="btn btn-link l" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                <button id="eastAnglia" class="btn btn-link hoverButton" onmouseenter="eastA(event);" onmouseleave="eastA(event);" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                 East Anglia</button>
                             </h5>
                         </div>
+                        <!-- onmouseenter="eastA(id);" onmouseleave="eastA(id);" -->
                     </div>
                     <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
                     <div class="card-body">
@@ -96,11 +97,12 @@
                         <img class="card-img" src="assets/images/mercia-flag.jpg" alt="Flag of Mercia" style="width:60%; height:100px">
                         <div class="card-img-overlay">
                             <h5 class="mb-0">
-                                <button id="mercia" onmouseenter="merc(event);" onmouseleave="merc(event);" class="btn btn-link collapsed l" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                <button id="mercia" class="btn btn-link collapsed hoverButton" onmouseenter="merc(event);" onmouseleave="merc(event);"  data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                 Mercia
                                 </button>
                             </h5>
                         </div>
+                        <!-- onmouseenter="merc(event);" onmouseleave="merc(event);" -->
                     </div>
                     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
                     <div class="card-body">
@@ -114,11 +116,12 @@
                         <img class="card-img" src="assets/images/northumbria-flag.png" alt="Flag of Northumbria" style="width:60%; height:100px">
                         <div class="card-img-overlay">
                             <h5 class="mb-0">
-                                <button id="northumbria" onmouseenter="north(event);" onmouseleave="north(event);" class="btn btn-link collapsed l" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                <button id="northumbria" class="btn btn-link collapsed hoverButton" onmouseenter="north(event);" onmouseleave="north(event);" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                 Northumbria
                                 </button>
                             </h5>
                         </div>
+                        <!--onmouseenter="north(event);" onmouseleave="north(event);"-->
                     </div>
                     <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
                     <div class="card-body">
@@ -131,11 +134,12 @@
                         <img class="card-img" src="assets/images/wessex-flag.jpg" alt="Flag of Wessex" style="width:60%; height:100px">
                         <div class="card-img-overlay">
                             <h5 class="mb-0">
-                                <button id="wessex" onmouseenter="wess(event);" onmouseleave="wess(event);" class="btn btn-link collapsed l" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                <button id="wessex" class="btn btn-link collapsed hoverButton" onmouseenter="wess(event);" onmouseleave="wess(event);" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                                 Wessex
                                 </button>
                             </h5>
                         </div>
+                        <!-- onmouseenter="wess(event);" onmouseleave="wess(event);"-->
                     </div>
                     <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
                     <div class="card-body">
@@ -214,18 +218,18 @@
         </div>
         <div id="tl-img">
             <img id="imgHold" class="timeImage " src="assets/images/viking-compass.jpg" alt="Viking Compass"/>
-            <img id="tl-img1" class="timeImage" src="assets/images/viking-ship-left.jpg" alt="Great Heathen Army Conquests"/>
-            <img id="tl-img2" class="timeImage" src="assets/images/viking-ship-right.jpg" alt="Great Heathen Army Conquests"/>
-            <img id="tl-img3" class="timeImage" src="assets/images/viking-ship.png" alt="Great Heathen Army Conquests"/>
+            <img id="tl-img1" class="timeImage" src="assets/images/viking-raid.jpg" alt="Viking Raid"/>
+            <img id="tl-img2" class="timeImage" src="assets/images/lindisfarne_raid.jpg" alt="Raid on Lindisfarne monastery"/>
+            <img id="tl-img3" class="timeImage" src="assets/images/ragnar_snake_pit.jpg" alt="Ragnar Lothbrok in snake pit"/>
             <img id="tl-img4" class="timeImage" src="assets/images/great_heathen_army.jpg" alt="Great Heathen Army Conquests"/>
-            <img id="tl-img5" class="timeImage" src="assets/images/mercia-flag.jpg" alt="Great Heathen Army Conquests"/>
-            <img id="tl-img6" class="timeImage" src="assets/images/wessex-flag.jpg" alt="Great Heathen Army Conquests"/>
-            <img id="tl-img7" class="timeImage" src="assets/images/eastanglia-icon.png" alt="Great Heathen Army Conquests"/>
-            <img id="tl-img8" class="timeImage" src="assets/images/northumbria-icon.png" alt="Great Heathen Army Conquests"/>
-            <img id="tl-img9" class="timeImage" src="assets/images/great_heathen_army.jpg" alt="Great Heathen Army Conquests"/>
-            <img id="tl-img10" class="timeImage" src="assets/images/great_heathen_army.jpg" alt="Great Heathen Army Conquests"/>
-            <img id="tl-img11" class="timeImage" src="assets/images/great_heathen_army.jpg" alt="Great Heathen Army Conquests"/>
-            <img id="tl-img12" class="timeImage" src="assets/images/great_heathen_army.jpg" alt="Great Heathen Army Conquests"/>
+            <img id="tl-img5" class="timeImage" src="assets/images/york_battle.jpeg" alt="Vikings invade York"/>
+            <img id="tl-img6" class="timeImage" src="assets/images/danelaw.jpg" alt="Map showing Danelaw"/>
+            <img id="tl-img7" class="timeImage" src="assets/images/normandy.jpg" alt="Map showing location of Normandy"/>
+            <img id="tl-img8" class="timeImage" src="assets/images/eric_bloodaxe.jpg" alt="Eric Bloodaxe"/>
+            <img id="tl-img9" class="timeImage" src="assets/images/bluetooth.jpeg" alt="Harald Bluetooth"/>
+            <img id="tl-img10" class="timeImage" src="assets/images/cnut.jpg" alt="King Cnut"/>
+            <img id="tl-img11" class="timeImage" src="assets/images/edward_harold.png" alt="Edward the Confessor and Harold II"/>
+            <img id="tl-img12" class="timeImage" src="assets/images/stamford_hastings.jpg" alt="Map showing Battle of Stamford Bridge and Battle of Hastings"/>
         </div>
     </div>
 
