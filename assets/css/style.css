@@ -1,7 +1,3 @@
-html,body {
-    overflow-y: hidden;
-    overflow-x: hidden;
-}
 body {
     margin:auto;
     background-color: rgb(60, 255, 245);
@@ -417,79 +413,174 @@ margin-top: 30px;
 
 @media (max-width: 1112px){
 /*--- Header ---*/
-.title {
-    color: #040a42d7;
-    font-family:'Rye', cursive;
-    font-size: 4rem;
-    text-align: center;
-    display: inline;
-    margin: 10px 35px;
-    margin-bottom:10px;
-}
+    .title {
+        font-size: 5rem;
+        text-align: center;
+        display: inline;
+        margin: 10px 15px;
+        margin-bottom:10px;
+    }
 
-header img {
-    height:100px;
-    width: 75px;
-    position: relative;
-    vertical-align: bottom;
-    margin:20px;
-}
+    header img {
+        height:100px;
+        width: 75px;
+    }
 
-.navbar {
-    height:50px;
-    margin-top: 10px;
-}
+    .navbar {
+        height:50px;
+        margin-top: 10px;
+    }
 
-.brand-img {
-    height: 50px;
-}
+    .brand-img {
+        height: 50px;
+    }
 
-/*--- Summary ---*/
-h3 {
-    font-size: 20px;
-    font-weight: 200;
-    margin: 2px;
-}
-/*--- Map & Accordion ---*/
-#old-england button {
-    font-size: 25px;
-    margin-left: 350px;
-}
-/*--- Timeline ---*/
-#timeline a {
-   margin-left: 10px;
-   font-weight: 900;
-   font-size: 11px;
-   color: #111;
-}
-/*--- Footer ---*/
+    /*--- Summary ---*/
+    h3 {
+        font-size: 23px;
+        font-weight: 200;
+        margin: 2px;
+    }
+    /*--- Map & Accordion ---*/
+    #old-england button {
+        font-size: 25px;
+        margin-left: 275px;
+    }
+    /*--- Timeline ---*/
+    #timeline a {
+    margin-left: 10px;
+    font-size: 11px;
+    }
 
+    #reset {
+        margin-left: 750px;
+        font-size: 14px;
+        color: #040a42d7;
+    }
+
+    #tl-img {
+        padding-right: 3%;
+    }
+    /*--- Footer ---*/
+    .footer-img {
+        height: 50px;
+        width: 50x;
+    }
 }
 
 @media (max-width: 1024px){
 /*--- Header ---*/
+    .title {
+        font-size: 5rem;
+        text-align: center;
+        display: inline;
+        margin: 10px 15px;
+        margin-bottom:10px;
+    }
 
-/*--- Summary ---*/
+    header img {
+        height:100px;
+        width: 75px;
+    }
 
-/*--- Map & Accordion ---*/
+    .navbar {
+        height:50px;
+        margin-top: 10px;
+    }
 
-/*--- Timeline ---*/
+    .brand-img {
+        height: 50px;
+    }
 
-/*--- Footer ---*/
+    /*--- Summary ---*/
+    h3 {
+        font-size: 23px;
+        font-weight: 200;
+        margin: 2px;
+    }
+    /*--- Map & Accordion ---*/
+    #old-england button {
+        font-size: 25px;
+        margin-left: 275px;
+    }
+    /*--- Timeline ---*/
+    #timeline a {
+    margin-left: 10px;
+    font-size: 11px;
+    }
 
+    #reset {
+        margin-left: 750px;
+        font-size: 14px;
+        color: #040a42d7;
+    }
+
+    #tl-img {
+        padding-right: 3%;
+    }
+    /*--- Footer ---*/
+    .footer-img {
+        height: 50px;
+        width: 50x;
+    }
 }
 
 @media (max-width: 900px){
-/*--- Header ---*/
+    /*--- Header ---*/
+    .title {
+        font-size: 5rem;
+        text-align: center;
+        display: inline;
+        margin: 10px 15px;
+        margin-bottom:10px;
+    }
 
-/*--- Summary ---*/
+    header img {
+        height:100px;
+        width: 75px;
+    }
 
-/*--- Map & Accordion ---*/
+    .navbar {
+        height:50px;
+        margin-top: 10px;
+    }
 
-/*--- Timeline ---*/
+    .brand-img {
+        height: 50px;
+    }
 
-/*--- Footer ---*/
 
+    /*--- Summary ---*/
+    h3 {
+        font-size: 23px;
+        font-weight: 200;
+        margin: 2px;
+    }
+    /*--- Map & Accordion ---*/
+    #old-england button {
+        font-size: 25px;
+        margin-left: 275px;
+    }
+    /*--- Timeline ---*/
+    #timeline a {
+    margin-left: 10px;
+    font-size: 11px;
+    }
+
+    #reset {
+        margin-left: 750px;
+        font-size: 14px;
+        color: #040a42d7;
+    }
+
+    #tl-img {
+        padding-right: 3%;
+    }
+    /*--- Footer ---*/
+    .footer-img {
+        height: 50px;
+        width: 50x;
+    }
 }
 
 @media (max-width: 834px){
@@ -506,15 +597,143 @@ h3 {
 }
 
 @media (max-width: 812px){
-/*--- Header ---*/
+    /*--- Header ---*/
+    .title {
+        font-size: 4rem;
+        text-align: center;
+        display: inline;
+        margin: 10px 6px 20px 6px;
+    }
 
-/*--- Summary ---*/
+    header img {
+        height:75px;
+        width: 50px;
+        margin: 0px 12px;
+    }
 
-/*--- Map & Accordion ---*/
+    .navbar {
+        height:50px;
+        margin-top: 10px;
+    }
 
-/*--- Timeline ---*/
+    .brand-img {
+        height: 50px;
+    }
 
-/*--- Footer ---*/
+    /*--- Summary ---*/
+    h3 {
+        font-size: 23px;
+        font-weight: 200;
+        margin: 2px;
+    }
+    /*--- Map & Accordion ---*/
+    #old-england button {
+        font-size: 20px;
+        margin-left: 180px;
+    }
+    /*--- Timeline ---*/
+    #timeline a {
+    margin-left: 5px;
+    font-size: 10px;
+    }
+
+    #timeline-item1{
+        padding-left: 40px;
+    }   
+
+    #reset {
+        margin-left: 650px;
+        font-size: 14px;
+        color: #040a42d7;
+    }
+
+    #timeline-para {
+        font-size: 16px;
+    }
+
+    #tl-img {
+        padding-right: 3%;
+        padding-top: 10%;
+        width: 250px;
+        height: 250px;
+    }
+
+    #tl-img1 {
+        height:250px;
+        width:250px;
+        display:none;
+    }
+
+    #tl-img2 {
+        height:150px;
+        width:250px;
+        display:none;
+    }
+
+    #tl-img3 {
+        height:150px;
+        width:250px;
+        display:none;
+    }
+
+    #tl-img4 {
+        height:350px;
+        width:250px;
+        display:none;
+    }
+
+    #tl-img5 {
+        height:250px;
+        width:350px;
+        display:none;
+    }
+
+    #tl-img6 {
+        height:350px;
+        width:250px;
+        display:none;
+    }
+
+    #tl-img7 {
+        height:250px;
+        width:250px;
+        display:none;
+    }
+
+    #tl-img8 {
+        height:150px;
+        width:250px;
+        display:none;
+    }
+
+    #tl-img9 {
+        height:150px;
+        width:250px;
+        display:none;
+    }
+
+    #tl-img10 {
+        height:250px;
+        width:250px;
+        display:none;
+    }
+
+    #tl-img11 {
+        height:100px;
+        width:200px;
+        display:none;
+    }
+
+    #tl-img12 {
+        height:350px;
+        width:250px;
+        display:none;
+    }
+    /*--- Footer ---*/
+    .footer-img {
+         height: 50px;
+         width: 50x;
+    }
 
 }
 
