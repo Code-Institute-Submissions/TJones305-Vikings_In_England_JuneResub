@@ -27,198 +27,12 @@ function initMap() {
         zoom: 7.25,
         center: {
             lat: 52.554647,
-            lng: -1.262773
+            lng: -1.262773,
+            url: "null",
         },
     });
-    setMarkersEast(map);
-    setMarkersNorth(map);
-    setMarkersMercia(map);
-    setMarkersWessex(map);
-    //setMarkers(map);
+    setMarkers(map);
 }
-
-//East Anglia Markers
-const eastAngCouns = [
-    ["Suffolk", 52.1555477, 0.8305162, 1],
-    ["Norfolk", 52.6458602, 1.1001733, 2],
-];
-
-function setMarkersEast(map) {
-    const imageEast = {
-        url: "assets/images/eastanglia-icon.png",
-        // Marker size in pixels (width, height).
-        size: new google.maps.Size(40, 35),
-        // Part of the image shown.
-        origin: new google.maps.Point(0, 0),
-        // Anchor for image (0, 32).
-        anchor: new google.maps.Point(0, 32),
-    };
-
-    const shape = {
-        coords: [1, 1, 1, 20, 18, 20, 18, 1],
-        type: "poly",
-    };
-
-    for (let i = 0; i < eastAngCouns.length; i++) {
-        const eastAngCoun = eastAngCouns[i];
-        new google.maps.Marker({
-            position: {
-                lat: eastAngCoun[1],
-                lng: eastAngCoun[2]
-            },
-            map,
-            icon: imageEast,
-            shape: shape,
-            title: eastAngCoun[0],
-            zIndex: eastAngCoun[3],
-        });
-    }
-}
-
-// Northumbria Markers
-const northCouns = [
-    ["Lancashire", 53.8671211, -2.6202687, 1],
-    ["Yorkshire", 53.9761501, -1.1075017, 2],
-    ["Northumberland", 55.20421, -2.0282457, 3],
-    ["Durham", 54.7109391, -1.7808717, 4],
-    ["Cumbria", 54.6007491, -2.8466487, 5],
-];
-
-function setMarkersNorth(map) {
-    const imageNorth = {
-        url: "assets/images/northumbria-icon.png",
-        // Marker size in pixels (width, height).
-        size: new google.maps.Size(40, 35),
-        // Part of the image shown.
-        origin: new google.maps.Point(0, 0),
-        // Anchor for image (0, 32).
-        anchor: new google.maps.Point(0, 32),
-    };
-
-    const shape = {
-        coords: [1, 1, 1, 20, 18, 20, 18, 1],
-        type: "poly",
-    };
-
-    for (let i = 0; i < northCouns.length; i++) {
-        const northCoun = northCouns[i];
-        new google.maps.Marker({
-            position: {
-                lat: northCoun[1],
-                lng: northCoun[2]
-            },
-            map,
-            icon: imageNorth,
-            shape: shape,
-            title: northCoun[0],
-            zIndex: northCoun[3],
-        });
-    }
-}
-
-//Mercia Markers
-const merciaCouns = [
-    ["Hertfordshire", 51.8024912, -0.2273691, 1],
-    ["Northamptonshire", 52.3326223, -0.8612687, 2],
-    ["Gloucestershire", 51.8812293, -2.1034647, 3],
-    ["Shropshire", 52.6422402, -2.6755677, 4],
-    ["Warwickshire", 52.2605613, -1.5047367, 5],
-    ["Oxfordshire", 51.7846263, -1.3165567, 6],
-    ["Staffordshire", 52.8558072, -2.0336547, 7],
-    ["Cambridgeshire", 52.3161863, 0.0763663, 8],
-    ["Cheshire", 53.2058542, -2.3560777, 9],
-    ["Derbyshire", 53.0718692, -1.5065807, 10],
-    ["Leicestershire", 52.6459512, -1.1054757, 11],
-    ["Herefordshire", 52.0949103, -2.6791307, 12],
-    ["Nottinghamshire", 53.1314412, -0.9775317, 13],
-    ["Lincolnshire", 53.1253312, -0.1814947, 14],
-    ["Rutland", 52.6572112, -0.6478657, 15],
-    ["Bedfordshire", 52.0671493, -0.4650577, 16],
-    ["Buckinghamshire", 51.7817283, -0.7855967, 17],
-    ["Berkshire", 51.4045883, -1.0161207, 18],
-];
-
-function setMarkersMercia(map) {
-    const imageMercia = {
-        url: "assets/images/mercia-icon.png",
-        // Marker size in pixels (width, height).
-        size: new google.maps.Size(40, 35),
-        // Part of the image shown.
-        origin: new google.maps.Point(0, 0),
-        // Anchor for image (0, 32).
-        anchor: new google.maps.Point(0, 32),
-    };
-
-    const shape = {
-        coords: [1, 1, 1, 20, 18, 20, 18, 1],
-        type: "poly",
-    };
-
-    for (let i = 0; i < merciaCouns.length; i++) {
-        const merciaCoun = merciaCouns[i];
-        new google.maps.Marker({
-            position: {
-                lat: merciaCoun[1],
-                lng: merciaCoun[2]
-            },
-            map,
-            icon: imageMercia,
-            shape: shape,
-            title: merciaCoun[0],
-            zIndex: merciaCoun[3],
-        });
-    }
-}
-
-//Wessex Markers
-const wessexCouns = [
-    ["Kent", 51.2108663, 0.7759013, 1],
-    ["Cornwall", 50.4087534, -4.8320077, 2],
-    ["Sussex", 50.933657, -0.212399, 3],
-    ["Surrey", 51.2608723, -0.4978297, 4],
-    ["Hampshire", 51.1042083, -1.2324547, 5],
-    ["Somerset", 51.0893883, -2.8357007, 6],
-    ["Devon", 50.7888394, -3.7310407, 7],
-    ["Dorset", 50.8112134, -2.2800067, 8],
-    ["Wiltshire", 51.3069553, -1.9239737, 9],
-    ["Essex", 51.8208543, 0.5536933, 10],
-    ["London", 51.5268959, -0.3394719, 11],
-];
-//combine locations in one array and call it "markers", add "region="add_region"
-//Function change to setMarkers, create a variable called images
-//inside images build if statement using region name, e.g(if region === "region_name"),
-//src="url", else if and repeat
-function setMarkersWessex(map) {
-    const imageWessex = {
-        url: "assets/images/wessex-icon.png",
-        // Marker size in pixels (width, height).
-        size: new google.maps.Size(40, 35),
-        // Part of the image shown.
-        origin: new google.maps.Point(0, 0),
-        // Anchor for image (0, 32).
-        anchor: new google.maps.Point(0, 32),
-    };
-
-    const shape = {
-        coords: [1, 1, 1, 20, 18, 20, 18, 1],
-        type: "poly",
-    };
-
-    for (let i = 0; i < wessexCouns.length; i++) {
-        const wessexCoun = wessexCouns[i];
-        new google.maps.Marker({
-            position: {
-                lat: wessexCoun[1],
-                lng: wessexCoun[2]
-            },
-            map,
-            icon: imageWessex,
-            shape: shape,
-            title: wessexCoun[0],
-            zIndex: wessexCoun[3],
-        });
-    }
-};
 
 //combine to one function, use if statement to differentiate colours
 function colorChange(event) {
@@ -333,8 +147,8 @@ function colorChange(event) {
                 document.getElementById("imgHold").style.display = "block";
         }
     };
-    /*
-        /*const markers = [
+    
+        const markers = [
       ["Suffolk", 52.1555477, 0.8305162, 1, "assets/images/eastanglia-icon.png"],
       ["Norfolk", 52.6458602, 1.1001733, 2, "assets/images/eastanglia-icon.png"],
       ["Lancashire", 53.8671211,-2.6202687, 3, "assets/images/northumbria-icon.png"],
@@ -369,23 +183,11 @@ function colorChange(event) {
       ["Lincolnshire", 53.1253312, -0.1814947,32, "assets/images/mercia-icon.png"],
       ["Rutland", 52.6572112, -0.6478657, 33, "assets/images/mercia-icon.png"], 
       ["Bedfordshire", 52.0671493, -0.4650577, 34, "assets/images/mercia-icon.png"],
-      ["Buckinghamshire", 51.7817283, -0.7855967, 35], "assets/images/mercia-icon.png",
+      ["Buckinghamshire", 51.7817283, -0.7855967, 35, "assets/images/mercia-icon.png"],
       ["Berkshire", 51.4045883, -1.0161207, 36, "assets/images/mercia-icon.png"],
-    ];*/
+    ];
 
-    /*function setMarkers(map) {
-  const image=
-	 {
-    url: /*need 5th item in array to go here,
-
-    // Marker size in pixels (width, height).
-    size: new google.maps.Size(40, 35),
-    // Part of the image shown.
-    origin: new google.maps.Point(0, 0),
-    // Anchor for image (0, 32).
-    anchor: new google.maps.Point(0, 32),
-  };
-
+function setMarkers(map) {
   const shape = {
     coords: [1, 1, 1, 20, 18, 20, 18, 1],
     type: "poly",
@@ -402,4 +204,4 @@ function colorChange(event) {
       zIndex: marker[3],
     });
 }
-}; */
+}; 
