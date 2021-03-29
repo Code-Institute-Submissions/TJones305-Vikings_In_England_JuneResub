@@ -1,3 +1,7 @@
+html,body {
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
 body {
     margin:auto;
     background-color: rgb(60, 255, 245);
@@ -164,7 +168,7 @@ background-color: rgb(170, 3, 3);
     font-size: 14px;
     font-weight: 700;
     text-align: left;
-    margin: 20px 0px 5px 122px;
+    margin: 25px 0px 5px 122px;
     font-weight: 600;
     display: inline;
 }
@@ -175,6 +179,7 @@ background-color: rgb(170, 3, 3);
     padding:0px;
     font-family: "Raleway", sans-serif ;
     color: #333;
+    font-weight: 700;
     background-color: rgb(132, 248, 252);
     border-radius: 10px;
     display:inline;
@@ -393,4 +398,200 @@ margin-top: 30px;
     position:fixed;
     bottom: 5px;
     left: 10px;
+}
+
+/*--- Media Queries ---*/
+
+@media (max-width: 1366px){
+/*--- Header ---*/
+
+/*--- Summary ---*/
+
+/*--- Map & Accordion ---*/
+
+/*--- Timeline ---*/
+
+/*--- Footer ---*/
+
+}
+
+@media (max-width: 1112px){
+/*--- Header ---*/
+.title {
+    color: #040a42d7;
+    font-family:'Rye', cursive;
+    font-size: 4rem;
+    text-align: center;
+    display: inline;
+    margin: 10px 35px;
+    margin-bottom:10px;
+}
+
+header img {
+    height:100px;
+    width: 75px;
+    position: relative;
+    vertical-align: bottom;
+    margin:20px;
+}
+
+.navbar {
+    height:50px;
+    margin-top: 10px;
+}
+
+.brand-img {
+    height: 50px;
+}
+
+/*--- Summary ---*/
+h3 {
+    font-size: 20px;
+    font-weight: 200;
+    margin: 2px;
+}
+/*--- Map & Accordion ---*/
+#old-england button {
+    font-size: 25px;
+    margin-left: 350px;
+}
+/*--- Timeline ---*/
+#timeline a {
+   margin-left: 10px;
+   font-weight: 900;
+   font-size: 11px;
+   color: #111;
+}
+/*--- Footer ---*/
+
+}
+
+@media (max-width: 1024px){
+/*--- Header ---*/
+
+/*--- Summary ---*/
+
+/*--- Map & Accordion ---*/
+
+/*--- Timeline ---*/
+
+/*--- Footer ---*/
+
+}
+
+@media (max-width: 900px){
+/*--- Header ---*/
+
+/*--- Summary ---*/
+
+/*--- Map & Accordion ---*/
+
+/*--- Timeline ---*/
+
+/*--- Footer ---*/
+
+}
+
+@media (max-width: 834px){
+/*--- Header ---*/
+
+/*--- Summary ---*/
+
+/*--- Map & Accordion ---*/
+
+/*--- Timeline ---*/
+
+/*--- Footer ---*/
+
+}
+
+@media (max-width: 812px){
+/*--- Header ---*/
+
+/*--- Summary ---*/
+
+/*--- Map & Accordion ---*/
+
+/*--- Timeline ---*/
+
+/*--- Footer ---*/
+
+}
+
+@media (max-width: 660px){
+/*--- Header ---*/
+
+/*--- Summary ---*/
+
+/*--- Map & Accordion ---*/
+
+/*--- Timeline ---*/
+
+/*--- Footer ---*/
+
+}
+
+@media (max-width: 550px){
+/*--- Header ---*/
+
+/*--- Summary ---*/
+
+/*--- Map & Accordion ---*/
+
+/*--- Timeline ---*/
+
+/*--- Footer ---*/
+
+}
+
+@media (max-width: 415px){
+/*--- Header ---*/
+
+/*--- Summary ---*/
+
+/*--- Map & Accordion ---*/
+
+/*--- Timeline ---*/
+
+/*--- Footer ---*/
+
+}
+
+@media (max-width: 360px){
+/*--- Header ---*/
+
+/*--- Summary ---*/
+
+/*--- Map & Accordion ---*/
+
+/*--- Timeline ---*/
+
+/*--- Footer ---*/
+
+}
+
+@media (max-width: 320px){
+/*--- Header ---*/
+
+/*--- Summary ---*/
+
+/*--- Map & Accordion ---*/
+
+/*--- Timeline ---*/
+
+/*--- Footer ---*/
+
+}
+
+@media (max-width: 285px){
+/*--- Header ---*/
+
+/*--- Summary ---*/
+
+/*--- Map & Accordion ---*/
+
+/*--- Timeline ---*/
+
+/*--- Footer ---*/
+
 }
