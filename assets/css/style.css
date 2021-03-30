@@ -1,3 +1,7 @@
+html,body {
+    overflow-x: hidden;
+}
+
 body {
     margin:auto;
     background-color: rgb(60, 255, 245);
@@ -313,6 +317,7 @@ margin-top: 30px;
 #imgHold {
     height:250px;
     width:250px;
+    padding-top: 2%;
     border-radius: 50%;
     display:block;
 }
@@ -320,72 +325,84 @@ margin-top: 30px;
 #tl-img1 {
     height:450px;
     width:450px;
+    padding-top: 10%;
     display:none;
 }
 
 #tl-img2 {
     height:350px;
     width:450px;
+    padding-top: 10%;
     display:none;
 }
 
 #tl-img3 {
     height:350px;
     width:450px;
+    padding-top: 10%;
     display:none;
 }
 
 #tl-img4 {
     height:550px;
     width:450px;
+    padding-top: 10%;
     display:none;
 }
 
 #tl-img5 {
     height:450px;
     width:550px;
+    padding-top: 10%;
     display:none;
 }
 
 #tl-img6 {
     height:550px;
     width:450px;
+    padding-top: 10%;
     display:none;
 }
 
 #tl-img7 {
     height:350px;
     width:350px;
+    padding-top: 10%;
     display:none;
 }
 
 #tl-img8 {
     height:350px;
     width:450px;
+    padding-top: 10%;
     display:none;
 }
 
 #tl-img9 {
     height:350px;
     width:450px;
+    padding-top: 10%;
     display:none;
 }
 
 #tl-img10 {
     height:450px;
     width:450px;
+    padding-top: 10%;
     display:none;
 }
 
 #tl-img11 {
     height:300px;
     width:400px;
+    padding-top: 10%;
     display:none;
 }
 
 #tl-img12 {
     height:550px;
     width:450px;
+    padding-top: 10%;
     display:none;
 }
 
@@ -414,10 +431,10 @@ margin-top: 30px;
 
 }
 
-@media (max-width: 1112px){
+@media (max-width: 1113px){
 /*--- Header ---*/
     .title {
-        font-size: 5rem;
+        font-size: 5.5rem;
         text-align: center;
         display: inline;
         margin: 10px 15px;
@@ -447,7 +464,7 @@ margin-top: 30px;
     /*--- Map & Accordion ---*/
     #old-england button {
         font-size: 25px;
-        margin-left: 275px;
+        margin-left: 310px;
     }
     /*--- Timeline ---*/
     #timeline a {
@@ -456,14 +473,15 @@ margin-top: 30px;
     }
 
     #reset {
-        margin-left: 750px;
+        margin-left: 950px;
         font-size: 14px;
         color: #040a42d7;
     }
 
     #tl-img {
-        padding-right: 3%;
+        padding-right: 5%;
     }
+
     /*--- Footer ---*/
     .footer-img {
         height: 50px;
@@ -589,7 +607,7 @@ margin-top: 30px;
 @media (max-width: 834px){
     /*--- Header ---*/
     .title {
-        font-size: 4rem;
+        font-size: 4.25rem;
         text-align: center;
         display: inline;
         margin: 10px 6px 20px 6px;
@@ -619,7 +637,7 @@ margin-top: 30px;
     /*--- Map & Accordion ---*/
     #old-england button {
         font-size: 20px;
-        margin-left: 180px;
+        margin-left: 210px;
     }
     /*--- Timeline ---*/
     #timeline a {
@@ -1110,7 +1128,7 @@ margin-top: 30px;
 @media (max-width: 375px){
     /*--- General Styles---*/
     h2 {
-        margin: 10px 0px 10px 60px;
+        margin: 10px 0px 10px 40px;
         font-size: 18px;
        }
     p {
@@ -1278,8 +1296,8 @@ margin-top: 30px;
     }
 
     #tl-img5 {
-        height:250px;
-        width:350px;
+        height:200px;
+        width:250px;
         display:none;
     }
 
@@ -1332,28 +1350,126 @@ margin-top: 30px;
 
 }
 
+@media (max-width: 360px){
+ /*--- Header ---*/
+    .title {
+        font-size: 1.75rem;
+    }
+
+/*--- Map & Accordion ---*/
+    #old-england button {
+        font-size: 16px;
+        margin-left: 175px;
+    }
+/*--- Timeline ---*/
+    #tl-img {
+        padding-right: 0px;
+        padding-top: 2%;
+        display: block;
+    }
+}
+
 @media (max-width: 320px){
+/*--- General Styles ---*/
+    h2 {
+        margin: 10px 0px 10px 40px;
+        font-size: 18px;
+       }
 /*--- Header ---*/
-
+    .title {
+        font-size: 1.75rem;
+    }
+    header img {
+        height:30px;
+        width: 20px;
+        margin: 0px;
+    }
 /*--- Summary ---*/
+    #intro h2 {
+        margin-left:10px;
+    }
 
+    #old-england button {
+        font-size: 14px;
+        margin-left: 152px;
+    }
 /*--- Map & Accordion ---*/
 
 /*--- Timeline ---*/
+    #tl-img {
+        padding-right: 0px;
+        padding-top: 2%;
+        display: block;
+    }
 
+    .timeline-title h4 {
+        margin: 5px 0px 0px 10px;
+    }
+
+        #reset {
+        margin-left: 210px;
+        font-size: 14px;
+        color: #040a42d7;
+    }
 /*--- Footer ---*/
 
 }
 
-@media (max-width: 285px){
+@media (max-width: 280px){
+/*--- General Styles ---*/
+    h2 {
+        margin: 10px 0px 10px 40px;
+        font-size: 16px;
+       }
 /*--- Header ---*/
-
+    .title {
+        font-size: 1.55rem;
+    }
+    header img {
+        height:28px;
+        width: 15px;
+        margin: 0px;
+    }
+        .brand-img {
+        height: 30px;
+        width: 30px;
+    }
 /*--- Summary ---*/
+    #intro h2 {
+        margin-left:0px;
+        font-size: 16px;
+    }
+
 
 /*--- Map & Accordion ---*/
+    #old-england button {
+        font-size: 13px;
+        margin-left: 119.75px;
+    }
 
 /*--- Timeline ---*/
+    #tl-img {
+        padding-top: 2%;
+        padding-right: 100px;
+        display: block;
 
+    }
+
+    .timeline-title h4 {
+        margin: 0px 0px 0px 15px;
+        font-size: 12px;
+    }
+
+        #reset {
+        margin-left: 185px;
+        font-size: 12px;
+        color: #040a42d7;
+    }
+
+    #timeline-content {
+        margin:3%;
+        padding:0px;
+    }
 /*--- Footer ---*/
 
 }
