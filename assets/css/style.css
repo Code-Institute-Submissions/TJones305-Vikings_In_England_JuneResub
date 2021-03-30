@@ -1107,23 +1107,23 @@ margin-top: 30px;
 
 }
 
-@media (max-width: 360px){
+@media (max-width: 375px){
     /*--- General Styles---*/
     h2 {
-        margin: 10px 0px 10px 25px;
-        font-size: 25px;
+        margin: 10px 0px 10px 60px;
+        font-size: 18px;
        }
     p {
-        font-size: 16px;
+        font-size: 14px;
         width:100%
     }
     
     /*--- Header ---*/
     .title {
-        font-size: 2rem;
+        font-size: 1.84rem;
         text-align: center;
         display: inline;
-        margin: 10px 2px 5px 2px;
+        margin: 10px 0px 2px 0px;
     }
 
     header img {
@@ -1153,8 +1153,11 @@ margin-top: 30px;
         color: #ddd;
     }
     /*--- Summary ---*/
+    #intro h2 {
+        margin-left:30px;
+    }
     h3 {
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 200;
         margin: 2px;
     }
@@ -1165,7 +1168,7 @@ margin-top: 30px;
     }
 
     #old-england h3 {
-        font-size: 25px;
+    font-size: 25px;
     }
 
     #old-england {
@@ -1175,8 +1178,8 @@ margin-top: 30px;
     }
     
     #old-england button {
-        font-size: 18px;
-        margin-left: 210px;
+        font-size: 16px;
+        margin-left: 185px;
         display:block;
     }
 
@@ -1193,8 +1196,12 @@ margin-top: 30px;
         padding:0px;
         margin:0px;
     }
+    .timeline-title h2{
+        padding:1px;
+    }
+
     .timeline-title h4 {
-        margin: 25px 0px 0px 30px;
+        margin: 5px 0px 0px 30px;
     }
 
    .timeline-bar .container-fluid {
@@ -1212,7 +1219,12 @@ margin-top: 30px;
 
     #timeline-content {        
         display:block;
-        margin-left: 30px;
+        margin-left: 40px;
+    }
+
+    #timeline-heading {
+        margin-left:5px;
+        font-size: 18px;
     }
 
     #timeline-item1{
@@ -1220,7 +1232,7 @@ margin-top: 30px;
     }   
 
     #reset {
-        margin-left: 310px;
+        margin-left: 250px;
         font-size: 14px;
         color: #040a42d7;
     }
