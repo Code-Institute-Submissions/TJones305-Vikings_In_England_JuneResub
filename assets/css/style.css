@@ -1108,15 +1108,215 @@ margin-top: 30px;
 }
 
 @media (max-width: 360px){
-/*--- Header ---*/
+    /*--- General Styles---*/
+    h2 {
+        margin: 10px 0px 10px 25px;
+        font-size: 25px;
+       }
+    p {
+        font-size: 16px;
+        width:100%
+    }
+    
+    /*--- Header ---*/
+    .title {
+        font-size: 2rem;
+        text-align: center;
+        display: inline;
+        margin: 10px 2px 5px 2px;
+    }
 
-/*--- Summary ---*/
+    header img {
+        height:50px;
+        width: 40px;
+        margin: 0px;
+    }
 
-/*--- Map & Accordion ---*/
+    .navbar {
+        height:50px;
+        margin-top: 10px;
+    }
 
-/*--- Timeline ---*/
+    .brand-img {
+        height: 30px;
+    }
 
-/*--- Footer ---*/
+    .nav-down-back{
+        background-color:rgb(9, 124, 128, .9);
+        width:35%;
+    }
+    
+    .navbar-light .navbar-nav .nav-link.active {
+         color: #ddd;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        color: #ddd;
+    }
+    /*--- Summary ---*/
+    h3 {
+        font-size: 18px;
+        font-weight: 200;
+        margin: 2px;
+    }
+    /*--- Map & Accordion ---*/
+     .goolge-info {
+    display: inline-block;
+    padding:0px;
+    }
+
+    #old-england h3 {
+        font-size: 25px;
+    }
+
+    #old-england {
+    max-width: 100%;
+    display: inline-block;
+    position: relative;
+    }
+    
+    #old-england button {
+        font-size: 18px;
+        margin-left: 210px;
+        display:block;
+    }
+
+    #map {
+    height: 550px;
+    width: 100%;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    display: inline-block;
+    }
+
+    /*--- Timeline ---*/
+    .timeline-title {
+        padding:0px;
+        margin:0px;
+    }
+    .timeline-title h4 {
+        margin: 25px 0px 0px 30px;
+    }
+
+   .timeline-bar .container-fluid {
+       max-height: 35px;
+   }
+
+    #timeline a {
+    margin-left: 5px;
+    font-size: 10px;
+    }
+
+    #timeline-information {
+        display:block;
+    }
+
+    #timeline-content {        
+        display:block;
+        margin-left: 30px;
+    }
+
+    #timeline-item1{
+        padding-left: 0px;
+    }   
+
+    #reset {
+        margin-left: 310px;
+        font-size: 14px;
+        color: #040a42d7;
+    }
+
+    #timeline-para {
+        font-size: 16px;
+        width:100%;
+        margin:0px;
+        padding:0px;
+    }
+
+    #tl-img {
+        padding-right: 0px;
+        padding-top: 2%;
+        margin-left: 60px;
+        width: 250px;
+        height: 250px;
+        display: block;
+    }
+
+    #tl-img1 {
+        height:250px;
+        width:250px;
+        display:none;
+    }
+
+    #tl-img2 {
+        height:150px;
+        width:250px;
+        display:none;
+    }
+
+    #tl-img3 {
+        height:150px;
+        width:250px;
+        display:none;
+    }
+
+    #tl-img4 {
+        height:350px;
+        width:250px;
+        display:none;
+    }
+
+    #tl-img5 {
+        height:250px;
+        width:350px;
+        display:none;
+    }
+
+    #tl-img6 {
+        height:350px;
+        width:250px;
+        display:none;
+    }
+
+    #tl-img7 {
+        height:250px;
+        width:250px;
+        display:none;
+    }
+
+    #tl-img8 {
+        height:150px;
+        width:250px;
+        display:none;
+    }
+
+    #tl-img9 {
+        height:150px;
+        width:250px;
+        display:none;
+    }
+
+    #tl-img10 {
+        height:250px;
+        width:250px;
+        display:none;
+    }
+
+    #tl-img11 {
+        height:100px;
+        width:200px;
+        display:none;
+    }
+
+    #tl-img12 {
+        height:350px;
+        width:250px;
+        display:none;
+    }
+    /*--- Footer ---*/
+    .footer-img {
+         height: 30px;
+         width: 30x;
+    }
 
 }
 
