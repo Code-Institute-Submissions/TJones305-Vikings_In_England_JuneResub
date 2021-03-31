@@ -8,15 +8,22 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link href="https://unpkg.com/@popperjs/core@2">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("user_CavYYGSfVe1TtM3zWUa4F");
+      emailjs.send("service_g5cggug","template_ht57zxe");
+   })();
+</script>
     <style> @import url('https://fonts.googleapis.com/css2?family=Raleway&family=Rye&display=swap');</style>
     <link rel="stylesheet" href="assets/css/style.css">
-    <script src="assets/js/script.js"></script>
+    <script type="text/javascript" src="assets/js/script.js"></script>
     <title>Vikings In England</title>
 </head>
 <body>
     <header>
         <!--Title, Nav -->
-        <div>
+        <div id= "header">
             <img class="title" src="assets/images/viking-ship-left.jpg">
             <h1 class="title">Vikings in England</h1>
             <img class="title" src="assets/images/viking-ship-right.jpg">      
@@ -28,7 +35,7 @@
                 <a class="navbar-brand"><img class ="brand-img" src="assets/images/viking-ship.png"></a>
                   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1"
                     aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="dark-blue-text"> <i class="fas fa-bars fa-1x"></i></span>
+                    <span class="dark-blue-text"><i class="fas fa-ellipsis-h"></i></span>
                   </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent1">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav-down-back">
@@ -67,7 +74,7 @@
     <h2> 9th Century England</h2>
 
     <div class="google-info">
-        <!--Goolge Maps to show modern day English Counties when an Old England Territory card is clicked-->
+        <!--Goolge Maps to show modern day English Counties with representative Old England Territory flag as marker-->
         <div id="map" class="container">
         </div> 
             
@@ -89,7 +96,6 @@
                                 East Anglia</button>
                             </h5>
                         </div>
-                        <!-- onmouseenter="eastA(id);" onmouseleave="eastA(id);" -->
                     </div>
                     <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
                     <div class="card-body">
@@ -108,7 +114,6 @@
                                 </button>
                             </h5>
                         </div>
-                        <!-- onmouseenter="merc(event);" onmouseleave="merc(event);" -->
                     </div>
                     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
                     <div class="card-body">
@@ -127,7 +132,6 @@
                                 </button>
                             </h5>
                         </div>
-                        <!--onmouseenter="north(event);" onmouseleave="north(event);"-->
                     </div>
                     <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
                     <div class="card-body">
@@ -145,7 +149,6 @@
                                 </button>
                             </h5>
                         </div>
-                        <!-- onmouseenter="wess(event);" onmouseleave="wess(event);"-->
                     </div>
                     <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
                     <div class="card-body">
@@ -178,7 +181,7 @@
             <div class="container-fluid" id="timeline">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent2"
                     aria-controls="navbarSupportedContent2" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="dark-blue-text"> <i class="fas fa-bars fa-1x"></i></span>
+                    <span class="dark-blue-text"><i class="far fa-caret-square-down"></i></span>
                   </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent2">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav-down-back">
@@ -225,7 +228,7 @@
     <div id="timeline-information">
         <div id="timeline-content">
             <h2 id="timeline-heading"></h2>
-            <p id="timeline-para">Please select a year above</p>
+            <p id="timeline-para">Please select a year above ... <br> Or just look at the Viking Compass!<i class="fas fa-arrow-circle-right"></i></p>
         </div>
         <div id="tl-img">
             <img id="imgHold" class="timeImage " src="assets/images/viking-compass.jpg" alt="Viking Compass"/>
@@ -244,13 +247,25 @@
         </div>
     </div>
 
+    <div class="center-form">
+        <h2>Give your feedback!</h2>
+        <form onsubmit="return sendMail(this);">
+            <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
+            <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
+            <textarea rows="5" name="feedback" class="form-control" id="feedback" placeholder="Reccomendation or Feedback here please" required></textarea>
+            <button type="submit" class="btn btn-secondary center-block">Send Feedback</button>
+        </form>
+    </div>
+
+
+    <!-- Content for timeline display:none until called by js function-->    
     <div id="timeline-content1">
         <h2 id="timeline-heading1">789 AD</h2>
-        <p id="timeline-para1">Raids begin on the British Isles, early targets were Christian monasteries on small islands, often unprotected. </p>
+        <p id="timeline-para1">The first Viking Longboats left Scandinavian shores and raids begin on the British Isles, early targets were Christian monasteries on small islands, often unprotected. </p>
     </div>
     <div id="timeline-content2">
         <h2 id="timeline-heading2">793 AD</h2>
-        <p id="timeline-para2">Vikings carry out a brutal raid on the monastery of Lindisfarne off the north-east coast of  Northumbria. 
+        <p id="timeline-para2">Vikings carry out a brutal raid on the monastery of Lindisfarne off the north-east coast of Northumbria. 
             Evidence of this event is documented in the Anglo-Saxon Chronicle as follows:
             <br>
              “In this year fierce, foreboding omens came over the land of the Northumbrians, and the wretched people shook; there were excessive whirlwinds, lighting, and fiery dragons were seen flying in the sky. 
@@ -286,7 +301,10 @@
     </div>
     <div id="timeline-content7">
         <h2 id="timeline-heading7">911AD</h2>
-        <p id="timeline-para7">The French give Normandy to the Viking leader Rollo, which signifies the beginning of the Norman Age.</p>
+        <p id="timeline-para7">The French give Normandy to the Viking leader Rollo, which signifies the beginning of the Norman Age. 
+            Rollo wasn't content with the small portion of land he was given, which contained the town of Rouen.
+            So he expanded west a claimed other territoties which make up modern day Normandy.
+        </p>
     </div>
     <div id="timeline-content8">
         <h2 id="timeline-heading8">954AD</h2>
@@ -318,11 +336,10 @@
         <p id="timeline-para12">Harald Hardrada, the “last great Viking”, invades England, but dies in the Battle of Stamford and his invasion ended by Harold II. 
             The Normans conquer England three weeks later at the Battle of Hastings led by William, Duke of Normandy (later known as William the Conqueror), who was a descendant of the Viking leader Rollo. </p>
     </div>
-
-
+<!--Footer containing back to top link-->
     <footer>
         <!-- "To Top" link--> 
-        <a href="index.html#intro"><img class="rounded-circle footer-img" src="assets/images/back_to_top.png"></a>
+        <a href="index.html#header"><img class="rounded-circle footer-img" src="assets/images/back_to_top.png"></a>
     </footer>
 
     <!--Scripts-->

@@ -21,6 +21,10 @@ h2 {
     text-decoration: underline;
 }
 
+.navbar-light .navbar-toggler {
+    border-color:transparent;
+}
+
 /* CSS Google Fonts:
 font-family: 'Raleway', sans-serif;
 font-family: 'Rye', cursive;
@@ -32,7 +36,7 @@ font-family: 'Rye', cursive;
     font-size: 6rem;
     text-align: center;
     display: inline;
-    margin: 10px 35px;
+    margin: 10px 30px;
     margin-bottom:10px;
 }
 
@@ -51,6 +55,7 @@ header img {
 
 .brand-img {
     height: 50px;
+    width: 65px
 }
 
 .nav-item {
@@ -61,6 +66,10 @@ header img {
 
 a i {
     margin-left: 6px;
+}
+
+span i {
+    font-size: 24px;
 }
 
 /*--- Summary ---*/
@@ -163,7 +172,7 @@ background-color: rgb(170, 3, 3);
     font-family: 'Rye', cursive;
     height: 20px;
     width: 100%;
-    padding-bottom: 0px;
+    margin-bottom: 15px;
 }
 
 .timeline-title h4 {
@@ -171,7 +180,7 @@ background-color: rgb(170, 3, 3);
     font-size: 14px;
     font-weight: 700;
     text-align: left;
-    margin: 25px 0px 5px 122px;
+    margin: 0px 0px 5px 122px;
     font-weight: 600;
     display: inline;
 }
@@ -181,7 +190,7 @@ background-color: rgb(170, 3, 3);
     margin-left: 1000px;
     padding:0px;
     font-family: "Raleway", sans-serif ;
-    color: #333;
+    color: #040a42d7;
     font-weight: 700;
     background-color: rgb(132, 248, 252);
     border-radius: 10px;
@@ -244,6 +253,10 @@ margin-top: 30px;
     margin-top: 5px;
     margin-left: 40px;
     width: 70%;
+}
+
+#timeline-para i {
+    margin-left: 5px;
 }
 
 #timeline-content1 {
@@ -475,7 +488,6 @@ margin-top: 30px;
     #reset {
         margin-left: 950px;
         font-size: 14px;
-        color: #040a42d7;
     }
 
     #tl-img {
@@ -533,7 +545,6 @@ margin-top: 30px;
     #reset {
         margin-left: 750px;
         font-size: 14px;
-        color: #040a42d7;
     }
 
     #tl-img {
@@ -591,7 +602,6 @@ margin-top: 30px;
     #reset {
         margin-left: 750px;
         font-size: 14px;
-        color: #040a42d7;
     }
 
     #tl-img {
@@ -652,7 +662,6 @@ margin-top: 30px;
     #reset {
         margin-left: 650px;
         font-size: 14px;
-        color: #040a42d7;
     }
 
     #timeline-para {
@@ -793,7 +802,6 @@ margin-top: 30px;
     #reset {
         margin-left: 650px;
         font-size: 14px;
-        color: #040a42d7;
     }
 
     #timeline-para {
@@ -944,6 +952,7 @@ margin-top: 30px;
 
     .brand-img {
         height: 30px;
+        width: 45px;
     }
 
     .nav-down-back{
@@ -1027,7 +1036,6 @@ margin-top: 30px;
     #reset {
         margin-left: 310px;
         font-size: 14px;
-        color: #040a42d7;
     }
 
     #timeline-para {
@@ -1252,7 +1260,6 @@ margin-top: 30px;
     #reset {
         margin-left: 250px;
         font-size: 14px;
-        color: #040a42d7;
     }
 
     #timeline-para {
@@ -1409,7 +1416,6 @@ margin-top: 30px;
         #reset {
         margin-left: 210px;
         font-size: 14px;
-        color: #040a42d7;
     }
 /*--- Footer ---*/
 
@@ -1463,7 +1469,6 @@ margin-top: 30px;
         #reset {
         margin-left: 185px;
         font-size: 12px;
-        color: #040a42d7;
     }
 
     #timeline-content {
