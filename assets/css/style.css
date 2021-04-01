@@ -420,13 +420,13 @@ margin-top: 30px;
 }
 
 /*--- Feedback Form ---*/
-.feedback-form {
+#feedbk {
     font-family: "Raleway", sans-serif;
     width: 70%;
     margin:10%;
 }
 
-.feedback-form h2{
+#feedbk h2{
     margin: 10px 0px 10px 0px;
 }
 
@@ -1350,7 +1350,8 @@ margin-top: 30px;
     }
     /*--- Summary ---*/
     #intro h2 {
-        margin-left:30px;
+        font-size: 20px;
+        margin-left:10px;
     }
     h3 {
         font-size: 16px;
