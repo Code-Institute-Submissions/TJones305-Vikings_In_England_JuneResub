@@ -1,3 +1,16 @@
+ window.onload = function() {
+    const feedbackForm = document.getElementById('feedback-form');
+            feedbackForm.addEventListener('submit', function(event) {
+                event.preventDefault();
+                emailjs.sendForm('gmail', 'vikings', this)
+                    .then(function() {
+                        console.log('SUCCESS!');
+                        feedbackForm.reset();
+                    }, function(error) {
+                        console.log('FAILED...', error);
+                    });
+            });
+        }
 //Google Map Co-ordinates for each region
 /*East Anglia*/
 /* //Suffolk {lat:52.1555477, lng:0.8305162}, //Norfolk {lat:52.6458602, lng:1.1001733},*/
@@ -203,20 +216,3 @@ function colorChange(event) {
                 document.getElementById("imgHold").style.display = "block";
         }
     };
-    
-    function emailSend(contactForm) {
-    emailjs.send("service_g5cggug","template_ht57zxe", {
-        "from_name": contactForm.name.value,
-        "from_email": contactForm.emailaddress.value,
-        "project_request": contactForm.feedback.value
-    })
-    .then(
-        function(response) {
-            console.log("SUCCESS", response);
-        },
-        function(error) {
-            console.log("FAILED", error);
-        }
-    );
-    return false;  // To block from loading a new page
-}

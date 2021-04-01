@@ -9,12 +9,11 @@
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link href="https://unpkg.com/@popperjs/core@2">
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
-<script type="text/javascript">
-   (function(){
-      emailjs.init("user_CavYYGSfVe1TtM3zWUa4F");
-      emailjs.send("service_g5cggug","template_ht57zxe");
-   })();
-</script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("user_CavYYGSfVe1TtM3zWUa4F");
+        })();
+    </script>
     <style> @import url('https://fonts.googleapis.com/css2?family=Raleway&family=Rye&display=swap');</style>
     <link rel="stylesheet" href="assets/css/style.css">
     <script type="text/javascript" src="assets/js/script.js"></script>
@@ -228,7 +227,7 @@
     <div id="timeline-information">
         <div id="timeline-content">
             <h2 id="timeline-heading"></h2>
-            <p id="timeline-para">Please select a year above ... <br> Or just look at the Viking Compass!<i class="fas fa-arrow-circle-right"></i></p>
+            <p id="timeline-para">Please select a year above ... <br> Or just look at this Viking Compass!<i class="fas fa-arrow-circle-right"></i></p>
         </div>
         <div id="tl-img">
             <img id="imgHold" class="timeImage " src="assets/images/viking-compass.jpg" alt="Viking Compass"/>
@@ -247,13 +246,13 @@
         </div>
     </div>
 
-    <div class="center-form">
+    <div id="feedbk">
         <h2>Give your feedback!</h2>
-        <form onsubmit="return sendMail(this);">
+        <form id="feedback-form">
             <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
             <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
-            <textarea rows="5" name="feedback" class="form-control" id="feedback" placeholder="Reccomendation or Feedback here please" required></textarea>
-            <button type="submit" class="btn btn-secondary center-block">Send Feedback</button>
+            <textarea rows="10" name="feedback" class="form-control" id="feedback" placeholder="Feedback here please" required></textarea>
+            <button type="submit" class="btn btn-info center-block">Send Feedback</button>
         </form>
     </div>
 
@@ -350,6 +349,6 @@
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC-ZewIYLC_PoJ8m_1H9dlXCxyPPIR02B0&callback=initMap">
    </script>
    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
-
+   <script type="text/javascript" src="assets/js/sendEmail.js"></script>
 </body>
 </html>

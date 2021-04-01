@@ -1,5 +1,5 @@
 html,body {
-    overflow-x: hidden;
+    overflow-x: clip;
 }
 
 body {
@@ -74,7 +74,7 @@ span i {
 
 /*--- Summary ---*/
 #intro h2 {
-    margin: 10px 2px 2px 2px;
+    margin: 20px 2px 2px 2px;
     font-weight: 600;
     text-decoration: underline;
 }
@@ -419,6 +419,23 @@ margin-top: 30px;
     display:none;
 }
 
+/*--- Feedback Form ---*/
+.feedback-form {
+    font-family: "Raleway", sans-serif;
+    width: 70%;
+    margin:10%;
+}
+
+.feedback-form h2{
+    margin: 10px 0px 10px 0px;
+}
+
+.form-control {
+    color: #111;
+    background-color: #f8decc;
+    font-weight: 700;
+}
+
 /*--- Footer ---*/
 .footer-img {
     height: 50px;
@@ -477,7 +494,7 @@ margin-top: 30px;
     /*--- Map & Accordion ---*/
     #old-england button {
         font-size: 25px;
-        margin-left: 310px;
+        margin-left: 305px;
     }
     /*--- Timeline ---*/
     #timeline a {
@@ -557,19 +574,19 @@ margin-top: 30px;
     }
 }
 
-@media (max-width: 900px){
+@media (max-width: 896px){
     /*--- Header ---*/
     .title {
-        font-size: 5rem;
+        font-size: 4.65rem;
         text-align: center;
         display: inline;
-        margin: 10px 15px;
+        margin: 10px 10px;
         margin-bottom:10px;
     }
 
     header img {
-        height:100px;
-        width: 75px;
+        height:75px;
+        width: 50px;
     }
 
     .navbar {
@@ -590,8 +607,8 @@ margin-top: 30px;
     }
     /*--- Map & Accordion ---*/
     #old-england button {
-        font-size: 25px;
-        margin-left: 300px;
+        font-size: 22px;
+        margin-left: 250px;
     }
     /*--- Timeline ---*/
     #timeline a {
@@ -617,7 +634,7 @@ margin-top: 30px;
 @media (max-width: 834px){
     /*--- Header ---*/
     .title {
-        font-size: 4.25rem;
+        font-size: 4.4rem;
         text-align: center;
         display: inline;
         margin: 10px 6px 20px 6px;
@@ -647,7 +664,7 @@ margin-top: 30px;
     /*--- Map & Accordion ---*/
     #old-england button {
         font-size: 20px;
-        margin-left: 210px;
+        margin-left: 215px;
     }
     /*--- Timeline ---*/
     #timeline a {
@@ -894,30 +911,183 @@ margin-top: 30px;
 
 }
 
-@media (max-width: 660px){
+@media (max-width: 768px){
 /*--- Header ---*/
 
 /*--- Summary ---*/
 
 /*--- Map & Accordion ---*/
-
+    #old-england button {
+        font-size: 18px;
+        margin-left: 195px;
+    }
 /*--- Timeline ---*/
 
 /*--- Footer ---*/
 
 }
 
-@media (max-width: 550px){
-/*--- Header ---*/
+@media (max-width: 660px){
+    /*--- General Styles---*/
+    h2 {
+        margin: 10px 0px 10px 65px;
+        font-size: 25px;
+       }
+    p {
+        font-size: 16px;
+        width:100%
+    }
+    
+    /*--- Header ---*/
+    .title {
+        font-size: 3.25rem;
+        text-align: center;
+        display: inline;
+        margin: 10px 5px 5px 5px;
+    }
+
+    header img {
+        height:50px;
+        width: 40px;
+        margin: 0px;
+    }
+    
+    .brand-img {
+        height: 40px;
+        width: 45px;
+    }
 
 /*--- Summary ---*/
 
 /*--- Map & Accordion ---*/
+    #old-england h3 {
+        font-size: 28px;
+    }
 
+    #old-england button {
+        font-size: 15px;
+        margin-left: 155px;
+        display:block;
+    }
 /*--- Timeline ---*/
+    .timeline-title h4 {
+        margin: 15px 0px 0px 70px;
+    }
+
+    #timeline-item1{
+        padding-left: 0px;
+    }  
+
+    #timeline a{
+        color:#ddd;
+        margin-left: 5px;
+        font-size: 10px;
+    }
+
+    #timeline a i {
+        margin-right: 5px;
+    }
+
+    .timeline-bar .container-fluid {
+       max-height: 35px;
+   }
+    .nav-down-back{
+        background-color:rgb(9, 124, 128, .9);
+        width:35%;
+    }
+
+    #reset {
+        margin-left: 500px;
+        font-size: 14px;
+    }
 
 /*--- Footer ---*/
+    .footer-img {
+         height: 35px;
+         width: 35px;
+    }
+}
 
+@media (max-width: 568px){
+    /*--- General Styles---*/
+    h2 {
+        margin: 10px 0px 10px 25px;
+        font-size: 25px;
+       }
+    p {
+        font-size: 16px;
+        width:100%
+    }
+    
+    /*--- Header ---*/
+    .title {
+        font-size: 2.9rem;
+        text-align: center;
+        display: inline;
+        margin: 10px 5px 5px 5px;
+    }
+
+    header img {
+        height:50px;
+        width: 40px;
+        margin: 0px;
+    }
+    
+    .brand-img {
+        height: 40px;
+        width: 45px;
+    }
+
+/*--- Summary ---*/
+
+/*--- Map & Accordion ---*/
+    #old-england h3 {
+        font-size: 28px;
+    }
+
+    #old-england button {
+        font-size: 13px;
+        margin-left: 129px;
+        display:block;
+    }
+/*--- Timeline ---*/
+    .timeline-title h4 {
+        margin: 25px 0px 0px 35px;
+    }
+
+    #timeline-item1{
+        padding-left: 0px;
+    }  
+
+    #timeline a{
+        color:#ddd;
+        margin-left: 5px;
+        font-size: 10px;
+    }
+
+    #timeline a i {
+        margin-right: 5px;
+    }
+
+    .timeline-bar .container-fluid {
+       max-height: 35px;
+   }
+
+    .nav-down-back{
+        background-color:rgb(9, 124, 128, .9);
+        width:35%;
+    }
+
+    #reset {
+        margin-left: 450px;
+        font-size: 14px;
+    }
+
+/*--- Footer ---*/
+    .footer-img {
+         height: 35px;
+         width: 35px;
+    }
 }
 
 @media (max-width: 415px){
