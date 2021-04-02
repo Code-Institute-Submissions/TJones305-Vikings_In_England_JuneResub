@@ -199,7 +199,7 @@ background-color: rgb(170, 3, 3);
 }
 
 /*--- Timeline ---*/
-/*Credit to W3Schools for base code for the timeline found here https://www.w3schools.com/howto/howto_css_timeline.asp*/
+
 #timeline a {
    margin-left: 10px;
    font-weight: 900;
@@ -219,6 +219,11 @@ margin-top: 30px;
  background-color: rgb(132, 248, 252);  
  margin-top: 0px;
  padding-top: 0px;
+}
+
+#longboat {
+    width: 30px;
+    height: 30px;
 }
 
 #timeline-information {
@@ -428,6 +433,10 @@ margin-top: 30px;
 
 #feedbk h2{
     margin: 10px 0px 10px 0px;
+}
+
+#feedbk p{
+    font-size: 16px;
 }
 
 .form-control {

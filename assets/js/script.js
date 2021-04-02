@@ -140,73 +140,84 @@ function colorChange(event) {
                 document.getElementById("timeline-para").innerText = document.getElementById("timeline-para1").textContent;
                 hideAll();
                 document.getElementById('tl-img1').style.display = "block";
+                document.getElementById("longboat").style.marginLeft = "8%";
                 break;
             case "timeline-item2":
                 document.getElementById("timeline-heading").innerText = document.getElementById("timeline-heading2").textContent;
                 document.getElementById("timeline-para").innerText = document.getElementById("timeline-para2").textContent;
                 hideAll();
                 document.getElementById("tl-img2").style.display = "block";
+                document.getElementById("longboat").style.marginLeft = "14%";
                 break;
             case "timeline-item3":
                 document.getElementById("timeline-heading").innerText = document.getElementById("timeline-heading3").textContent;
                 document.getElementById("timeline-para").innerText = document.getElementById("timeline-para3").textContent;
                 hideAll();
                 document.getElementById("tl-img3").style.display = "block";
+                document.getElementById("longboat").style.marginLeft = "22%";
                 break;
             case "timeline-item4":
                 document.getElementById("timeline-heading").innerText = document.getElementById("timeline-heading4").textContent;
                 document.getElementById("timeline-para").innerText = document.getElementById("timeline-para4").textContent;
                 hideAll();
                 document.getElementById("tl-img4").style.display = "block";
+                document.getElementById("longboat").style.marginLeft = "32%";
                 break;
             case "timeline-item5":
                 document.getElementById("timeline-heading").innerText = document.getElementById("timeline-heading5").textContent;
                 document.getElementById("timeline-para").innerText = document.getElementById("timeline-para5").textContent;
                 hideAll();
                 document.getElementById("tl-img5").style.display = "block";
+                document.getElementById("longboat").style.marginLeft = "40%";
                 break;
             case "timeline-item6":
                 document.getElementById("timeline-heading").innerText = document.getElementById("timeline-heading6").textContent;
                 document.getElementById("timeline-para").innerText = document.getElementById("timeline-para6").textContent;
                 hideAll();
                 document.getElementById("tl-img6").style.display = "block";
+                document.getElementById("longboat").style.marginLeft = "48%";
                 break;
             case "timeline-item7":
                 document.getElementById("timeline-heading").innerText = document.getElementById("timeline-heading7").textContent;
                 document.getElementById("timeline-para").innerText = document.getElementById("timeline-para7").textContent;
                 hideAll();
                 document.getElementById("tl-img7").style.display = "block";
-
+                document.getElementById("longboat").style.marginLeft = "55%";
                 break;
             case "timeline-item8":
                 document.getElementById("timeline-heading").innerText = document.getElementById("timeline-heading8").textContent;
                 document.getElementById("timeline-para").innerText = document.getElementById("timeline-para8").textContent;
                 hideAll();
                 document.getElementById("tl-img8").style.display = "block";
+                document.getElementById("longboat").style.marginLeft = "62%";
                 break;
             case "timeline-item9":
                 document.getElementById("timeline-heading").innerText = document.getElementById("timeline-heading9").textContent;
                 document.getElementById("timeline-para").innerText = document.getElementById("timeline-para9").textContent;
                 hideAll();
                 document.getElementById("tl-img9").style.display = "block";
+                document.getElementById("longboat").style.marginLeft = "70%";
                 break;
             case "timeline-item10":
                 document.getElementById("timeline-heading").innerText = document.getElementById("timeline-heading10").textContent;
                 document.getElementById("timeline-para").innerText = document.getElementById("timeline-para10").textContent;
                 hideAll();
                 document.getElementById("tl-img10").style.display = "block";
+                document.getElementById("longboat").style.marginLeft = "79%";
                 break;
             case "timeline-item11":
                 document.getElementById("timeline-heading").innerText = document.getElementById("timeline-heading11").textContent;
                 document.getElementById("timeline-para").innerText = document.getElementById("timeline-para11").textContent;
                 hideAll();
                 document.getElementById("tl-img11").style.display = "block";
+                document.getElementById("longboat").style.marginLeft = "88%";
                 break;
             case "timeline-item12":
                 document.getElementById("timeline-heading").innerText = document.getElementById("timeline-heading12").textContent;
                 document.getElementById("timeline-para").innerText = document.getElementById("timeline-para12").textContent;
                 hideAll();
                 document.getElementById("tl-img12").style.display = "block";
+                document.getElementById("longboat").style.marginLeft = "95%";
                 break;
             default:
                 clicked_id === "reset";
@@ -214,5 +225,6 @@ function colorChange(event) {
                 document.getElementById("timeline-para").innerText = "You've reset the timeline! Pick a year from above or admire the Viking Compass!";
                 hideAll();
                 document.getElementById("imgHold").style.display = "block";
+                document.getElementById("longboat").style.marginLeft = "1%";
         }
     };
