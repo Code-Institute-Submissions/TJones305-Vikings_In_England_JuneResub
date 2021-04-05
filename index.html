@@ -170,7 +170,7 @@
     <div class="timeline-title">
         <h2> Viking England Timeline</h2>
         <h4> (select a year and scroll down to read content)</h4>
-        <button id="reset" onclick="fillTimeline(this.id)">Reset Timeline</button>
+        <button id="reset" onclick="fillTimeline(this.id, 1)">Reset Timeline</button>
     </div>
     
     <!--Timeline slider to go between significant historical dates-->
@@ -184,46 +184,47 @@
                   </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent2">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav-down-back">
-                    <li class="nav-item" id="timeline-item1" onclick="fillTimeline(this.id)">
+                    <li class="nav-item animate" id="timeline-item1" onclick="fillTimeline(this.id,8)">
                         <a class="nav-link" aria-current="page"><i class="fas fa-crow"></i>789a.d.</a>
                     </li> 
-                    <li class="nav-item" id="timeline-item2" onclick="fillTimeline(this.id)">
+                    <li class="nav-item animate" id="timeline-item2" onclick="fillTimeline(this.id,14)">
                         <a class="nav-link" aria-current="page"><i class="fas fa-dragon"></i> 793a.d.</a>
                     </li>
-                    <li class="nav-item" id="timeline-item3" onclick="fillTimeline(this.id)">
+                    <li class="nav-item animate" id="timeline-item3" onclick="fillTimeline(this.id,22)">
                         <a class="nav-link " aria-current="page"><i class="fas fa-crow"></i> C.852-856a.d.</a>
                     </li>
-                    <li class="nav-item" id="timeline-item4" onclick="fillTimeline(this.id)">
+                    <li class="nav-item animate" id="timeline-item4" onclick="fillTimeline(this.id,32)">
                         <a class="nav-link " aria-current="page"><i class="fas fa-dragon"></i> 865-874a.d.</a>
                     </li> 
-                    <li class="nav-item" id="timeline-item5" onclick="fillTimeline(this.id)">
+                    <li class="nav-item" id="timeline-item5" onclick="fillTimeline(this.id, 40)">
                         <a class="nav-link" aria-current="page"><i class="fas fa-crow"></i> 866a.d.i</a>
                     </li>
-                    <li class="nav-item" id="timeline-item6" onclick="fillTimeline(this.id)">
+                    <li class="nav-item" id="timeline-item6" onclick="fillTimeline(this.id, 48)">
                         <a class="nav-link " aria-current="page"><i class="fas fa-dragon"></i> 866a.d.ii</a>
                     </li>
-                    <li class="nav-item" id="timeline-item7" onclick="fillTimeline(this.id)">
+                    <li class="nav-item" id="timeline-item7" onclick="fillTimeline(this.id, 55)">
                         <a class="nav-link " aria-current="page"><i class="fas fa-crow"></i> 911a.d.</a>
                     </li> 
-                    <li class="nav-item" id="timeline-item8" onclick="fillTimeline(this.id)">
+                    <li class="nav-item" id="timeline-item8" onclick="fillTimeline(this.id,62)">
                         <a class="nav-link" aria-current="page"><i class="fas fa-dragon"></i> 954a.d.</a>
                     </li>
-                    <li class="nav-item" id="timeline-item9" onclick="fillTimeline(this.id)">
+                    <li class="nav-item" id="timeline-item9" onclick="fillTimeline(this.id,70)">
                         <a class="nav-link " aria-current="page"><i class="fas fa-crow"></i> 959-1013a.d</a>
                     </li>
-                    <li class="nav-item" id="timeline-item10" onclick="fillTimeline(this.id)">
+                    <li class="nav-item" id="timeline-item10" onclick="fillTimeline(this.id,79)">
                         <a class="nav-link " aria-current="page"><i class="fas fa-dragon"></i> 1016-1030a.d.</a>
                     </li> 
-                    <li class="nav-item" id="timeline-item11" onclick="fillTimeline(this.id)">
+                    <li class="nav-item" id="timeline-item11" onclick="fillTimeline(this.id,88)">
                         <a class="nav-link" aria-current="page"><i class="fas fa-crow"></i> 1042a.d.</a>
                     </li>
-                    <li class="nav-item" id="timeline-item12" onclick="fillTimeline(this.id)">
+                    <li class="nav-item" id="timeline-item12" onclick="fillTimeline(this.id,95)">
                         <a class="nav-link " aria-current="page"> <i class="fas fa-dragon"></i>1066a.d</a>
                     </li>
                 </ul>
                 </div>
             </div>
     </nav>
+    
     <div><img src="assets/images/viking-ship.png" alt="viking ship" id="longboat"/></div>
 
     <div id="timeline-information">
