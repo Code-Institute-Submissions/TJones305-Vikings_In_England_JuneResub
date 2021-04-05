@@ -218,7 +218,7 @@ function colorChange(event) {
         animate(point);
     };
 
-    //listener event
+
     function animateLongboat(obj, from, to) {
 
         if(from >= to){
@@ -237,10 +237,14 @@ function colorChange(event) {
     }
 
         function animate(point) {
-        let boat = document.getElementById("longboat").style.marginLeft;
-        console.log(boat);    
-        animateLongboat(document.getElementById("longboat"), 1, point);
-        
+        let boat = $("#longboat").css("margin-left");
+        console.log(boat);
+        /*var pixels = 100;
+        var screenWidth = window.screen.width;
+        var percentage = ( screenWidth - pixels ) / screenWidth ;
+        */
+        let start = point-10;
+        animateLongboat(document.getElementById("longboat"), start, point);
     }
 
    /*function getCssProperty(elmId, property){
