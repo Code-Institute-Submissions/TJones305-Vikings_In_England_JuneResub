@@ -232,23 +232,16 @@ function colorChange(event) {
                 animateLongboat(obj, from + 1, to);   
             }, 85)
         } else {
-            longboat.shake;
+            longboat.shake;//not currently active
         }
     }
 
-        function animate(point) {
-        let boat = $("#longboat").css("margin-left");
-        console.log(boat);
-        /*var pixels = 100;
-        var screenWidth = window.screen.width;
-        var percentage = ( screenWidth - pixels ) / screenWidth ;
-        */
-        let start = point-10;
-        animateLongboat(document.getElementById("longboat"), start, point);
-    }
+        
 
-   /*function getCssProperty(elmId, property){
-   let elem = document.getElementById(elmId);
-   return window.getComputedStyle(elem,null).getPropertyValue(property);
-}*/
-//var left = getCssProperty("longboat", "left")
+        function animate(point) {
+        let boat = $('#longboat').position(); //gets position values of longboat img
+        console.log(boat.left)
+        let start = (point-8.4)-(0.16/boat.left * 100); // second bracket converts pixel value of left position to percentage value
+        console.log(start);
+        animateLongboat(document.getElementById("longboat"), start, point);        
+    }
