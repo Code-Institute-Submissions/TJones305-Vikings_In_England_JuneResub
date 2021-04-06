@@ -219,12 +219,16 @@ margin-top: 30px;
  background-color: rgb(132, 248, 252);  
  margin-top: 0px;
  padding-top: 0px;
+
+}
+#animateBox{
+ margin-left: 1px;
 }
 
 #longboat {
     width: 30px;
     height: 30px;
-    margin-left: 1%;
+    margin-left:1%;
 }
 
 #timeline-information {

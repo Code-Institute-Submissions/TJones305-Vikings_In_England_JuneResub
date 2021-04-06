@@ -224,15 +224,13 @@ function colorChange(event) {
         if(from >= to){
             return;
 
-        } else if (from < to) { 
+        } else { 
             let box = obj;
             box.style.marginLeft = from + "%";
             console.log(box.style.marginLeft);
             setTimeout(function(){
                 animateLongboat(obj, from + 1, to);   
-            }, 85)
-        } else {
-            longboat.shake;//not currently active
+            }, 85)   
         }
     }
 
@@ -240,8 +238,8 @@ function colorChange(event) {
 
         function animate(point) {
         let boat = $('#longboat').position(); //gets position values of longboat img
-        console.log(boat.left)
-        let start = (point-8.4)-(0.16/boat.left * 100); // second bracket converts pixel value of left position to percentage value
+        console.log(boat.left);
+        let start = (point+7)-(0.16/boat.left * 100); // second bracket converts pixel value of left position to percentage value
         console.log(start);
-        animateLongboat(document.getElementById("longboat"), start, point);        
+        animateLongboat(document.getElementById("longboat"), start, point);
     }
