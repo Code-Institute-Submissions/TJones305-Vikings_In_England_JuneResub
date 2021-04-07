@@ -1,31 +1,31 @@
-# Vikings in England !(/assets/images/viking-ship.png "Viking Ship")
+# Vikings in England
 
 ####  A link to the live site is here: [Vikings In England](https://tjones305.github.io/Vikings_In_England/) 
 
  **This is an educational website designed to inform users about the Vikings during thier time in England.** 
- **It has been designed to be interactive and informative for three user groups, first time visitors, students and casual historians**
+ **It has been designed to be interactive and informative for three user groups, first time visitors, students and History Enthusiast**
 
 ## User Experience (UX) User stories
 
 ### First Time Visitor Goals 
-- As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about Gerrards Cross Bowls Club. 
-- As a First Time Visitor, I want to be able to easily navigate throughout the site to find content. 
-- As a First Time Visitor, I want to look for information that allows me to see what the club are about other than bowls. I also want to locate external links to national and county affiliations to determine how renown the club is and know how they are viewed in the wider bowls community.
+- As a First Time Visitor, I want to easily understand the main purpose of the page and learn more about the Vikings. 
+- As a First Time Visitor, I want to be able to easily navigate throughout the page to find content. 
+- As a First Time Visitor, I want the page visually appealing.
 
 ### Student Visitor Goals 
-- As a Prospective Member, I want to find information about coaching, membership and media that would aid my enthusiasm and theorectical knowledge of bowls. 
-- As a Prospective Member, I want a variety of ways to get in contact with the club with any questions I may have. 
-- As a Prospective Member, I want to have a contact should I wish to apply to sign up.
+- As a Student, I want to find information about the vikings that aids my understanding. 
+- As a Student, I want interaction to make learning fun and accesible. 
+- As a Student, I want imagery to assist with the written theory.
 
-### Casual Historian Goals 
-- As a Current Member, I want to access the current members site at myClubhouse from the main site. 
-- As a Current Member, I want to check to see if there is any updated news. 
-- As a Current Member, I want to easily access external links that provide me with additional bowls information.
+### History Enthusiast Goals 
+- As a History Enthusiast, I want to explore the areas of England. 
+- As a History Enthusiast, I want to understand the underlying situations in England. 
+- As a History Enthusiast, I want to clarify the order of events during the vikings time in England.
 
 ## Design 
 
 ### **Colour Scheme** 
-The main colour used for the site was teal, this was inspired by Assasin's Creed Valhalla video game. Text colour was predominantly a charcoal black with the Title being Dark Blue. 
+The main colour used for the site was teal, this was inspired by the Assassin's Creed Valhalla video game. Text colour was predominantly a charcoal black with the Title being Dark Blue. 
 
 ### **Typography** 
 Two font styles were used on the site, courtesy of Google Fonts, the most predominant style was Raleway with the fallback of sans-serif and the other style used on headings was Rye with a fallback of cursive.
@@ -41,15 +41,15 @@ Finally, on the timeline navbar the dates are preceeded by the icon of either a 
 
 1. Desktop
 
-![Wireframe Desktop](/assets/images/rm/ "Wireframe Desktop")
+![Wireframe Desktop](/assets/images/rm/wireframe-viking-home-desktop "Wireframe Desktop")
 
 2. Tablet
 
-![Wireframe Tablet](/assets/images/rm/ "Wireframe Tablet")
+![Wireframe Tablet](/assets/images/rm/wireframe-viking-home-tablet "Wireframe Tablet")
 
 3. Mobile
 
-![Wireframe Mobile](/assets/images/rm/ "Wireframe Mobile")
+![Wireframe Mobile](/assets/images/rm/wireframe-viking-home-mobile "Wireframe Mobile")
 
 
 ### **Features**
@@ -65,21 +65,19 @@ JavaScript3
 
 ### **Frameworks, Libraries & Programs Used** 
 
-- Bootstrap 4.4.1: Bootstrap was used to assist with the responsiveness and styling of the website. Specific features include - navbar carousel, containers, carddecks/tiles. 
+- Bootstrap 5.0: Bootstrap was used to assist with the responsiveness and styling of the website. Specific features include - navbars, burger menu and accordion. 
  
-- Google Fonts: Google fonts was used to import the 'Raleway'and 'Rye' font into the style.css file which is used on all pages throughout the project. 
+- Google Fonts: Google fonts was used to import the 'Raleway'and 'Rye' font into the style.css file which is used throughout the page. 
 
-- Font Awesome: Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes. 
+- Font Awesome: Font Awesome was used on the navbars to add icons for aesthetic and UX purposes. 
 
-- jQuery: jQuery came with Bootstrap to make the navbar responsive but was also used for the carousel function in JavaScript. 
-
-- popper.min.js: popper.min.js was required for the carousel to function. 
-
+- jQuery: jQuery came with Bootstrap to make the navbar responsive. It was also used in script.js to develop parts of the functions used on the page. 
+ 
 - Git Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub. 
 
 - GitHub: GitHub is used to store the projects code after being pushed from Git. 
 
-- Balsamiq: Balsamiq was used to create the wireframes during the design process. 
+- Balsamiq: Balsamiq was used to produce wireframes during the design process. 
 
 > ## Testing 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
@@ -91,7 +89,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 ### **W3C CSS Validator**  
 
 ![CSS Validator Report](/assets/images/rm/ "CSS Validator")
-	The result of the CSS validator highlighted 2 errors, both of these errors are associated with Bootstrap's CDN, which the developer hasn't access to change. 
+	The result of the CSS validator highlighted 17 errors, these errors are associated with Bootstrap's CDN, which the developer hasn't access to change. 
 
 ### **Lighthouse** 
 
@@ -100,152 +98,45 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 > ## Testing User Stories from User Experience (UX) Section
 
 ##  *First Time Visitor Goals*  
-- As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about Gerrards Cross Bowls Club. 
-	
-Upon entering the site, users are automatically greeted with a simple,clear and visual navigation bar to go to the page of their choice. 
-- Desktop 
+- As a First Time Visitor, I want to easily understand the main purpose of the page and learn more about the Vikings. 
 
-![Gerrards Cross Bowls Landing Page](assets/images/rm/ "Gerrards Cross Landing Page")
 
-- Tablet
+- As a First Time Visitor, I want to be able to easily navigate throughout the page to find content. 
 
-![Gerrards Cross Bowls Landing Page](assets/images/rm/ "Gerrards Cross Landing Page")
 
-- Mobile
+- As a First Time Visitor, I want the page visually appealing.
 
-![Gerrards Cross Bowls Landing Page](assets/images/rm/ "Gerrards Cross Landing Page")
+### *Student Goals* 
 
-Below there is welcoming club summary and an image carousel which advertises the club as accessible for all levels and ages. 
-The User gains their intially needs from the summary and images, after which they can either scroll down to the map to see the club location or choose to visit one of the other webpages for further information. 
-	
-- As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
+- As a Student, I want to find information about the vikings that aids my understanding. 
 
-The site has been designed to be easily accesible so that somebody with low compentency in using technology can navigate with confidence. 
-At the top of each page there is a navigation bar comprising of clear text accompanied with an icon to signpost what the User can resonably expect to find clearly. 
 
-![Gerrards Cross Bowls nav bar](assets/images/rm/ "Gerrards Cross Nav Bar")
+- As a Student, I want interaction to make learning fun and accesible. 
 
-On the bottom of each page are links to club affiliations allowing Users to gain additional information form external sites. These links will open in a new tab so the user does not lose their place on the site.
 
-![Gerrards Cross Bowls footer](assets/images/rm/ "Gerrards Cross footer")
+- As a Student, I want imagery to assist with the written theory.
 
-The Members page is the heaviest for content comprising of membership details, a simple explaination of the game of bowls and video content to aid in understanding a theorectical knowledge. The layout is clearly labelled for each section allowing the User to browse the site as required. 
+### *History Enthusiast Goals* 
 
-![Gerrards Cross Bowls Members Page](assets/images/rm/ "Gerrards Cross members page")
+- As a History Enthusiast, I want to explore the areas of England. 
 
-- As a First Time Visitor, I want to look for information that allows me to see what the club are about other than bowls. I also want to locate external links to national and county affiliations to determine how renown the club is and know how they are viewed in the wider bowls community.
 
-When on the site Users will see the images on the carousel which give a realistic taste of club life.
+- As a History Enthusiast, I want to understand the underlying situations in England. 
 
-![Gerrards Cross Bowls Landing Page](assets/images/rm/ "Gerrards Cross bowlers on green")
 
-![Gerrards Cross Bowls Landing Page](assets/images/rm/ "Gerrards Cross leamington")
-
-![Gerrards Cross Bowls Landing Page](assets/images/rm/ "Gerrards Cross coaching") 
-
-On the news page there are 3 clearly defined boxes for differnt type of news labelled competition, social and member.
-
-![Gerrards Cross Bowls news](assets/images/rm/ "Gerrards Cross competition") 
-
-![Gerrards Cross Bowls news](assets/images/rm/ "Gerrards Cross social")
-
-![Gerrards Cross Bowls news](assets/images/rm/ "Gerrards Cross member")
-
-At the bottom of all pages are the club affiliations so they are easily accessible regardless of what page the user finds themselves on.
-
-![Gerrards Cross Bowls affiliations](assets/images/rm/ "Gerrards Cross affiliations")
-
-### *Prospective Member Goals* 
-
-- As a Prospective Member, I want to find information about coaching, membership and media that would aid my enthusiasm and theorectical knowledge of bowls.
-
-Using the navigation bar at the top it is easy to navigate to the members page.
-
-![Gerrards Cross Bowls members](assets/images/rm/ "Gerrards Cross members page highlighted")
-
-Once on the members page a prospective member would see * new member's information * as a heading, making it clear for the user where to go for this information. 
-
-![Gerrards Cross Bowls new members](assets/images/rm/ "Gerrards Cross new members")
-
-Under this section you find the * coaching * section, again clearly labelled.
-
-![Gerrards Cross Bowls coaching](assets/images/rm/ "Gerrards Cross coaching")
-
-The next section is full of media links with descriptions outlining the content a video link might play. 
-
-![Gerrards Cross Bowls media](assets/images/rm/ "Gerrards Cross Media")
-
-- As a Prospective Member, I want a variety of ways to get in contact with the club with any questions I may have.
-
-Prospective members who wish to contact the club have the club address, phone number and secretary e-mail at the bottom of each page labelled 'contact us'.
-
-![Gerrards Cross Bowls contact us](assets/images/rm/ "Gerrards Cross footer contact us")
-
-On the member's page in the new member's section there are contact details in bold.
-
-![Gerrards Cross Bowls new members](assets/images/rm/ "Gerrards Cross new information section")
- 
-- As a Prospective Member, I want to have a contact should I wish to apply to sign up.
-
-On the member's page this is clearly signposted by emphasising the information in bold, along with the contact name (see above image).
-
-### *Current Member Goals* 
-
-- As a Current Member, I want to access the current members site at myClubhouse from the main site.
- 
-When navigated to the member's page the current members button is clear to see on the right hand side due to its differentiation in colour scheme (dark blue background, light blue text).
-
-![Gerrards Cross Bowls current members](assets/images/rm/ "Gerrards Cross current members higlighted")
-
-After clicking on the button the current member will have the myClubhouse site open in a new tab.
-
-![Gerrards Cross Bowls myClubhouse](assets/images/rm/"Gerrards Cross myClubhouse new tab")
-
-- As a Current Member, I want to check to see if there is any updated news.
-On the navigation bar news is clearly labelled.
-
-![Gerrards Cross Bowls nav bar](assets/images/rm/ "Gerrards Cross nav bar news higlighted") 
-
-Once on the page current members have three sections which are labelled and have their own unique icon, making it simple to access the information they require.
-
-![Gerrards Cross Bowls news](assets/images/rm/"Gerrards Cross news key")
-
-- As a Current Member, I want to easily access external links that provide me with additional bowls information.
-
-At the bottom of every page their is a footer which content is consistent throughout all pages.
-- Index 
-
-![Gerrards Cross Bowls footer](assets/images/rm/ "Gerrards Cross index footer")
-- News 
-
-![Gerrards Cross Bowls footer](assets/images/rm/ "Gerrards Cross news footer")
-- Members 
-
-![Gerrards Cross Bowls footer](assets/images/rm/ "Gerrards Cross members footer")
-
-As a current member the most relevant section will be affiliations to access competition progress and submit results, this section is clearly titled and labelled with respective association badges to act as a visual aid.
-
-![Gerrards Cross Bowls affiliations](assets/images/rm/ "Gerrards Cross affiliations")
-
-Each affiliation link opens in a new tab:
-
-- Bowls England 
-
-![Gerrards Cross Bowls affiliations](assets/images/rm/ "Gerrards Cross Bowls England")
-
-- Buckinghamshire Bowls Association 
-
-![Gerrards Cross Bowls affiliations](assets/images/rm/ "Gerrards Cross Buckinghamshire Bowls Association")
-- London and Southern Counties Bowls Association 
-
-![Gerrards Cross Bowls affiliations](assets/images/rm/ "Gerrards Cross London and Southern Counties Bowls Association")
+- As a History Enthusiast, I want to clarify the order of events during the vikings time in England.
 
 ## **Further Testing** 
 - The Website was tested on Google Chrome, Opera, Microsoft Edge and Safari browsers. 
 - The website was viewed on a variety of devices such as Desktop, Laptop, iPad Air & iPhoneX. Other devices were tested through the inspect web developer tools.
 
 ##  **Known Bugs** 
-
+On the viking boat animation below the timeline, there a few points were the boat appears to move back before animating. 
+This is due to the margin-left value being a differential of 6 e.g.(item 1 8%, item 2 14%) and the animation function taking each point and taking 7 away.
+Visually this means that points that are a value or greater apart appear as though the ship is moving from the previous timeline item,
+whereas those that are less, move back before continuing the animation. 
+This was a contigency plan as the planned animation was to take the current value of margin left on the image as the start point and then move to the new location, however when
+implementing this the first value always return "null" on the console and despite many efforts in getting this to work the developer was unable to find a solution within their current ability. 
 
 > ## Deployment 
 
@@ -278,7 +169,7 @@ Example: Cloning into CI-Clone... remote: Counting objects: 10, done. remote: Co
 
 > ### Credits  
 
-- Bootstrap4: Bootstrap Library used throughout the project to make site responsive using the Bootstrap Grid System. Also for the navbar and accordion base code.
+- Bootstrap5: Bootstrap Library used throughout the project to make site responsive using the Bootstrap Grid System. Also for the navbar and accordion base code.
 
 - MDN Web Docs : For Pattern Validation code. Code was modified to better fit my needs.
 
@@ -286,16 +177,49 @@ Example: Cloning into CI-Clone... remote: Counting objects: 10, done. remote: Co
 
 #### *Media Images came from a variety of sources* 
 Credit goes to the following:
+- Heading Dragon Art edited from: https://fineartamerica.com/featured/viking-ship-nordic-runes-tshirt-bi-nutz.html
+- Viking boat in brand image and animation created by Darius Dan and found at: https://www.flaticon.com/free-icon/viking-ship_1793046?term=viking%20ship&page=1&position=4&page=1&position=4&related_id=1793046&origin=search 
+- Old English Territory flags came from: https://britishcountyflags.com
+- Footer Back to Top image aquired from: https://www.wellwood.ca/about-us/vision-values/
+
+Timeline images:
+- Viking Raid: https://imgur.com/gallery/pyVnohs
+- Raid on Lindisfarne monastery: https://www.abc.net.au/radio/programs/nightlife/twih-lindesfarne-raids/11192374
+- Ragnar Lothbrok in snake pit: https://www.ancientpages.com/2016/04/24/famous-viking-ragnar-lodbrok-legendary-fearless-sea-king-of-the-north/
+- Great Heathen Army Conquests: 
+- Vikings invade York: https://medium.com/@Bavipower/how-the-vikings-worked-3dcf9b2491ee
+- Map of Danelaw: http://viking.archeurope.info/index.php?page=the-danelaw-map
+- Map of Normandy: https://www.durhamworldheritagesite.com/learn/history/normans/founding-normandy
+- Eric Bloodaxe: https://bavipower.com/blogs/bavipower-viking-blog/erik-bloodaxe-viking-king-of-norway
+- Harald Bluetooth: https://imgur.com/gallery/GSdnz1G
+- King Cnut https://en.wikipedia.org/wiki/Cnut_the_Great
+- Edward the Confessor and Harold II, created from: 1)https://alchetron.com/Edward-the-Confessor 2)https://spartacus-educational.com/MEDharold.htm
+- Battle of Stamford Bridge and Battle of Hastings Map: https://spartacus-educational.com/NORhastings.htm
+- Viking Compass: 
 
 #### *Historical Research sources*
+All research was put into this ![word document](/assets/images/rm/media-sources.docx "research document") during planning key infomation below.
 
+All Old England Territories are based on the year 865AD using the following source: https://twitter.com/mapporntweet/status/1201396916501635072
+
+Modern Day Counties defined according to the following map at http://www.itraveluk.co.uk/maps/england/
+
+List of sources information was gathered from as follows:
+ - Wikipedia - for history of Old England Territories
+ - https://www.historyextra.com/period/anglo-saxon/key-viking-dates-lindisfarne-raid-swein-forkbeard-harald-hadrada-stamford-bridge/
+ - Curious Minds| All About History| Book of Vikings| ISSN: 2057-195X
+ - https://www.lifeinnorway.net/viking-timeline/
+ - YouTube| History With Hilbert| The History of the Vikings in England (AD. 793 – AD.1066)
+ - https://www.historic-uk.com/HistoryUK/HistoryofEngland/Great-Heathen-Army/
+ - University of Hull | Vikings up North: The Legend of Ragnar Hairy-Breeches. Audio clips at: https://hull-repository.worktribe.com/output/371612/vikings-up-north-the-legend-of-ragnar-hairy-breeches/
+ - http://www.bbc.co.uk/history/ancient/vikings/overview_vikings_01.shtml
+ - http://www.bbc.co.uk/history/ancient/vikings/bloodaxe_01.shtml
 
 > ## Acknowledgements 
 - My Mentor Gerry McBride for constructive feedback and continuous.
 
 - Student support at Code Institute for their helpful advice and guidance.
     
-
 > ### Limitations:
 The largest screen size accessible to the developer was 1366px-width, therefore larger screen sizes may display different to intented layout.
 
@@ -303,4 +227,3 @@ The largest screen size accessible to the developer was 1366px-width, therefore 
 > ### Future Additions:
 1. There is scope for this site to add additonal pages, for example the site can focus on other countries influenced by the vikings such as France and Ireland, or alternatively the site can focus on the culture and battle tactics of the vikings.
 
-### **Other Functionality for future update:**
