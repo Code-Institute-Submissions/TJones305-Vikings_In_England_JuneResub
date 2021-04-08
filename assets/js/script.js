@@ -35,6 +35,7 @@
 //Essex:{lat:51.8208543, lng:0.5536933},//London{lat:51.5268959, lng:-0.3394719}];*/
 
 //Google Maps:
+//Sets map and markers
 function initMap() {
     const map = new google.maps.Map(document.getElementById("map"), {
         zoom: 7.25,
@@ -85,6 +86,7 @@ function initMap() {
       ["Berkshire", 51.4045883, -1.0161207, 36, "assets/images/mercia-icon.png"],
     ];
 
+//Assigns marker positions and image
 function setMarkers(map) {
   const shape = {
     coords: [1, 1, 1, 20, 18, 20, 18, 1],
@@ -104,7 +106,7 @@ function setMarkers(map) {
 }
 }; 
 
-//changes color on accordion buttons when mouseenters and reverts when mouseleaves
+//Changes color on accordion buttons when mouseenters and reverts when mouseleaves. On non-desktop colour remains until next tap.
 function colorChange(event) {
     if (event.type === 'mouseenter') {
         let eastAnglia = document.getElementById("eastAnglia");
@@ -127,12 +129,13 @@ function colorChange(event) {
 }
         
     /* ---- Timeline --- */
-
+//Hides all images
     function hideAll() {
         const images = ["#imgHold", "#tl-img1", "#tl-img2", "#tl-img3", "#tl-img4", "#tl-img5", "#tl-img6", "#tl-img7", "#tl-img8", "#tl-img9", "#tl-img10", "#tl-img11", "#tl-img12"];
         $(images.join(', ')).css("display", "none");
     };
 
+//Fills the written and image content for each timeline point
     function fillTimeline(clicked_id, point) {
         
         switch (clicked_id) {
@@ -218,7 +221,7 @@ function colorChange(event) {
         animate(point);
     };
 
-
+//Animates the viking longboat under timeline
     function animateLongboat(obj, from, to) {
 
         if(from >= to){
@@ -234,8 +237,7 @@ function colorChange(event) {
         }
     }
 
-        
-
+//Caluculates the start and end points for the animation
         function animate(point) {
         let boat = $('#longboat').position(); //gets position values of longboat img
         console.log(boat.left);

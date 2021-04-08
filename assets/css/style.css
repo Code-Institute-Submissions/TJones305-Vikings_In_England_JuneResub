@@ -29,6 +29,7 @@ h2 {
 font-family: 'Raleway', sans-serif;
 font-family: 'Rye', cursive;
 */
+
 /*--- Header ---*/
 .title {
     color: #040a42d7;
@@ -53,17 +54,20 @@ header img {
     margin-top: 10px;
 }
 
+/*-- viking longboat on navbar --*/
 .brand-img {
     height: 50px;
     width: 65px
 }
 
+/*-- menu items --*/
 .nav-item {
    font-family: 'Raleway', sans-serif;
    font-weight: 900;
    font-size: 17px;
 }
 
+/*-- Font Awsome icons (i) --*/
 a i {
     margin-left: 6px;
 }
@@ -73,12 +77,14 @@ span i {
 }
 
 /*--- Summary ---*/
+/*-- summary title --*/
 #intro h2 {
     margin: 20px 2px 2px 2px;
     font-weight: 600;
     text-decoration: underline;
 }
 
+/* final line on summary*/
 h3 {
     font-family: 'Raleway', sans-serif;
     font-style: italic;
@@ -86,7 +92,7 @@ h3 {
     margin: 2px;
 }
 
-/* horizontal rule above Maps and Accordion*/
+/* Horizontal rule above Maps and Accordion*/
 
 /*--- Maps and Accordion ---*/
 
@@ -95,6 +101,7 @@ h3 {
     padding-left: 5px;
 }
 
+/*-- Accordion styles --*/
 #old-england {
     max-width: 49%;
     display: table-cell;
@@ -136,6 +143,7 @@ h3 {
 
 }
 
+/* Accordion background colours*/
 #headingTitle {
     text-align: center;
     background-color: #ffdcc3;
@@ -157,6 +165,7 @@ background-color: rgb(119, 14, 45);
 background-color: rgb(170, 3, 3);
 }
 
+/*-- Google Map Styling --*/
 #map {
     height: 550px;
     width: 49%;
@@ -165,7 +174,6 @@ background-color: rgb(170, 3, 3);
 }
 
 /* horizontal rule above timeline*/
-
 
 /*-- Timeline Title --*/
 .timeline-title h2 {
@@ -185,6 +193,7 @@ background-color: rgb(170, 3, 3);
     display: inline;
 }
 
+/*-- Reset Button styles --*/
 #reset {
     margin:0px;
     margin-left: 1000px;
@@ -200,6 +209,7 @@ background-color: rgb(170, 3, 3);
 
 /*--- Timeline ---*/
 
+/*-- Timeline links--*/
 #timeline a {
    margin-left: 10px;
    font-weight: 900;
@@ -207,6 +217,7 @@ background-color: rgb(170, 3, 3);
    color: #111;
 }
 
+/*-- sets first timeline item, creates room for back to top button to slide --*/
 #timeline-item1{
 padding-left: 50px;
 }
@@ -220,6 +231,7 @@ margin-top: 30px;
  margin-top: 0px;
  padding-top: 0px;
 
+ /*-- animation image initial styling -- */
 }
 #animateBox{
  margin-left: 1px;
@@ -231,12 +243,14 @@ margin-top: 30px;
     margin-left:1%;
 }
 
+/*-- div containing timeline text and images --*/
 #timeline-information {
     display: table-row;
     padding:0px;
     margin:0px;
 }
 
+/*-- written timeline content --*/
 #timeline-content {
     font-family:"Raleway", sans-serif;
     font-size: 25px;
@@ -269,6 +283,7 @@ margin-top: 30px;
     margin-left: 5px;
 }
 
+/* written content displayed not visible until requested */
 #timeline-content1 {
     display:none;
     height:0px;
@@ -329,6 +344,7 @@ margin-top: 30px;
     height:0px;
 }
 
+/*-- div containing images --*/
 #tl-img{
      display:table-cell;
      vertical-align: top;
@@ -336,7 +352,7 @@ margin-top: 30px;
      padding-top: 2%;
      width:100%;
 }
-
+/*-- default holding image --*/
 #imgHold {
     height:250px;
     width:250px;
@@ -345,6 +361,7 @@ margin-top: 30px;
     display:block;
 }
 
+/*-- timeline images displayed as not visible until requested --*/
 #tl-img1 {
     height:450px;
     width:450px;
@@ -461,20 +478,6 @@ margin-top: 30px;
 }
 
 /*--- Media Queries ---*/
-
-@media (max-width: 1366px){
-/*--- Header ---*/
-
-/*--- Summary ---*/
-
-/*--- Map & Accordion ---*/
-
-/*--- Timeline ---*/
-
-/*--- Footer ---*/
-
-}
-
 @media (max-width: 1113px){
 /*--- Header ---*/
     .title {
