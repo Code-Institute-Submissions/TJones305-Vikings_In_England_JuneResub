@@ -101,25 +101,25 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 - As a First Time Visitor, I want to easily understand the main purpose of the page and learn more about the Vikings. 
 
 Upon arriving at the page the title immediately gives the user an overview of the page content.
-*insert image* 
+![Title](/assets/images/rm/title.png "Title")
 The options on the menu given further depth into what can be expected from the content.
-*insert image*
+![Navbar](/assets/images/rm/navbar.png "Navbar")
 The user can then find informaion about the vikings throughout the page starting with the summary paragraph, through to the timeline
-*insert images*
+![Top of Page](/assets/images/rm/top-of-page.png "Top of Page")
 
 - As a First Time Visitor, I want to be able to easily navigate throughout the page to find content. 
 
 The user can easily navigate through the page wherever they are on the page. 
 At the top of the page the user has the option to jump to the relevant section.
-*insert image*
+![Navbar](/assets/images/rm/navbar.png "Navbar")
 Once in the the page content the user can get back to the top of the page in one click by using the back to top link
-*insert image*
+![Back to top](/assets/images/rm/back-to-top.png "Back to Top")
 
 - As a First Time Visitor, I want the page visually appealing.
 
 The user is greeted by vibrant colours when arriving on the page, which creates a welcoming atmosphere.
 Rye and Raleway fonts add to this by creating a modern look that is aligned with the page theme.
-*insert image*
+![Top of Page](/assets/images/rm/top-of-page.png "Top of Page")
 
 ### *Student Goals* 
 
@@ -128,24 +128,26 @@ Rye and Raleway fonts add to this by creating a modern look that is aligned with
 This is achieved in multiple ways on the page.
 Firstly Google Maps has been coded to render each modern county but the differs to show the English Territory to which it formerly belonged.
 this creates a visual understanding of how England was divided. 
-*insert image*
+![Google Maps](/assets/images/rm/google-maps.png "Google Maps")
 
 To further aid Goolge Maps the accordion feature in position next to it, dispalying the same flags but with the addition of the territory names, by doing this it is acting as a key for the map.
-*insert image*
+![Maps and Accordion](/assets/images/rm/map-and-accordion.png "Maps and Accordion")
 
-The accordion also provides additonal information about the history or each area adding an extra laer of understanding.
+The accordion also provides additonal information about the history or each area adding an extra layer of understanding.
 
 Further down the page the timeline acts as another visual experience. 
-*insert image*
+![Timeline](/assets/images/rm/timeline.png "Timeline")
 
 - As a Student, I want interaction to make learning fun and accesible. 
+
 The use of interactive elements, such as Google Maps, Accordion and Timeline promotes engaging and fun material which makes the learning more accesible
-*insert image*
+![Maps and Accordion](/assets/images/rm/map-and-accordion.png "Maps and Accordion")
+![Timeline](/assets/images/rm/timeline.png "Timeline")
 
 - As a Student, I want imagery to assist with the written theory.
 
-By displaying images for each written section on the timeline, the developer has ensure that difffering learning styles are met.
-*insert image*
+By displaying images for each written section on the timeline, the developer has ensure that differing learning styles are met.
+![Timeline text and images](/assets/images/rm/text-and-image.png "Timeline text and images")
 
 ### *History Enthusiast Goals* 
 
@@ -153,23 +155,27 @@ By displaying images for each written section on the timeline, the developer has
 
 On Google Maps it is possible to zoom the map in and out with the flags displayed, this allows for the user to explore where their location was previously in history.
 There is also the option to see the county name by hovering of the left of the flags.
-*insert image*
+![Maps Hover](/assets/images/rm/hover-flag.png "Maps Hover")
 
-On the accordion, the four territories each have their own section with an explaniation of their history.
-*insert image*
+On the accordion, the four territories each have their own section with an explanation of their history.
+![East Anglia](/assets/images/rm/accor-east.png "East Anglia")
 
 - As a History Enthusiast, I want to understand the underlying situations in England. 
 This can be located by the user by exploring the territories of England. Each section details how these areas where formed. 
+East Anglia is seen above. 
+![Mercia](/assets/images/rm/accor-merc.png "Mercia")
+![Northumbria](/assets/images/rm/accor-north.png "Northumbria")
+![Wessex](/assets/images/rm/accor-wess.png "Wessex")
 
 - As a History Enthusiast, I want to clarify the order of events during the vikings time in England.
 
-The timeline feature clearly shows events in chronilogical order.
-*insert image*
+The timeline feature clearly shows events in chronological order.
+![Timeline](/assets/images/rm/timeline.png "Timeline")
 
-Where more than major event happen in a period of time the earliest year was set first followed by the next chronilogical.
+Where more than major event happen in a period of time the earliest year was set first followed by the next chronological.
 This is the case between 865-874 A.D where with in this time period two major events occured in 866A.D., the developer therefore
 decided that it was best to label them i and ii to acknowledge that there were seperate events.
-*insert image* 
+![Timeline Section](/assets/images/rm/timeline-section.png "Timeline Section")
 
 ## **Further Testing** 
 - The Website was tested on Google Chrome, Opera, Microsoft Edge and Safari browsers. 
