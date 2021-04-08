@@ -84,16 +84,17 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### **W3C Markup Validator**
 
-![Markup Validator Report](/assets/images/rm/"Markup Validator")
+![Markup Validator Report](/assets/images/rm/markup-validator.png "Markup Validator")
 
 ### **W3C CSS Validator**  
 
-![CSS Validator Report](/assets/images/rm/ "CSS Validator")
-	The result of the CSS validator highlighted 17 errors, these errors are associated with Bootstrap's CDN, which the developer hasn't access to change. 
+![CSS Validator Report](/assets/images/rm/css-validator.png "CSS Validator")
+	The result of the CSS validator highlighted 17 errors, these errors are associated with Bootstrap 5's CDN, which the developer hasn't access to. 
 
 ### **Lighthouse** 
 
-![Lighthouse Report](/assets/images/rm/ "Lighthouse Report")
+![Lighthouse Report Desktop](/assets/images/rm/lighthouse-desktop.png "Lighthouse Report Desktop")
+![Lighthouse Report Mobile](/assets/images/rm/lighthouse-mobile.png "Lighthouse Report Mobile")
 
 > ## Testing User Stories from User Experience (UX) Section
 
