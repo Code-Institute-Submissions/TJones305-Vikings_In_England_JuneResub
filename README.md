@@ -41,15 +41,15 @@ Finally, on the timeline navbar the dates are preceeded by the icon of either a 
 
 1. Desktop
 
-![Wireframe Desktop](/assets/images/rm/wireframe-viking-home-desktop "Wireframe Desktop")
+![Wireframe Desktop](/assets/images/rm/wireframe-viking-home-desktop.pdf "Wireframe Desktop")
 
 2. Tablet
 
-![Wireframe Tablet](/assets/images/rm/wireframe-viking-home-tablet "Wireframe Tablet")
+![Wireframe Tablet](/assets/images/rm/wireframe-viking-home-tablet.pdf "Wireframe Tablet")
 
 3. Mobile
 
-![Wireframe Mobile](/assets/images/rm/wireframe-viking-home-mobile "Wireframe Mobile")
+![Wireframe Mobile](/assets/images/rm/wireframe-viking-home-mobile.pdf "Wireframe Mobile")
 
 
 ### **Features**
@@ -85,6 +85,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 ### **W3C Markup Validator**
 
 ![Markup Validator Report](/assets/images/rm/markup-validator.png "Markup Validator")
+    The Markup Validator highlight 5 warnings which all related to specifing the script format as "text/javascript". The developer has left this, as they have been taught it to be good practice.
 
 ### **W3C CSS Validator**  
 
@@ -102,9 +103,13 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 - As a First Time Visitor, I want to easily understand the main purpose of the page and learn more about the Vikings. 
 
 Upon arriving at the page the title immediately gives the user an overview of the page content.
+
 ![Title](/assets/images/rm/title.png "Title")
-The options on the menu given further depth into what can be expected from the content.
+
+The options on the menu give further depth into what can be expected from the content.
+
 ![Navbar](/assets/images/rm/navbar.png "Navbar")
+
 The user can then find informaion about the vikings throughout the page starting with the summary paragraph, through to the timeline
 ![Top of Page](/assets/images/rm/top-of-page.png "Top of Page")
 
@@ -112,14 +117,18 @@ The user can then find informaion about the vikings throughout the page starting
 
 The user can easily navigate through the page wherever they are on the page. 
 At the top of the page the user has the option to jump to the relevant section.
+
 ![Navbar](/assets/images/rm/navbar.png "Navbar")
-Once in the the page content the user can get back to the top of the page in one click by using the back to top link
+
+Once in the main page content the user can get back to the top of the page in one click by using the back to top link
+
 ![Back to top](/assets/images/rm/back-to-top.png "Back to Top")
 
 - As a First Time Visitor, I want the page visually appealing.
 
-The user is greeted by vibrant colours when arriving on the page, which creates a welcoming atmosphere.
+The user is greeted by bright colours when arriving on the page, which creates a welcoming and postive feeling.
 Rye and Raleway fonts add to this by creating a modern look that is aligned with the page theme.
+
 ![Top of Page](/assets/images/rm/top-of-page.png "Top of Page")
 
 ### *Student Goals* 
@@ -127,43 +136,52 @@ Rye and Raleway fonts add to this by creating a modern look that is aligned with
 - As a Student, I want to find information about the vikings that aids my understanding. 
 
 This is achieved in multiple ways on the page.
-Firstly Google Maps has been coded to render each modern county but the differs to show the English Territory to which it formerly belonged.
-this creates a visual understanding of how England was divided. 
+Firstly Google Maps has been coded to render each modern county, but the flag image differs to show the English territory to which it formerly belonged.
+This creates a visual understanding of how England was divided. 
+
 ![Google Maps](/assets/images/rm/google-maps.png "Google Maps")
 
-To further aid Goolge Maps the accordion feature in position next to it, dispalying the same flags but with the addition of the territory names, by doing this it is acting as a key for the map.
+To further aid Goolge Maps the accordion feature is positioned next to it, displaying the same flags but with the addition of the territory names, by doing this it is acting as a key for the map.
+
 ![Maps and Accordion](/assets/images/rm/map-and-accordion.png "Maps and Accordion")
 
-The accordion also provides additonal information about the history or each area adding an extra layer of understanding.
+The accordion also provides additonal information about the history of each area adding an extra layer of understanding.
 
 Further down the page the timeline acts as another visual experience. 
+
 ![Timeline](/assets/images/rm/timeline.png "Timeline")
 
 - As a Student, I want interaction to make learning fun and accesible. 
 
 The use of interactive elements, such as Google Maps, Accordion and Timeline promotes engaging and fun material which makes the learning more accesible
+
 ![Maps and Accordion](/assets/images/rm/map-and-accordion.png "Maps and Accordion")
 ![Timeline](/assets/images/rm/timeline.png "Timeline")
 
 - As a Student, I want imagery to assist with the written theory.
 
-By displaying images for each written section on the timeline, the developer has ensure that differing learning styles are met.
+By displaying images for each written section on the timeline, the developer has ensured that differing learning styles needs are met.
+
 ![Timeline text and images](/assets/images/rm/text-and-image.png "Timeline text and images")
 
 ### *History Enthusiast Goals* 
 
 - As a History Enthusiast, I want to explore the areas of England. 
 
-On Google Maps it is possible to zoom the map in and out with the flags displayed, this allows for the user to explore where their location was previously in history.
+On Google Maps it is possible to zoom the map in and out with the flags displayed, this allows for the user to explore where their location was in relation to the territories.
 There is also the option to see the county name by hovering of the left of the flags.
+
 ![Maps Hover](/assets/images/rm/hover-flag.png "Maps Hover")
 
 On the accordion, the four territories each have their own section with an explanation of their history.
+
 ![East Anglia](/assets/images/rm/accor-east.png "East Anglia")
 
 - As a History Enthusiast, I want to understand the underlying situations in England. 
-This can be located by the user by exploring the territories of England. Each section details how these areas where formed. 
+
+This can be located by the user by exploring the territories of England. Each section details how these areas were formed. 
 East Anglia is seen above. 
+
 ![Mercia](/assets/images/rm/accor-merc.png "Mercia")
 ![Northumbria](/assets/images/rm/accor-north.png "Northumbria")
 ![Wessex](/assets/images/rm/accor-wess.png "Wessex")
@@ -171,11 +189,13 @@ East Anglia is seen above.
 - As a History Enthusiast, I want to clarify the order of events during the vikings time in England.
 
 The timeline feature clearly shows events in chronological order.
+
 ![Timeline](/assets/images/rm/timeline.png "Timeline")
 
-Where more than major event happen in a period of time the earliest year was set first followed by the next chronological.
-This is the case between 865-874 A.D where with in this time period two major events occured in 866A.D., the developer therefore
-decided that it was best to label them i and ii to acknowledge that there were seperate events.
+Where more than one major event happen in a period of time the earliest year was set first followed by the next chronological.
+This is the case between 865-874 A.D where within this time period two major events occured in 866A.D., the developer therefore
+decided that it was best to label them 'i' and 'ii' to acknowledge that there were seperate events.
+
 ![Timeline Section](/assets/images/rm/timeline-section.png "Timeline Section")
 
 ## **Further Testing** 
@@ -188,7 +208,7 @@ This is due to the margin-left value being a differential of 6 e.g.(item 1 8%, i
 Visually this means that points that are a value or greater apart appear as though the ship is moving from the previous timeline item,
 whereas those that are less, move back before continuing the animation. 
 This was a contigency plan as the planned animation was to take the current value of margin left on the image as the start point and then move to the new location, however when
-implementing this the first value always return "null" on the console and despite many efforts in getting this to work the developer was unable to find a solution within their current ability. 
+implementing this the first value always returned "null" on the console and despite many efforts in getting this to work the developer was unable to find a solution within their current ability. 
 
 > ## Deployment 
 
