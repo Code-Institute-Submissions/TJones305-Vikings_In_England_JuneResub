@@ -3,7 +3,7 @@
 ####  A link to the live site is here: [Vikings In England](https://tjones305.github.io/Vikings_In_England/) 
 
  **This is an educational website designed to inform users about the Vikings during thier time in England.** 
- **It has been designed to be interactive and informative for three user groups, first time visitors, students and History Enthusiast**
+ **It has been designed to be interactive and informative for three user groups, first time visitors, Students and History Enthusiast**
 
 ## User Experience (UX) User stories
 
@@ -25,17 +25,17 @@
 ## Design 
 
 ### **Colour Scheme** 
-The main colour used for the site was teal, this was inspired by the Assassin's Creed Valhalla video game. Text colour was predominantly a charcoal black with the Title being Dark Blue. 
+The main colour used for the site was teal, this was inspired by the Assassin's Creed Valhalla video game. Text colour was predominantly a charcoal black with the Title being dark blue. 
 
 ### **Typography** 
 Two font styles were used on the site, courtesy of Google Fonts, the most predominant style was Raleway with the fallback of sans-serif and the other style used on headings was Rye with a fallback of cursive.
-The developer chose Rye as the heading font to create a sense of history for the user. The Raleway font was chosen for its clean readability and modern look, this to the developer made it a good choice to make the site accesible for users with a visual impairment.
+The developer chose Rye as the heading font to create a sense of history for the user. The Raleway font was chosen for its clean readability and modern look, which to the developer made it a good choice to make the site accessible for users with a visual impairment.
 
 ### **Imagery** 
-The developer wanted to intergrate some of the common viking imagery on the page. 
-The first instance of this is found in the heading where the pictures of viking dragon art are positioned either side of the title. This was done with the intent of making the title look like either a viking helmet with horns or a longboat with the picture acting as the bow and stern.
-Next the brand image of the navbar is a viking longboat, this is to reinforce the page theme.
-Finally, on the timeline navbar the dates are preceeded by the icon of either a raven(crow) or a dragon. The flying raven was the image on the sails of Ragnar Lothbrok's clan, and the dragon represents Jörmungandr, the midgard serpent, and symbolised chaos and destruction. 
+The developer wanted to integrate some of the common viking imagery on the page. 
+The first instance of this is found in the heading where the pictures of viking dragon art are positioned either side of the title. This was done with the intent of making the title look like either a viking helmet with horns or a longboat with the pictures acting as the bow and stern.
+Next the brand image of the navbar is a viking longboat a common image closely link to the vikings, this is to reinforce the page theme.
+Finally, on the timeline navbar the dates are preceeded by the icon of either a raven (crow) or a dragon. The flying raven was the image on the sails of Ragnar Lothbrok's clan, and the dragon represents Jörmungandr (the midgard serpent) and symbolised chaos and destruction. 
 
 ### **Wireframes** 
 
@@ -54,7 +54,7 @@ Finally, on the timeline navbar the dates are preceeded by the icon of either a 
 
 ### **Features**
 - Responsive on most devices sizes from 1366px-width and lower - this includes mobiles, tablets and laptops 
-- Interactive elements (Burger menu (mobile devices, Google Maps and markers, accordion, timeline, longboat animation)
+- Interactive elements (Burger menu (mobile devices only), Google Maps and markers, accordion, timeline, longboat animation)
 
 > ## Technologies Used 
 
@@ -73,7 +73,7 @@ JavaScript3
 
 - jQuery: jQuery came with Bootstrap to make the navbar responsive. It was also used in script.js to develop parts of the functions used on the page. 
  
-- Git Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub. 
+- Git: Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub. 
 
 - GitHub: GitHub is used to store the projects code after being pushed from Git. 
 
@@ -85,12 +85,12 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 ### **W3C Markup Validator**
 
 ![Markup Validator Report](/assets/images/rm/markup-validator.png "Markup Validator")
-    The Markup Validator highlight 5 warnings which all related to specifing the script format as "text/javascript". The developer has left this, as they have been taught it to be good practice.
+    The Markup Validator highlight 5 warnings which all related to specifing the script format as "text/javascript". The developer has left this, as they have been taught this to be good practice.
 
 ### **W3C CSS Validator**  
 
 ![CSS Validator Report](/assets/images/rm/css-validator.png "CSS Validator")
-	The result of the CSS validator highlighted 17 errors, these errors are associated with Bootstrap 5's CDN, which the developer hasn't access to. 
+	The result of the CSS validator highlighted 17 errors, these errors are associated with Bootstrap 5's CDN, which the developer does not have access to. 
 
 ### **Lighthouse** 
 
@@ -141,7 +141,7 @@ This creates a visual understanding of how England was divided.
 
 ![Google Maps](/assets/images/rm/google-maps.png "Google Maps")
 
-To further aid Goolge Maps the accordion feature is positioned next to it, displaying the same flags but with the addition of the territory names, by doing this it is acting as a key for the map.
+To further aid Google Maps the accordion feature is positioned next to it, displaying the same flags but with the addition of the territory names, by doing this it is acting as a key for the map.
 
 ![Maps and Accordion](/assets/images/rm/map-and-accordion.png "Maps and Accordion")
 
@@ -160,7 +160,7 @@ The use of interactive elements, such as Google Maps, Accordion and Timeline pro
 
 - As a Student, I want imagery to assist with the written theory.
 
-By displaying images for each written section on the timeline, the developer has ensured that differing learning styles needs are met.
+By displaying images for each written section on the timeline, the developer has ensured that the needs of differing learning styles are met.
 
 ![Timeline text and images](/assets/images/rm/text-and-image.png "Timeline text and images")
 
@@ -169,7 +169,7 @@ By displaying images for each written section on the timeline, the developer has
 - As a History Enthusiast, I want to explore the areas of England. 
 
 On Google Maps it is possible to zoom the map in and out with the flags displayed, this allows for the user to explore where their location was in relation to the territories.
-There is also the option to see the county name by hovering of the left of the flags.
+There is also the option to see the county name by hovering on left side of the flags.
 
 ![Maps Hover](/assets/images/rm/hover-flag.png "Maps Hover")
 
@@ -203,7 +203,7 @@ decided that it was best to label them 'i' and 'ii' to acknowledge that there we
 - The website was viewed on a variety of devices such as Desktop, Laptop, iPad Air & iPhoneX. Other devices were tested through the inspect web developer tools.
 
 ##  **Known Bugs** 
-On the viking boat animation below the timeline, there a few points were the boat appears to move back before animating. 
+On the viking boat animation below the timeline, there are a few points were the boat appears to move back before animating. 
 This is due to the margin-left value being a differential of 6 e.g.(item 1 8%, item 2 14%) and the animation function taking each point and taking 7 away.
 Visually this means that points that are a value or greater apart appear as though the ship is moving from the previous timeline item,
 whereas those that are less, move back before continuing the animation. 
