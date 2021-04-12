@@ -204,10 +204,10 @@ decided that it was best to label them 'i' and 'ii' to acknowledge that there we
 
 ##  **Known Bugs** 
 On the viking boat animation below the timeline, there are a few points were the boat appears to move back before animating. 
-This is due to the margin-left value being a differential of 6 e.g.(item 1 8%, item 2 14%) and the animation function taking each point and taking 7 away.
-Visually this means that points that are a value or greater apart appear as though the ship is moving from the previous timeline item,
-whereas those that are less, move back before continuing the animation. 
-This was a contigency plan as the planned animation was to take the current value of margin left on the image as the start point and then move to the new location, however when
+This is due to the margin-left value being a differential of 6 e.g.(item 1 8%, item 2 14%) and the animation function taking each point and adding 7.
+Visually this means that in the happy flow the points that have a difference lower than 7 appear as though the ship is moving from before the previous timeline item, other points animation as expected. 
+
+This was a contigency plan as the planned animation was to take the current value of margin-left on the image as the start point and then move to the new location, however when
 implementing this the first value always returned "null" on the console and despite many efforts in getting this to work the developer was unable to find a solution within their current ability. 
 
 > ## Deployment 

@@ -31,451 +31,450 @@ font-family: 'Rye', cursive;
 */
 
 /*--- Header ---*/
-.title {
-    color: #040a42d7;
-    font-family:'Rye', cursive;
-    font-size: 6rem;
-    text-align: center;
-    display: inline;
-    margin: 10px 30px;
-    margin-bottom:10px;
-}
+    .title {
+        color: #040a42d7;
+        font-family:'Rye', cursive;
+        font-size: 6rem;
+        text-align: center;
+        display: inline;
+        margin: 10px 30px;
+        margin-bottom:10px;
+    }
 
-header img {
-    height:125px;
-    width: 100px;
-    position: relative;
-    vertical-align: bottom;
-    margin:20px;
-}
+    header img {
+        height:125px;
+        width: 100px;
+        position: relative;
+        vertical-align: bottom;
+        margin:20px;
+    }
 
-.navbar {
-    height:50px;
-    margin-top: 10px;
-}
+    .navbar {
+        height:50px;
+        margin-top: 10px;
+    }
 
 /*-- viking longboat on navbar --*/
-.brand-img {
-    height: 50px;
-    width: 65px
-}
+    .brand-img {
+        height: 50px;
+        width: 65px
+    }
 
 /*-- menu items --*/
-.nav-item {
-   font-family: 'Raleway', sans-serif;
-   font-weight: 900;
-   font-size: 17px;
-}
+    .nav-item {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    font-size: 17px;
+    }
 
 /*-- Font Awsome icons (i) --*/
-a i {
-    margin-left: 6px;
-}
+    a i {
+        margin-left: 6px;
+    }
 
-span i {
-    font-size: 24px;
-}
+    span i {
+        font-size: 24px;
+    }
 
 /*--- Summary ---*/
 /*-- summary title --*/
-#intro h2 {
-    margin: 20px 2px 2px 2px;
-    font-weight: 600;
-    text-decoration: underline;
-}
+    #intro h2 {
+        margin: 20px 2px 2px 2px;
+        font-weight: 600;
+        text-decoration: underline;
+    }
 
 /* final line on summary*/
-h3 {
-    font-family: 'Raleway', sans-serif;
-    font-style: italic;
-    font-weight: 200;
-    margin: 2px;
-}
+    h3 {
+        font-family: 'Raleway', sans-serif;
+        font-style: italic;
+        font-weight: 200;
+        margin: 2px;
+    }
 
 /* Horizontal rule above Maps and Accordion*/
 
 /*--- Maps and Accordion ---*/
 
- .goolge-info {
-    display: table;
-    padding-left: 5px;
-}
+    .goolge-info {
+        display: table;
+        padding-left: 5px;
+    }
 
 /*-- Accordion styles --*/
-#old-england {
-    max-width: 49%;
-    display: table-cell;
-}
+    #old-england {
+        max-width: 49%;
+        display: table-cell;
+    }
 
-#old-england img {
-    display: inline;
-}
+    #old-england img {
+        display: inline;
+    }
 
-#old-england h3 {
-    font-family: 'Rye', cursive;
-    color: #000;
-    font-size: 50px;
-    font-style: normal;
-}
+    #old-england h3 {
+        font-family: 'Rye', cursive;
+        color: #000;
+        font-size: 50px;
+        font-style: normal;
+    }
 
-#old-england h4{
-    font-family: 'Raleway', sans-serif;
-    font-size: 12px;
-    margin-top: 5px;
-} 
+    #old-england h4{
+        font-family: 'Raleway', sans-serif;
+        font-size: 12px;
+        margin-top: 5px;
+    } 
 
-#old-england .card-body {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 600;
-    font-size: 18px;
-    background-color: seashell;
-}
+    #old-england .card-body {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 600;
+        font-size: 18px;
+        background-color: seashell;
+    }
 
-#old-england button {
-    font-family: 'Rye', cursive;
-    color: #eee;
-    background-color: rgb(70, 70, 70, .7);
-    font-weight: 600;
-    font-size: 30px;
-    text-decoration: solid;
-    text-decoration-color: #000;
-    margin-left: 375px;
+    #old-england button {
+        font-family: 'Rye', cursive;
+        color: #eee;
+        background-color: rgb(70, 70, 70, .7);
+        font-weight: 600;
+        font-size: 30px;
+        text-decoration: solid;
+        text-decoration-color: #000;
+        margin-left: 375px;
 
-}
+    }
 
 /* Accordion background colours*/
-#headingTitle {
-    text-align: center;
-    background-color: #ffdcc3;
-}
+    #headingTitle {
+        text-align: center;
+        background-color: #ffdcc3;
+    }
 
-#headingOne {
-background-color: rgb(148, 205, 238);
-}
+    #headingOne {
+    background-color: rgb(148, 205, 238);
+    }
 
-#headingTwo {
-background-color: rgb(4, 6, 116);
-}
+    #headingTwo {
+    background-color: rgb(4, 6, 116);
+    }
 
-#headingThree {
-background-color: rgb(119, 14, 45);
-}
+    #headingThree {
+    background-color: rgb(119, 14, 45);
+    }
 
-#headingFour {
-background-color: rgb(170, 3, 3);
-}
+    #headingFour {
+    background-color: rgb(170, 3, 3);
+    }
 
-/*-- Google Map Styling --*/
-#map {
-    height: 550px;
-    width: 49%;
-    margin-bottom: 50px;
-    display: table-cell;
-}
+    /*-- Google Map Styling --*/
+    #map {
+        height: 550px;
+        width: 49%;
+        margin-bottom: 50px;
+        display: table-cell;
+    }
 
-/* horizontal rule above timeline*/
+    /* horizontal rule above timeline*/
 
-/*-- Timeline Title --*/
-.timeline-title h2 {
-    font-family: 'Rye', cursive;
-    height: 20px;
-    width: 100%;
-    margin-bottom: 15px;
-}
+    /*-- Timeline Title --*/
+    .timeline-title h2 {
+        font-family: 'Rye', cursive;
+        height: 20px;
+        width: 100%;
+        margin-bottom: 15px;
+    }
 
-.timeline-title h4 {
-    font-family: 'Raleway', sans-serif;
-    font-size: 14px;
-    font-weight: 700;
-    text-align: left;
-    margin: 0px 0px 5px 122px;
-    font-weight: 600;
-    display: inline;
-}
+    .timeline-title h4 {
+        font-family: 'Raleway', sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+        text-align: left;
+        margin: 0px 0px 5px 122px;
+        font-weight: 600;
+        display: inline;
+    }
 
 /*-- Reset Button styles --*/
-#reset {
-    margin:0px;
-    margin-left: 1000px;
-    padding:0px;
-    font-family: "Raleway", sans-serif ;
-    color: #040a42d7;
-    font-weight: 700;
-    background-color: rgb(132, 248, 252);
-    border-radius: 10px;
-    display:inline;
+    #reset {
+        margin:0px;
+        margin-left: 1000px;
+        padding:0px;
+        font-family: "Raleway", sans-serif ;
+        color: #040a42d7;
+        font-weight: 700;
+        background-color: rgb(132, 248, 252);
+        border-radius: 10px;
+        display:inline;
 
-}
+    }
 
 /*--- Timeline ---*/
 
 /*-- Timeline links--*/
-#timeline a {
-   margin-left: 10px;
-   font-weight: 900;
-   font-size: 13px;
-   color: #111;
-}
+    #timeline a {
+        margin-left: 10px;
+        font-weight: 900;
+        font-size: 13px;
+        color: #111;
+    }
 
 /*-- sets first timeline item, creates room for back to top button to slide --*/
-#timeline-item1{
-padding-left: 50px;
-}
+    #timeline-item1{
+        padding-left: 50px;
+    }
 
-.timeline-bar {
-margin-top: 30px;
-}
+    .timeline-bar {
+        margin-top: 30px;
+    }
 
-.timeline-bar .container-fluid{
- background-color: rgb(132, 248, 252);  
- margin-top: 0px;
- padding-top: 0px;
-
+    .timeline-bar .container-fluid{
+        background-color: rgb(132, 248, 252);  
+        margin-top: 0px;
+        padding-top: 0px;
+    }
  /*-- animation image initial styling -- */
-}
-#animateBox{
- margin-left: 1px;
-}
+    #animateBox{
+        margin-left: 1px;
+    }
 
-#longboat {
-    width: 30px;
-    height: 30px;
-    margin-left:1%;
-}
+    #longboat {
+        width: 30px;
+        height: 30px;
+        margin-left:1%;
+    }
 
 /*-- div containing timeline text and images --*/
-#timeline-information {
-    display: table-row;
-    padding:0px;
-    margin:0px;
-}
+    #timeline-information {
+        display: table-row;
+        padding:0px;
+        margin:0px;
+    }
 
 /*-- written timeline content --*/
-#timeline-content {
-    font-family:"Raleway", sans-serif;
-    font-size: 25px;
-    text-align: center;
-    width: 75%;
-    padding-top: 2%;
-    padding-left: 5%;
-    display:table-cell;
-    
-}
+    #timeline-content {
+        font-family:"Raleway", sans-serif;
+        font-size: 25px;
+        text-align: center;
+        width: 75%;
+        padding-top: 2%;
+        padding-left: 5%;
+        display:table-cell;
+        
+    }
 
-#timeline-heading {
-    font-family: "Rye", cursive;
-    font-size: 25px;
-    text-align: left;
-    margin-top: 10px;
-    width: 70%;
-}
+    #timeline-heading {
+        font-family: "Rye", cursive;
+        font-size: 25px;
+        text-align: left;
+        margin-top: 10px;
+        width: 70%;
+    }
 
-#timeline-para {
-    font-family:"Raleway", sans-serif;
-    font-size: 25px;
-    text-align: left;
-    margin-top: 5px;
-    margin-left: 40px;
-    width: 70%;
-}
+    #timeline-para {
+        font-family:"Raleway", sans-serif;
+        font-size: 25px;
+        text-align: left;
+        margin-top: 5px;
+        margin-left: 40px;
+        width: 70%;
+    }
 
-#timeline-para i {
-    margin-left: 5px;
-}
+    #timeline-para i {
+        margin-left: 5px;
+    }
 
 /* written content displayed not visible until requested */
-#timeline-content1 {
-    display:none;
+    #timeline-content1 {
+        display:none;
+        height:0px;
+    }
+
+    #timeline-content2 {
+        display:none;
+        height:0px;
+    }
+
+    #timeline-content3 {
+        display:none;
     height:0px;
-}
+    }
 
-#timeline-content2 {
-    display:none;
+    #timeline-content4 {
+        display:none;
     height:0px;
-}
+    }
 
-#timeline-content3 {
-    display:none;
-   height:0px;
-}
-
-#timeline-content4 {
-    display:none;
-   height:0px;
-}
-
-#timeline-content5 {
-    display:none;
-   height:0px;
-}
-
-#timeline-content6 {
-    display:none;
+    #timeline-content5 {
+        display:none;
     height:0px;
-}
+    }
 
-#timeline-content7 {
-    display:none;
+    #timeline-content6 {
+        display:none;
+        height:0px;
+    }
+
+    #timeline-content7 {
+        display:none;
+        height:0px;
+    }
+
+    #timeline-content8 {
+        display:none;
     height:0px;
-}
+    }
 
-#timeline-content8 {
-    display:none;
-   height:0px;
-}
-
-#timeline-content9 {
-    display:none;
-   height:0px;
-}
-
-#timeline-content10 {
-    display:none;
+    #timeline-content9 {
+        display:none;
     height:0px;
-}
+    }
 
-#timeline-content11 {
-    display:none;
-    height:0px;
-}
+    #timeline-content10 {
+        display:none;
+        height:0px;
+    }
 
-#timeline-content12 {
-    visibility: collapse;
-    height:0px;
-}
+    #timeline-content11 {
+        display:none;
+        height:0px;
+    }
+
+    #timeline-content12 {
+        visibility: collapse;
+        height:0px;
+    }
 
 /*-- div containing images --*/
-#tl-img{
-     display:table-cell;
-     vertical-align: top;
-     padding-right: 5%;
-     padding-top: 2%;
-     width:100%;
-}
+    #tl-img{
+        display:table-cell;
+        vertical-align: top;
+        padding-right: 5%;
+        padding-top: 2%;
+        width:100%;
+    }
 /*-- default holding image --*/
-#imgHold {
-    height:250px;
-    width:250px;
-    padding-top: 2%;
-    border-radius: 50%;
-    display:block;
-}
+    #imgHold {
+        height:250px;
+        width:250px;
+        padding-top: 2%;
+        border-radius: 50%;
+        display:block;
+    }
 
 /*-- timeline images displayed as not visible until requested --*/
-#tl-img1 {
-    height:450px;
-    width:450px;
-    padding-top: 10%;
-    display:none;
-}
+    #tl-img1 {
+        height:450px;
+        width:450px;
+        padding-top: 10%;
+        display:none;
+    }
 
-#tl-img2 {
-    height:350px;
-    width:450px;
-    padding-top: 10%;
-    display:none;
-}
+    #tl-img2 {
+        height:350px;
+        width:450px;
+        padding-top: 10%;
+        display:none;
+    }
 
-#tl-img3 {
-    height:350px;
-    width:450px;
-    padding-top: 10%;
-    display:none;
-}
+    #tl-img3 {
+        height:350px;
+        width:450px;
+        padding-top: 10%;
+        display:none;
+    }
 
-#tl-img4 {
-    height:550px;
-    width:450px;
-    padding-top: 10%;
-    display:none;
-}
+    #tl-img4 {
+        height:550px;
+        width:450px;
+        padding-top: 10%;
+        display:none;
+    }
 
-#tl-img5 {
-    height:450px;
-    width:550px;
-    padding-top: 10%;
-    display:none;
-}
+    #tl-img5 {
+        height:450px;
+        width:550px;
+        padding-top: 10%;
+        display:none;
+    }
 
-#tl-img6 {
-    height:550px;
-    width:450px;
-    padding-top: 10%;
-    display:none;
-}
+    #tl-img6 {
+        height:550px;
+        width:450px;
+        padding-top: 10%;
+        display:none;
+    }
 
-#tl-img7 {
-    height:350px;
-    width:350px;
-    padding-top: 10%;
-    display:none;
-}
+    #tl-img7 {
+        height:350px;
+        width:350px;
+        padding-top: 10%;
+        display:none;
+    }
 
-#tl-img8 {
-    height:350px;
-    width:450px;
-    padding-top: 10%;
-    display:none;
-}
+    #tl-img8 {
+        height:350px;
+        width:450px;
+        padding-top: 10%;
+        display:none;
+    }
 
-#tl-img9 {
-    height:350px;
-    width:450px;
-    padding-top: 10%;
-    display:none;
-}
+    #tl-img9 {
+        height:350px;
+        width:450px;
+        padding-top: 10%;
+        display:none;
+    }
 
-#tl-img10 {
-    height:450px;
-    width:450px;
-    padding-top: 10%;
-    display:none;
-}
+    #tl-img10 {
+        height:450px;
+        width:450px;
+        padding-top: 10%;
+        display:none;
+    }
 
-#tl-img11 {
-    height:300px;
-    width:400px;
-    padding-top: 10%;
-    display:none;
-}
+    #tl-img11 {
+        height:300px;
+        width:400px;
+        padding-top: 10%;
+        display:none;
+    }
 
-#tl-img12 {
-    height:550px;
-    width:450px;
-    padding-top: 10%;
-    display:none;
-}
+    #tl-img12 {
+        height:550px;
+        width:450px;
+        padding-top: 10%;
+        display:none;
+    }
 
 /*--- Feedback Form ---*/
-#feedbk {
-    font-family: "Raleway", sans-serif;
-    width: 70%;
-    margin:10%;
-}
+    #feedbk {
+        font-family: "Raleway", sans-serif;
+        width: 70%;
+        margin:10%;
+    }
 
-#feedbk h2{
-    margin: 10px 0px 10px 0px;
-}
+    #feedbk h2{
+        margin: 10px 0px 10px 0px;
+    }
 
-#feedbk p{
-    font-size: 16px;
-}
+    #feedbk p{
+        font-size: 16px;
+    }
 
-.form-control {
-    color: #111;
-    background-color: #f8decc;
-    font-weight: 700;
-}
+    .form-control {
+        color: #111;
+        background-color: #f8decc;
+        font-weight: 700;
+    }
 
 /*--- Footer ---*/
-.footer-img {
-    height: 50px;
-    width: 50px;
-    float: right;
-    position:fixed;
-    bottom: 5px;
-    left: 10px;
-}
+    .footer-img {
+        height: 50px;
+        width: 50px;
+        float: right;
+        position:fixed;
+        bottom: 5px;
+        left: 10px;
+    }
 
 /*--- Media Queries ---*/
 @media (max-width: 1113px){
@@ -502,18 +501,20 @@ margin-top: 30px;
         height: 50px;
     }
 
-    /*--- Summary ---*/
+/*--- Summary ---*/
     h3 {
         font-size: 23px;
         font-weight: 200;
         margin: 2px;
     }
-    /*--- Map & Accordion ---*/
+
+/*--- Map & Accordion ---*/
     #old-england button {
         font-size: 25px;
         margin-left: 305px;
     }
-    /*--- Timeline ---*/
+
+/*--- Timeline ---*/
     #timeline a {
     margin-left: 10px;
     font-size: 11px;
@@ -559,18 +560,20 @@ margin-top: 30px;
         height: 50px;
     }
 
-    /*--- Summary ---*/
+/*--- Summary ---*/
     h3 {
         font-size: 23px;
         font-weight: 200;
         margin: 2px;
     }
-    /*--- Map & Accordion ---*/
+
+/*--- Map & Accordion ---*/
     #old-england button {
         font-size: 25px;
         margin-left: 275px;
     }
-    /*--- Timeline ---*/
+
+/*--- Timeline ---*/
     #timeline a {
     margin-left: 10px;
     font-size: 11px;
@@ -584,7 +587,8 @@ margin-top: 30px;
     #tl-img {
         padding-right: 3%;
     }
-    /*--- Footer ---*/
+
+/*--- Footer ---*/
     .footer-img {
         height: 50px;
         width: 50px;
@@ -592,7 +596,7 @@ margin-top: 30px;
 }
 
 @media (max-width: 896px){
-    /*--- Header ---*/
+/*--- Header ---*/
     .title {
         font-size: 4.65rem;
         text-align: center;
@@ -615,19 +619,20 @@ margin-top: 30px;
         height: 50px;
     }
 
-
-    /*--- Summary ---*/
+/*--- Summary ---*/
     h3 {
         font-size: 23px;
         font-weight: 200;
         margin: 2px;
     }
-    /*--- Map & Accordion ---*/
+
+/*--- Map & Accordion ---*/
     #old-england button {
         font-size: 22px;
         margin-left: 250px;
     }
-    /*--- Timeline ---*/
+
+/*--- Timeline ---*/
     #timeline a {
     margin-left: 10px;
     font-size: 11px;
@@ -641,7 +646,7 @@ margin-top: 30px;
     #tl-img {
         padding-right: 3%;
     }
-    /*--- Footer ---*/
+/*--- Footer ---*/
     .footer-img {
         height: 50px;
         width: 50px;
@@ -649,7 +654,7 @@ margin-top: 30px;
 }
 
 @media (max-width: 834px){
-    /*--- Header ---*/
+/*--- Header ---*/
     .title {
         font-size: 4.4rem;
         text-align: center;
@@ -672,18 +677,20 @@ margin-top: 30px;
         height: 50px;
     }
 
-    /*--- Summary ---*/
+/*--- Summary ---*/
     h3 {
         font-size: 23px;
         font-weight: 200;
         margin: 2px;
     }
-    /*--- Map & Accordion ---*/
+    
+/*--- Map & Accordion ---*/
     #old-england button {
         font-size: 20px;
         margin-left: 215px;
     }
-    /*--- Timeline ---*/
+
+/*--- Timeline ---*/
     #timeline a {
     margin-left: 5px;
     font-size: 10px;
@@ -780,16 +787,15 @@ margin-top: 30px;
         width:250px;
         display:none;
     }
-    /*--- Footer ---*/
+/*--- Footer ---*/
     .footer-img {
          height: 50px;
          width: 50px;
     }
-
 }
 
 @media (max-width: 812px){
-    /*--- Header ---*/
+/*--- Header ---*/
     .title {
         font-size: 4rem;
         text-align: center;
@@ -812,18 +818,20 @@ margin-top: 30px;
         height: 50px;
     }
 
-    /*--- Summary ---*/
+/*--- Summary ---*/
     h3 {
         font-size: 23px;
         font-weight: 200;
         margin: 2px;
     }
-    /*--- Map & Accordion ---*/
+
+/*--- Map & Accordion ---*/
     #old-england button {
         font-size: 20px;
         margin-left: 180px;
     }
-    /*--- Timeline ---*/
+
+/*--- Timeline ---*/
     #timeline a {
     margin-left: 5px;
     font-size: 10px;
@@ -920,7 +928,7 @@ margin-top: 30px;
         width:250px;
         display:none;
     }
-    /*--- Footer ---*/
+/*--- Footer ---*/
     .footer-img {
          height: 50px;
          width: 50px;
@@ -929,35 +937,135 @@ margin-top: 30px;
 }
 
 @media (max-width: 768px){
+/* --- General Styles --- */
+p{
+    font-size: 18px;
+}
 /*--- Header ---*/
+    .title {
+        font-size: 4.02rem;
+        text-align: center;
+        display: inline;
+        margin: 10px 6px 20px 6px;
+    }
 
+    header img {
+        height:75px;
+        width: 50px;
+        margin: 0px 12px;
+    }
+
+    .brand-img{
+        height: 55px;
+        width: 55px;
+    }
 /*--- Summary ---*/
+#intro h2{
+    font-size: 24px;
+}
 
+h3 {
+    font-size: 20px;
+}
 /*--- Map & Accordion ---*/
     #old-england button {
         font-size: 18px;
         margin-left: 195px;
     }
 /*--- Timeline ---*/
+    #reset {
+        margin-left: 625px;
+        font-size: 14px;
+    }
 
+    #timeline a {
+    margin-left: 4px;
+    font-size: 11px;
+    }
+
+    #timeline a i {
+        font-size: 7.5px;
+    }
+
+    #timeline .nav-link {
+        padding: 0px;
+        margin: 1px;
+    }
+
+    #timeline-item1{
+        padding-left: 30px;
+    } 
 /*--- Footer ---*/
+.footer-img {
+         height: 40px;
+         width: 40px;
+    }
 
 }
 
-@media (max-width: 660px){
-    /*--- General Styles---*/
+@media (max-width: 736px){
+/* --- General Styles --- */
+p{
+    font-size: 18px;
+}
+/*--- Header ---*/
+    .title {
+        font-size: 3.81rem;
+        text-align: center;
+        display: inline;
+        margin: 10px 6px 20px 6px;
+    }
+
+    header img {
+        height:75px;
+        width: 50px;
+        margin: 0px 12px;
+    }
+
+    .brand-img{
+        height: 40px;
+        width: 45px;
+    }
+/*--- Summary ---*/
+#intro h2{
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 20px;
+}
+/*--- Map & Accordion ---*/
+    #old-england button {
+        font-size: 16px;
+        margin-left: 190px;
+    }
+/*--- Timeline ---*/
+    #reset {
+        margin-left: 625px;
+        font-size: 14px;
+    }
+/*--- Footer ---*/
+.footer-img {
+         height: 40px;
+         width: 40px;
+    }
+}
+
+@media (max-width: 667px){
+/*--- General Styles---*/
     h2 {
         margin: 10px 0px 10px 65px;
         font-size: 25px;
        }
+
     p {
         font-size: 16px;
         width:100%
     }
     
-    /*--- Header ---*/
+/*--- Header ---*/
     .title {
-        font-size: 3.25rem;
+        font-size: 3.54rem;
         text-align: center;
         display: inline;
         margin: 10px 5px 5px 5px;
@@ -974,7 +1082,18 @@ margin-top: 30px;
         width: 45px;
     }
 
+    .navbar-light .navbar-nav .nav-link.active {
+         color: #ddd;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        color: #ddd;
+    }
+
 /*--- Summary ---*/
+    h3 {
+        font-size: 18px;
+    }
 
 /*--- Map & Accordion ---*/
     #old-england h3 {
@@ -982,8 +1101,8 @@ margin-top: 30px;
     }
 
     #old-england button {
-        font-size: 15px;
-        margin-left: 155px;
+        font-size: 14px;
+        margin-left: 170px;
         display:block;
     }
 /*--- Timeline ---*/
@@ -1014,7 +1133,7 @@ margin-top: 30px;
     }
 
     #reset {
-        margin-left: 500px;
+        margin-left: 550px;
         font-size: 14px;
     }
 
@@ -1026,7 +1145,7 @@ margin-top: 30px;
 }
 
 @media (max-width: 568px){
-    /*--- General Styles---*/
+/*--- General Styles---*/
     h2 {
         margin: 10px 0px 10px 25px;
         font-size: 25px;
@@ -1036,7 +1155,7 @@ margin-top: 30px;
         width:100%
     }
     
-    /*--- Header ---*/
+/*--- Header ---*/
     .title {
         font-size: 2.9rem;
         text-align: center;
@@ -1054,8 +1173,6 @@ margin-top: 30px;
         height: 40px;
         width: 45px;
     }
-
-/*--- Summary ---*/
 
 /*--- Map & Accordion ---*/
     #old-england h3 {
@@ -1107,18 +1224,48 @@ margin-top: 30px;
     }
 }
 
-@media (max-width: 415px){
-    /*--- General Styles---*/
+@media (max-width:540px){
+/*--- Header ---*/
+    .title {
+        font-size: 2.78rem;
+    }
+
+    header img {
+        height: 45px;
+        width: 35px;
+        margin: 0px;
+    }
+/*--- Summary ---*/
+h3 {
+    font-size: 16.75px;
+}
+
+/*--- Map & Accordion ---*/
+    #old-england button {
+        font-size: 11px;
+        margin-left: 130px;
+        display:block;
+    }
+/*--- Timeline ---*/
+    #reset {
+        margin-left: 425px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 414px){
+/*--- General Styles---*/
     h2 {
         margin: 10px 0px 10px 25px;
-        font-size: 25px;
+        font-size: 18px;
        }
+
     p {
         font-size: 16px;
         width:100%
     }
     
-    /*--- Header ---*/
+/*--- Header ---*/
     .title {
         font-size: 2rem;
         text-align: center;
@@ -1138,7 +1285,7 @@ margin-top: 30px;
     }
 
     .brand-img {
-        height: 30px;
+        height: 40px;
         width: 45px;
     }
 
@@ -1150,16 +1297,21 @@ margin-top: 30px;
     .navbar-light .navbar-nav .nav-link.active {
          color: #ddd;
     }
+
     .navbar-light .navbar-nav .nav-link {
         color: #ddd;
     }
-    /*--- Summary ---*/
+/*--- Summary ---*/
+   #intro h2 {
+        font-size: 18px;
+    }
+
     h3 {
         font-size: 18px;
         font-weight: 200;
         margin: 2px;
     }
-    /*--- Map & Accordion ---*/
+/*--- Map & Accordion ---*/
      .goolge-info {
     display: inline-block;
     padding:0px;
@@ -1177,7 +1329,7 @@ margin-top: 30px;
     
     #old-england button {
         font-size: 18px;
-        margin-left: 210px;
+        margin-left: 215px;
         display:block;
     }
 
@@ -1189,7 +1341,7 @@ margin-top: 30px;
     display: inline-block;
     }
 
-    /*--- Timeline ---*/
+/*--- Timeline ---*/
     .timeline-title {
         padding:0px;
         margin:0px;
@@ -1221,7 +1373,7 @@ margin-top: 30px;
     }   
 
     #reset {
-        margin-left: 310px;
+        margin-left: 300px;
         font-size: 14px;
     }
 
@@ -1312,7 +1464,7 @@ margin-top: 30px;
         width:250px;
         display:none;
     }
-    /*--- Footer ---*/
+/*--- Footer ---*/
     .footer-img {
          height: 30px;
          width: 30px;
@@ -1321,7 +1473,7 @@ margin-top: 30px;
 }
 
 @media (max-width: 375px){
-    /*--- General Styles---*/
+/*--- General Styles---*/
     h2 {
         margin: 10px 0px 10px 40px;
         font-size: 18px;
@@ -1331,7 +1483,7 @@ margin-top: 30px;
         width:100%
     }
     
-    /*--- Header ---*/
+/*--- Header ---*/
     .title {
         font-size: 1.84rem;
         text-align: center;
@@ -1362,20 +1514,22 @@ margin-top: 30px;
     .navbar-light .navbar-nav .nav-link.active {
          color: #ddd;
     }
+
     .navbar-light .navbar-nav .nav-link {
         color: #ddd;
     }
-    /*--- Summary ---*/
+/*--- Summary ---*/
     #intro h2 {
         font-size: 18px;
         margin-left:10px;
     }
+
     h3 {
         font-size: 16px;
         font-weight: 200;
         margin: 2px;
     }
-    /*--- Map & Accordion ---*/
+/*--- Map & Accordion ---*/
      .goolge-info {
     display: inline-block;
     padding:0px;
@@ -1405,7 +1559,7 @@ margin-top: 30px;
     display: inline-block;
     }
 
-    /*--- Timeline ---*/
+/*--- Timeline ---*/
     .timeline-title {
         padding:0px;
         margin:0px;
@@ -1537,7 +1691,7 @@ margin-top: 30px;
         width:250px;
         display:none;
     }
-    /*--- Footer ---*/
+/*--- Footer ---*/
     .footer-img {
          height: 30px;
          width: 30px;
@@ -1588,7 +1742,6 @@ margin-top: 30px;
         font-size: 14px;
         margin-left: 152px;
     }
-/*--- Map & Accordion ---*/
 
 /*--- Timeline ---*/
     #tl-img {
@@ -1663,6 +1816,4 @@ margin-top: 30px;
         margin:3%;
         padding:0px;
     }
-/*--- Footer ---*/
-
 }
