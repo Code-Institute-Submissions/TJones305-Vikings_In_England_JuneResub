@@ -85,12 +85,17 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 ### **W3C Markup Validator**
 
 ![Markup Validator Report](/assets/images/rm/markup-validator.png "Markup Validator")
-    The Markup Validator highlight 5 warnings which all related to specifing the script format as "text/javascript". The developer has left this, as they have been taught this to be good practice.
+    The Markup Validator highlighted 5 warnings which all related to specifing the script format as "text/javascript". The developer has left this, as they have been taught this to be good practice.
 
 ### **W3C CSS Validator**  
 
 ![CSS Validator Report](/assets/images/rm/css-validator.png "CSS Validator")
 	The result of the CSS validator highlighted 17 errors, these errors are associated with Bootstrap 5's CDN, which the developer does not have access to. 
+
+### **JS Hint**
+![JS Hint Report](/assets/images/rm/js-validator.png "JS Hint")
+When code was passed through JS Hint no major issues were flagged. 18 warnings were flagged the majority regarding use of extensions, however the developer didn't wish to add these.
+There was one warning regarding 'not using new for side effects', however this is part of Google Maps implementation and thus the developer doesn't wish to edit this.
 
 ### **Lighthouse** 
 
@@ -239,11 +244,15 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 Example: Cloning into CI-Clone... remote: Counting objects: 10, done. remote: Compressing objects: 100% (8/8), done. remove: Total 10 (delta 1), reused 10 (delta 1) Unpacking objects: 100% (10/10), done.
 
 
-> ### Credits  
+> ### *Credits*  
 
 - Bootstrap5: Bootstrap Library used throughout the project to make site responsive using the Bootstrap Grid System. Also for the navbar and accordion base code.
 
-- MDN Web Docs : For Pattern Validation code. Code was modified to better fit my needs.
+- MDN Web Docs: For Pattern Validation code. Code was modified to better fit my needs.
+
+- Google Maps: For use of their API and initMap function
+
+- EmailJS: For use of their API and on window.onload function
 
 - Content: All content was written by the developer.
 

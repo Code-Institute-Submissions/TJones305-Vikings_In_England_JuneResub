@@ -1,4 +1,5 @@
- window.onload = function() {
+/*Credit to EmailJS for below function template*/ 
+window.onload = function() {
     const feedbackForm = document.getElementById('feedback-form');
             feedbackForm.addEventListener('submit', function(event) {
                 event.preventDefault();
@@ -13,6 +14,7 @@
         }
 
 //Google Maps:
+/*Credit to Google Maps for init Map function*/
 //Sets map and markers
 function initMap() {
     const map = new google.maps.Map(document.getElementById("map"), {
@@ -24,7 +26,7 @@ function initMap() {
             },
         });
     setMarkers(map);
-}
+};
 
 //Co-ordinates and marker image for each county
 const markers = [
@@ -64,7 +66,7 @@ const markers = [
         ["Bedfordshire", 52.0671493, -0.4650577, 34, "assets/images/mercia-icon.png"],
         ["Buckinghamshire", 51.7817283, -0.7855967, 35, "assets/images/mercia-icon.png"],
         ["Berkshire", 51.4045883, -1.0161207, 36, "assets/images/mercia-icon.png"],
-        ]
+        ];
 
 //Assigns marker positions and image
 function setMarkers(map) {
@@ -105,7 +107,7 @@ function colorChange(event) {
                 }
     } else {
         $("#eastAnglia, #mercia, #northumbria, #wessex").css("color", "#eee");
-    };
+    }
 }
         
     /* ---- Timeline --- */
@@ -204,14 +206,14 @@ function fillTimeline(clicked_id, point) {
 
 //Animates the viking longboat under timeline
 function animateLongboat(obj, from, to) {
-    if(from >= to){
-        return;
-    } else { 
-            let box = obj;
-            box.style.marginLeft = from + "%";
-            setTimeout(function(){
-                animateLongboat(obj, from + 1, to);   
-            }, 85)   
+        if(from >= to){
+            return;
+        } else { 
+                let box = obj;
+                box.style.marginLeft = from + "%";
+                setTimeout(function(){
+                    animateLongboat(obj, from + 1, to);   
+                }, 85);   
         }
 }
 
