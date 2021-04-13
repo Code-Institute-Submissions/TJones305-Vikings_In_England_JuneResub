@@ -94,7 +94,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### **JS Hint**
 ![JS Hint Report](/assets/images/rm/js-validator.png "JS Hint")
-When code was passed through JS Hint no major issues were flagged. 18 warnings were flagged the majority regarding use of extensions, however the developer didn't wish to add these.
+When code was passed through JS Hint no major issues were flagged. 18 warnings were flagged the majority regarding use of extensions, however the developer didn't wish to add these to improve loading.
 There was one warning regarding 'not using new for side effects', however this is part of Google Maps implementation and thus the developer doesn't wish to edit this.
 
 ### **Lighthouse** 
