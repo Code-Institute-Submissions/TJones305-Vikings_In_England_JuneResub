@@ -488,23 +488,23 @@ hr {
         float: right;
         position:fixed;
         bottom: 5px;
-        left: 10px;
+        left:10px;
     }
 
 /*--- Media Queries ---*/
-@media (max-width: 1113px){
+    @media (max-width: 1112px){
 /*--- Header ---*/
     .title {
         font-size: 5.5rem;
         text-align: center;
         display: inline;
-        margin: 10px 15px;
+        margin: 10px 10px;
         margin-bottom:10px;
     }
 
     header img {
-        height:100px;
-        width: 75px;
+        height:80px;
+        width: 65px;
     }
 
     .navbar {
