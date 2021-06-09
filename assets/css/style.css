@@ -1,10 +1,10 @@
 html {
-    overflow-x: hidden;
+    overflow-x:hidden;
 }
 
 body {
     margin:auto;
-    background-color: rgb(181, 252, 248);
+    background-color: rgb(215, 245, 243);
     color:#333;
 }
 
@@ -164,7 +164,7 @@ hr {
     }
 
     #headingOne {
-    background-color: rgb(201, 232, 250);
+    background-color: rgb(184, 224, 248);
     }
 
     #headingTwo {
@@ -526,7 +526,7 @@ hr {
 /*--- Map & Accordion ---*/
     #old-england button {
         font-size: 25px;
-        margin-left: 305px;
+        margin-left: 250px;
     }
 
 /*--- Timeline ---*/
@@ -562,8 +562,8 @@ hr {
     }
 
     header img {
-        height:100px;
-        width: 75px;
+        height:80px;
+        width: 65px;
     }
 
     .navbar {
@@ -585,7 +585,7 @@ hr {
 /*--- Map & Accordion ---*/
     #old-england button {
         font-size: 25px;
-        margin-left: 275px;
+        margin-left: 225px;
     }
 
 /*--- Timeline ---*/
@@ -644,7 +644,7 @@ hr {
 /*--- Map & Accordion ---*/
     #old-england button {
         font-size: 22px;
-        margin-left: 250px;
+        margin-left: 200px;
     }
 
 /*--- Timeline ---*/
@@ -1344,7 +1344,7 @@ h3 {
     
     #old-england button {
         font-size: 18px;
-        margin-left: 215px;
+        margin-left: 185px;
         display:block;
     }
 

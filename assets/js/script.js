@@ -68,29 +68,6 @@ const markers = [
         ["Berkshire", 51.4045883, -1.0161207, "assets/images/mercia-icon.png", "mercia"],
         ];
 
-// Working Code:
-   /*
-        const gmarker = new google.maps.Marker({
-            position: {lat: marker[1], lng: marker[2] },
-            map,
-            title: "Click to zoom",
-            icon: marker[3],
-            shape: shape,
-            title: marker[0],
-        });
-
-        map.addListener("center_changed", () => {
-            window.setTimeout(() => {
-                map.panTo(gmarker.getPosition());
-            }, 3000);
-        });
-
-        gmarker.addListener("click", () => {
-            map.setZoom(10);
-            map.setCenter(gmarker.getPosition());
-        }); */
-     
-
     var gMarkers = [];
 
 //Assigns marker positions and image
@@ -109,6 +86,7 @@ function setMarkers(map) {
             map,
             title: "Click to zoom",
             icon: county[3],
+            anchor: new google.maps.Point(14, 10),
             shape: shape,
             title: county[0],
             category: category
