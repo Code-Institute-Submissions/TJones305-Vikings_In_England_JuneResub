@@ -75,9 +75,16 @@
 
     <div class="google-info">
         <!--Goolge Maps div linked to script.js through id. displays modern day English Counties with Old England Territory flag as marker-->
-        <div id="map" class="container">
-        </div> 
-            
+        <select id="type" onchange="filterMarkers(this.value);">
+            <option value="">Select Territory</option>
+            <option value="east anglia">East Anglia</option>
+            <option value="northumbria">Northumbria</option>
+            <option value="mercia">Mercia</option>
+            <option value="wessex">Wessex</option>
+        </select>
+
+        <div id="map" class="container"></div> 
+    
         <!--Accordion containing information about Old England Territories-->
         <!-- Credit to Bootstrap for Accordion template -->
         <div id="old-england" class="container">

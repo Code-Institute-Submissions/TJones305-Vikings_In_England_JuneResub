@@ -91,6 +91,8 @@ const markers = [
         }); */
      
 
+    var gMarkers = [];
+
 //Assigns marker positions and image
 function setMarkers(map) {
 
@@ -101,8 +103,7 @@ function setMarkers(map) {
 
     for (let i = 0; i < markers.length; i++) {
         const county = markers[i];
-        var category = markers[i][4];
-
+        const category = markers[i][4];
         let marker = new google.maps.Marker({
             position: { lat: county[1], lng: county[2] },
             map,
@@ -110,7 +111,10 @@ function setMarkers(map) {
             icon: county[3],
             shape: shape,
             title: county[0],
+            category: category
         });
+
+        gMarkers.push(marker);
 
         marker.addListener("click", () => {
 
@@ -120,24 +124,25 @@ function setMarkers(map) {
         }, 500);
         });
     }
-}
+};
 
-/*
+
+
 // Filter markers on map
-filterMarkers = function (category) {
-    for (i = 0; i < markers.length; i++) {
-        filtered = marker[i];
+function filterMarkers(category) {
+    for (i = 0; i < gMarkers.length; i++) {
+        marker = gMarkers[i];
         //if same category or category not picked
-        if (filtered.category == category || category.length === 0) {
-            filtered.setVisible(true);
+        if (marker.category == category || category.length === 0) {
+            marker.setVisible(true);
         }
         //Categories don't match
         else {
-            filtered.setVisible(false);
+            marker.setVisible(false);
         }
     }
 }
-*/
+
 
 //Changes color on accordion buttons when mouseenters and reverts when mouseleaves. On non-desktop colour remains until next tap.
 function colorChange(event) {
