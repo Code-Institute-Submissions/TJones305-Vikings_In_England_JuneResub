@@ -159,11 +159,12 @@ hr {
     .card-img {
         margin-left: 50px;
         max-width: 25%;
-        max-height: 15%;
+        max-height: 1%;
     }
 
     #headingOne {
     background-color: rgb(192, 251, 255);
+
     }
 
     #headingTwo {
@@ -1121,6 +1122,10 @@ h3 {
         font-size: 14px;
         margin-left: 170px;
         display:block;
+    }
+
+    .card-img{
+        max-height: 50px;
     }
 /*--- Timeline ---*/
     .timeline-title h4 {
