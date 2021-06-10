@@ -72,7 +72,6 @@ const markers = [
 
 //Assigns marker positions and image
 function setMarkers(map) {
-
     const shape = {
         coords: [1, 1, 1, 20, 18, 20, 18, 1],
         type: "poly",
@@ -89,16 +88,25 @@ function setMarkers(map) {
             anchor: new google.maps.Point(14, 10),
             shape: shape,
             title: county[0],
-            category: category
+            category: category,
         });
+
+         const contentString = 
+        '<div id="content"'+
+        '<h2 id= "county">' +
+        county[0] +
+        '</h2>'
+    const infowindow = new google.maps.InfoWindow({
+        content: contentString,
+    });
 
         gMarkers.push(marker);
 
         marker.addListener("click", () => {
-
+            
+            infowindow.open(map, marker);
             window.setTimeout(() => {
-            map.setZoom(9);
-            map.setCenter(marker.getPosition());
+            map.panTo(marker.getPosition());
         }, 500);
         });
     }
