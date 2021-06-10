@@ -73,7 +73,7 @@ const markers = [
 //Assigns marker positions and image
 function setMarkers(map) {
     const shape = {
-        coords: [1, 1, 1, 20, 18, 20, 18, 1],
+        coords: [1, 1, 1, 40, 36, 40, 36, 1],
         type: "poly",
     };
 
