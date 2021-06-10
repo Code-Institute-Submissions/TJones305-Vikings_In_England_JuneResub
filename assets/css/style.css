@@ -33,16 +33,16 @@ h2 {
         font-size: 6rem;
         text-align: center;
         display: inline;
-        margin: 10px 30px;
+        margin: 10px 20px;
         margin-bottom:10px;
     }
 
     header img {
-        height:125px;
-        width: 100px;
+        height:115px;
+        width: 90px;
         position: relative;
         vertical-align: bottom;
-        margin:20px;
+        margin-left: 40px;
     }
 
     .navbar {
@@ -89,8 +89,7 @@ h2 {
 /* final line on summary*/
     h3 {
         font-family: 'Raleway', sans-serif;
-        font-style: italic;
-        font-weight: 200;
+        font-weight: 800;
         margin: 2px;
     }
 
@@ -121,8 +120,8 @@ hr {
 
     #old-england h3 {
         font-family: 'Rye', cursive;
-        color: #000;
-        font-size: 50px;
+        color: rgb(43, 42, 42);
+        font-size: 40px;
         font-style: normal;
     }
 
@@ -154,7 +153,7 @@ hr {
 /* Accordion background colours*/
     #headingTitle {
         text-align: center;
-        background-color: rgba(107, 252, 240, 0.911);
+        background-color: rgb(203, 235, 255);
     }
 
     .card-img {
@@ -164,19 +163,19 @@ hr {
     }
 
     #headingOne {
-    background-color: rgb(184, 224, 248);
+    background-color: rgb(192, 251, 255);
     }
 
     #headingTwo {
-    background-color: rgb(80, 83, 255);
+    background-color: rgb(158, 249, 255);
     }
 
     #headingThree {
-    background-color: rgb(255, 62, 120);
+   background-color: rgb(192, 251, 255);
     }
 
     #headingFour {
-    background-color: rgb(255, 59, 59);
+   background-color: rgb(158, 249, 255);
     }
 
     /*-- Google Map Styling --*/
@@ -197,13 +196,13 @@ hr {
         margin-bottom: 30px;
     }
 
-    .timeline-title h4 {
+    span h3 {
         font-family: 'Raleway', sans-serif;
-        font-size: 18px;
-        font-weight: 700;
+        font-size: 16px;
+        font-weight: 600;
         text-align: left;
-        margin: 10px 0px 5px 122px;
-        font-weight: 700;
+        margin: 10px 0px 5px 10px;
+        font-weight: 900;
         display: inline;
     }
 
@@ -213,9 +212,9 @@ hr {
         margin-left: 1000px;
         padding: 0px 4px;
         font-family: "Raleway", sans-serif ;
-        color: #040a42d7;
+        color: #01031bd7;
         font-weight: 700;
-        background-color: rgb(132, 248, 252);
+        background-color: rgb(158, 249, 255);;
         border-radius: 10px;
         display:inline;
 
@@ -225,10 +224,14 @@ hr {
 
 /*-- Timeline links--*/
     #timeline a {
-        margin-left: 10px;
+        margin:0px 0px 10px 10px;
         font-weight: 900;
         font-size: 13px;
         color: #111;
+    }
+
+    li.nav-item {
+        margin-bottom: 5px;
     }
 
 /*-- sets first timeline item, creates room for back to top button to slide --*/
@@ -377,7 +380,7 @@ hr {
 
 /*-- timeline images displayed as not visible until requested --*/
     #tl-img1 {
-        height:450px;
+        height:350px;
         width:450px;
         padding-top: 10%;
         display:none;
@@ -398,8 +401,8 @@ hr {
     }
 
     #tl-img4 {
-        height:550px;
-        width:450px;
+        height:450px;
+        width:350px;
         padding-top: 10%;
         display:none;
     }
@@ -412,8 +415,8 @@ hr {
     }
 
     #tl-img6 {
-        height:550px;
-        width:450px;
+        height:450px;
+        width:350px;
         padding-top: 10%;
         display:none;
     }
@@ -433,15 +436,15 @@ hr {
     }
 
     #tl-img9 {
-        height:350px;
+        height:300px;
         width:450px;
         padding-top: 10%;
         display:none;
     }
 
     #tl-img10 {
-        height:450px;
-        width:450px;
+        height:350px;
+        width:350px;
         padding-top: 10%;
         display:none;
     }
@@ -454,8 +457,8 @@ hr {
     }
 
     #tl-img12 {
-        height:550px;
-        width:450px;
+        height:450px;
+        width:350px;
         padding-top: 10%;
         display:none;
     }
@@ -495,13 +498,12 @@ hr {
     @media (max-width: 1112px){
 /*--- Header ---*/
     .title {
-        font-size: 5.5rem;
+        font-size: 5.1rem;
         text-align: center;
         display: inline;
         margin: 10px 10px;
         margin-bottom:10px;
     }
-
     header img {
         height:80px;
         width: 65px;
@@ -1131,8 +1133,9 @@ h3 {
 
     #timeline a{
         color:#ddd;
+        font-weight: 800;
         margin-left: 5px;
-        font-size: 10px;
+        font-size: 14px;
     }
 
     #timeline a i {
@@ -1143,8 +1146,8 @@ h3 {
        max-height: 35px;
    }
     .nav-down-back{
-        background-color:rgb(9, 124, 128, .9);
-        width:35%;
+        background-color:rgb(2, 88, 128, 0.95);
+        width:24%;
     }
 
     #reset {
@@ -1199,6 +1202,10 @@ h3 {
         margin-left: 129px;
         display:block;
     }
+
+    element .style{
+        height:0px;
+    }
 /*--- Timeline ---*/
     .timeline-title h4 {
         margin: 25px 0px 0px 35px;
@@ -1209,9 +1216,9 @@ h3 {
     }  
 
     #timeline a{
-        color:#ddd;
+        color:#eee;
         margin-left: 5px;
-        font-size: 10px;
+        font-size: 14px;
     }
 
     #timeline a i {
@@ -1223,8 +1230,8 @@ h3 {
    }
 
     .nav-down-back{
-        background-color:rgb(9, 124, 128, .9);
-        width:35%;
+        background-color:rgb(2, 88, 128, 0.95);
+        width:25%;
     }
 
     #reset {
@@ -1305,8 +1312,8 @@ h3 {
     }
 
     .nav-down-back{
-        background-color:rgb(9, 124, 128, .9);
-        width:35%;
+        background-color:rgb(2, 88, 128, 0.95);
+        width:30%;
     }
     
     .navbar-light .navbar-nav .nav-link.active {
@@ -1522,8 +1529,8 @@ h3 {
     }
 
     .nav-down-back{
-        background-color:rgb(9, 124, 128, .9);
-        width:35%;
+        background-color:rgb(2, 88, 128, 0.95);
+        width:30%;
     }
     
     .navbar-light .navbar-nav .nav-link.active {
@@ -1561,8 +1568,8 @@ h3 {
     }
     
     #old-england button {
-        font-size: 16px;
-        margin-left: 190px;
+        font-size: 18px;
+        margin-left: 160px;
         display:block;
     }
 
@@ -1593,7 +1600,8 @@ h3 {
 
     #timeline a {
     margin-left: 5px;
-    font-size: 10px;
+    font-size: 12px;
+    font-weight: 800;
     }
 
     #timeline-information {
