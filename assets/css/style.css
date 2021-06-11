@@ -33,7 +33,7 @@ h2 {
         font-size: 6rem;
         text-align: center;
         display: inline;
-        margin: 10px 20px;
+        margin: 10px 25px;
         margin-bottom:10px;
     }
 
@@ -225,14 +225,10 @@ hr {
 
 /*-- Timeline links--*/
     #timeline a {
-        margin:0px 0px 10px 10px;
+        margin:0px 0px 5px 10px;
         font-weight: 900;
         font-size: 13px;
         color: #111;
-    }
-
-    li.nav-item {
-        margin-bottom: 5px;
     }
 
 /*-- sets first timeline item, creates room for back to top button to slide --*/
@@ -534,8 +530,8 @@ hr {
 
 /*--- Timeline ---*/
     #timeline a {
-    margin-left: 10px;
-    font-size: 11px;
+    margin: 0px 0px 0px 3px;
+    font-size: 10.5px;
     }
 
     #reset {
@@ -593,8 +589,8 @@ hr {
 
 /*--- Timeline ---*/
     #timeline a {
-    margin-left: 10px;
-    font-size: 11px;
+    margin: 0px 0px 0px 3px;
+    font-size: 10px;
     }
 
     #reset {
@@ -652,8 +648,8 @@ hr {
 
 /*--- Timeline ---*/
     #timeline a {
-    margin-left: 10px;
-    font-size: 11px;
+    margin: 0px 0px 0px 2px;
+    font-size: 10px;
     }
 
     #reset {
@@ -710,8 +706,8 @@ hr {
 
 /*--- Timeline ---*/
     #timeline a {
-    margin-left: 5px;
-    font-size: 10px;
+    margin: 0px 0px 0px 2px;
+    font-size: 9.5px;
     }
 
     #timeline-item1{
@@ -851,8 +847,8 @@ hr {
 
 /*--- Timeline ---*/
     #timeline a {
-    margin-left: 5px;
-    font-size: 10px;
+        margin: 0px 0px 0px 2px;
+        font-size: 9.5px;
     }
 
     #timeline-item1{
@@ -1003,6 +999,10 @@ h3 {
 
     #timeline a i {
         font-size: 7.5px;
+    }
+
+    li.nav-item {
+        margin-bottom: 5px;
     }
 
     #timeline .nav-link {
