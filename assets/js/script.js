@@ -264,4 +264,4 @@ function animate(point) {
         let boat = $('#longboat').position(); //gets position values of longboat img
         let start = (point+7)-(0.16/boat.left * 100); // second bracket converts pixel value of left position to percentage value
         animateLongboat(document.getElementById("longboat"), start, point);
-}
+};

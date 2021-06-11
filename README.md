@@ -208,6 +208,7 @@ decided that it was best to label them 'i' and 'ii' to acknowledge that there we
 - The website was viewed on a variety of devices such as Desktop, Laptop, iPad Air & iPhoneX. Other devices were tested through the inspect web developer tools.
 
 ##  **Known Bugs** 
+- Animation
 On the viking boat animation below the timeline, there are a few points were the boat appears to move back before animating. 
 This is due to the margin-left value being a differential of 6 e.g.(item 1 8%, item 2 14%) and the animation function taking each point and adding 7.
 Visually this means that in the happy flow the points that have a difference lower than 7 appear as though the ship is moving from before the previous timeline item, other points animation as expected. 
@@ -264,10 +265,10 @@ Credit goes to the following:
 - Footer Back to Top image aquired from: https://www.wellwood.ca/about-us/vision-values/
 
 Timeline images:
-- Viking Raid: https://imgur.com/gallery/pyVnohs
-- Raid on Lindisfarne monastery: https://www.abc.net.au/radio/programs/nightlife/twih-lindesfarne-raids/11192374
-- Ragnar Lothbrok in snake pit: https://www.ancientpages.com/2016/04/24/famous-viking-ragnar-lodbrok-legendary-fearless-sea-king-of-the-north/
-- Great Heathen Army Conquests: 
+- Viking Raid: credit to Ubisoft Games - picture obtained via Assassin's Creed Valhalla Fan Kit 
+- Raid on Lindisfarne monastery: credit to Ubisoft Games- picture obtained via Assassin's Creed Valhalla Fan Kit 
+- Ragnar Lothbrok in snake pit: https://www.pinterest.com.mx/pin/687291593116915890/
+- Great Heathen Army Conquests: https://www.pinterest.com/vikingsloot/viking-battle/
 - Vikings invade York: https://medium.com/@Bavipower/how-the-vikings-worked-3dcf9b2491ee
 - Map of Danelaw: http://viking.archeurope.info/index.php?page=the-danelaw-map
 - Map of Normandy: https://www.durhamworldheritagesite.com/learn/history/normans/founding-normandy
@@ -302,7 +303,12 @@ List of sources information was gathered from as follows:
 - Student support at Code Institute for their helpful advice and guidance.
     
 > ### Limitations:
+-Screen accessiblity during development
 The largest screen size accessible to the developer was 1366px-width, therefore larger screen sizes may display different to intented layout.
+
+- Burger Menus
+Both Burger menus will expand on opening but require manual closing. It was attempted to add in the capability for the menu to collapse on selection but the developer had issues in getting this to work as they wanted,
+therefore they felt it was better to not add this functionality at this stage.
 
 > ### Future Additions:
 1. There is scope for this site to add additonal pages, for example the site can focus on other countries influenced by the vikings such as France and Ireland, or alternatively the site can focus on the culture and battle tactics of the vikings.
